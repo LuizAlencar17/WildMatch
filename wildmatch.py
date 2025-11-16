@@ -1,14 +1,18 @@
+from dotenv import load_dotenv
 import os
 import json
-import openai
 from collections import Counter
 from typing import Dict, List
+from openai import OpenAI
 
 from PIL import Image
-
 from models.vlm_captioner import VLMCaptioner
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+load_dotenv()
+
+# This uses OPENAI_API_KEY from your .env
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
 
 def llm_match_species(
     caption: str,
@@ -48,15 +52,19 @@ def llm_match_species(
     - Answer with exactly one of these names, nothing else.
     """
 
-    completion = openai.ChatCompletion.create(
-        model=model,
+    completion = client.chat.completions.create(
+        model=model,  # e.g. "gpt-4o-mini"
         messages=[
             {"role": "system", "content": system_msg},
             {"role": "user", "content": user_msg},
         ],
         temperature=0.0,
     )
-    answer = completion.choices[0].message["content"].strip()
+
+    answer = completion.choices[0].message.content.strip()
+
+
+
     # You might want to post-process to ensure it’s one of the species_names
     # e.g. by fuzzy-matching or simple exact matching
     if answer not in species_names:
