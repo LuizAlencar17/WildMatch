@@ -107,16 +107,16 @@ def wildmatch_predict(
     best_species, best_count = counts.most_common(1)[0]
     confidence = best_count / n_captions
 
-    return {
+    result = {
         "prediction": best_species,
         "confidence": confidence,
         "caption_samples": captions,
         "species_votes": species_preds,
         "vote_counts": dict(counts),
     }
+    print(f"Predicted species: {result['prediction']} with confidence {result['confidence']:.2f} from votes {result['vote_counts']}")
+    return result
 
 if __name__ == "__main__":
-    result = wildmatch_predict("images/zebra.jpeg")
-    print("Predicted species:", result["prediction"])
-    print("Confidence:", result["confidence"])
-    print("Votes:", result["vote_counts"])
+    wildmatch_predict("images/zebra.jpeg")
+    wildmatch_predict("images/puma.jpeg")
