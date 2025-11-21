@@ -63,8 +63,6 @@ def llm_match_species(
 
     answer = completion.choices[0].message.content.strip()
 
-
-
     # You might want to post-process to ensure it’s one of the species_names
     # e.g. by fuzzy-matching or simple exact matching
     if answer not in species_names:
@@ -75,6 +73,7 @@ def llm_match_species(
         # or default to something
         return species_names[0]
     return answer
+
 
 def wildmatch_predict(
     image_path: str,
@@ -114,8 +113,11 @@ def wildmatch_predict(
         "species_votes": species_preds,
         "vote_counts": dict(counts),
     }
-    print(f"Predicted species: {result['prediction']} with confidence {result['confidence']:.2f} from votes {result['vote_counts']}")
+    print(
+        f"Predicted species: {result['prediction']} with confidence {result['confidence']:.2f} from votes {result['vote_counts']}"
+    )
     return result
+
 
 if __name__ == "__main__":
     wildmatch_predict("images/zebra.jpeg")
