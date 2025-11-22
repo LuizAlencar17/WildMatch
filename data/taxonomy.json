@@ -1,0 +1,38 @@
+[
+    {
+        "species_name": "zebra",
+        "scientific_name": "Equus quagga",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Equidae",
+        "genus": "Equus",
+        "species": "quagga",
+        "rank": "SPECIES"
+    },
+    {
+        "species_name": "lion",
+        "scientific_name": "Panthera leo",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Carnivora",
+        "family": "Felidae",
+        "genus": "Panthera",
+        "species": "leo",
+        "rank": "SPECIES"
+    },
+    {
+        "species_name": "panthera",
+        "scientific_name": "Panthera leo",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Carnivora",
+        "family": "Felidae",
+        "genus": "Panthera",
+        "species": "leo",
+        "rank": "SPECIES"
+    }
+]
