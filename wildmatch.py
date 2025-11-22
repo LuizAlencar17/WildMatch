@@ -23,6 +23,7 @@ def llm_match_species(
     One LLM call: pick the best matching species from the KB.
     Returns a single species name.
     """
+
     # Format KB as SPECIES: DESCRIPTION, as in Appendix G :contentReference[oaicite:9]{index=9}
     kb_text_lines = []
     species_names = []
