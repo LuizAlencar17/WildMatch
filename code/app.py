@@ -905,11 +905,10 @@ print("✓ Metrics calculation function defined")
 
 # %%
 # Option 1: Test on a small subset first (recommended)
-df_test = df_balanced.sample(n=10, random_state=42)
 
 # Run predictions on test subset
 predictions_df = wildmatch_predict_dataset(
-    df=df_test,
+    df=df_balanced,
     knowledge_base=kb,
     n_captions=5,  # Use 5 captions for self-consistency
     vlm_model="gpt-4o-mini",

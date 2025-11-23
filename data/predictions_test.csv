@@ -1,11 +1,11 @@
 image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
 ../data/serengeti/images/S6_J07_R2_IMAG0227.JPG,S6/J07/J07_R2/S6_J07_R2_IMAG0227,ostrich,ostrich,1.0,{'ostrich': 5},True
-../data/serengeti/images/S6_I01_R2_IMAG0323.JPG,S6/I01/I01_R2/S6_I01_R2_IMAG0323,baboon,impala,0.8,"{'impala': 4, 'zebra': 1}",False
-../data/serengeti/images/S2_F02_R1_IMAG0353.JPG,S2/F02/F02_R1/S2_F02_R1_IMAG0353,buffalo,buffalo,0.8,"{'buffalo': 4, 'warthog': 1}",True
+../data/serengeti/images/S6_I01_R2_IMAG0323.JPG,S6/I01/I01_R2/S6_I01_R2_IMAG0323,baboon,impala,0.4,"{'cheetah': 1, 'impala': 2, 'zebra': 2}",False
+../data/serengeti/images/S2_F02_R1_IMAG0353.JPG,S2/F02/F02_R1/S2_F02_R1_IMAG0353,buffalo,buffalo,1.0,{'buffalo': 5},True
 ../data/serengeti/images/S5_L10_R1_IMAG0842.JPG,S5/L10/L10_R1/S5_L10_R1_IMAG0842,guineafowl,guineafowl,1.0,{'guineafowl': 5},True
 ../data/serengeti/images/S5_D02_R1_IMAG4422.JPG,S5/D02/D02_R1/S5_D02_R1_IMAG4422,zebra,zebra,1.0,{'zebra': 5},True
 ../data/serengeti/images/S3_F04_R11_IMAG0224.JPG,S3/F04/F04_R11/S3_F04_R11_IMAG0224,ostrich,ostrich,1.0,{'ostrich': 5},True
-../data/serengeti/images/S6_I13_R1_IMAG0026.JPG,S6/I13/I13_R1/S6_I13_R1_IMAG0026,warthog,impala,0.4,"{'impala': 2, 'zebra': 2, 'giraffe': 1}",False
-../data/serengeti/images/S2_D13_R3_IMAG0085.JPG,S2/D13/D13_R3/S2_D13_R3_IMAG0085,cheetah,zebra,0.8,"{'zebra': 4, 'cheetah': 1}",False
+../data/serengeti/images/S6_I13_R1_IMAG0026.JPG,S6/I13/I13_R1/S6_I13_R1_IMAG0026,warthog,zebra,0.6,"{'zebra': 3, 'impala': 2}",False
+../data/serengeti/images/S2_D13_R3_IMAG0085.JPG,S2/D13/D13_R3/S2_D13_R3_IMAG0085,cheetah,cheetah,0.6,"{'cheetah': 3, 'zebra': 1, 'hyenaspotted': 1}",True
 ../data/serengeti/images/S2_G10_R2_IMAG0181.JPG,S2/G10/G10_R2/S2_G10_R2_IMAG0181,guineafowl,guineafowl,1.0,{'guineafowl': 5},True
-../data/serengeti/images/S1_H02_R2_PICT1073.JPG,S1/H02/H02_R2/S1_H02_R2_PICT1073,baboon,hippopotamus,0.6,"{'hippopotamus': 3, 'warthog': 1, 'zebra': 1}",False
+../data/serengeti/images/S1_H02_R2_PICT1073.JPG,S1/H02/H02_R2/S1_H02_R2_PICT1073,baboon,zebra,0.4,"{'zebra': 2, 'warthog': 2, 'hippopotamus': 1}",False
