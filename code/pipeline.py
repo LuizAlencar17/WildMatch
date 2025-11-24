@@ -913,5 +913,5 @@ predictions_df = wildmatch_predict_dataset(
     n_captions=5,  # Use 5 captions for self-consistency
     vlm_model="gpt-4o-mini",
     llm_model="gpt-4o-mini",
-    output_path="../data/predictions_test.csv",
+    output_path="../results/predictions_test.csv",
 )
