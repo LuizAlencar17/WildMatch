@@ -1,6 +1,6 @@
 """
-Main entry point for WildMatch pipeline.
-Example usage of the WildMatch species classification system.
+Main entry point for Structured WildMatch pipeline.
+Example usage of the attribute-based species classification system.
 """
 
 import os
@@ -8,8 +8,8 @@ import pandas as pd
 from dotenv import load_dotenv
 
 from src.utils import load_json
-from src.knowledge_base import KnowledgeBaseBuilder
-from src.pipeline import WildMatchPredictor
+from src.structured_knowledge_base import StructuredKnowledgeBaseBuilder
+from src.structured_pipeline import StructuredWildMatchPredictor
 from src.batch_predict import BatchPredictor
 
 
@@ -24,33 +24,23 @@ def main():
         raise ValueError("OPENAI_API_KEY not found in environment variables")
 
     print("=" * 70)
-    print("WildMatch Species Classification Pipeline")
+    print("Structured WildMatch Species Classification Pipeline")
     print("=" * 70)
 
     # =========================================================================
-    # Step 1: Build Knowledge Base (if needed)
+    # Step 1: Build Structured Knowledge Base (if needed)
     # =========================================================================
-    print("\n[1] Loading/Building Knowledge Base...")
+    print("\n[1] Loading/Building Structured Knowledge Base...")
 
-    kb_path = "data/knowledge_base.json"
+    kb_path = "data/structured_knowledge_base.json"
 
     if os.path.exists(kb_path):
-        print(f"✓ Loading existing knowledge base from {kb_path}")
+        print(f"✓ Loading existing structured knowledge base from {kb_path}")
         knowledge_base = load_json(kb_path)
     else:
-        print("Building new knowledge base from Wikipedia...")
+        raise "Structured knowledge base not found. Please build it first."
 
-        # Load dataset to get species list
-        df = pd.read_csv("data/serengeti/dataset.csv")
-        unique_species = df["species_name"].dropna().unique().tolist()
-
-        # Build knowledge base
-        kb_builder = KnowledgeBaseBuilder(api_key)
-        knowledge_base = kb_builder.build_knowledge_base(
-            species_list=unique_species, output_path=kb_path, skip_existing=True
-        )
-
-    print(f"✓ Knowledge base loaded: {len(knowledge_base)} species")
+    print(f"✓ Structured knowledge base loaded: {len(knowledge_base)} species")
 
     # =========================================================================
     # Step 2: Single Image Prediction (Example)
@@ -69,15 +59,14 @@ def main():
     print(f"True species: {true_species}")
 
     # Create predictor
-    predictor = WildMatchPredictor(api_key)
+    predictor = StructuredWildMatchPredictor(api_key)
 
     # Make prediction
     result = predictor.predict(
         image_path=test_image,
         knowledge_base=knowledge_base,
-        n_captions=5,
+        n_samples=5,
         vlm_model="gpt-4o-mini",
-        llm_model="gpt-4o-mini",
         verbose=True,
     )
 
@@ -90,22 +79,48 @@ def main():
     # =========================================================================
     print("\n[3] Batch Prediction...")
 
-    # Create batch predictor
-    batch_predictor = BatchPredictor(predictor)
+    # Create batch predictor wrapper
+    # We need to adapt the StructuredWildMatchPredictor to work with BatchPredictor
+    class StructuredBatchWrapper:
+        """Wrapper to make StructuredWildMatchPredictor compatible with BatchPredictor."""
+
+        def __init__(self, predictor):
+            self.predictor = predictor
+
+        def predict(
+            self,
+            image_path,
+            knowledge_base,
+            n_captions=5,
+            vlm_model="gpt-4o-mini",
+            llm_model=None,
+            verbose=False,
+        ):
+            """Predict using structured pipeline (n_captions maps to n_samples)."""
+            return self.predictor.predict(
+                image_path=image_path,
+                knowledge_base=knowledge_base,
+                n_samples=n_captions,  # Map n_captions to n_samples
+                vlm_model=vlm_model,
+                verbose=verbose,
+            )
+
+    wrapped_predictor = StructuredBatchWrapper(predictor)
+    batch_predictor = BatchPredictor(wrapped_predictor)
 
     # Run predictions
     predictions_df = batch_predictor.predict_dataset(
-        df=df,
-        # df=df.sample(n=10, random_state=42),
+        # df=df,
+        df=df.sample(n=10, random_state=42),
         knowledge_base=knowledge_base,
         n_captions=5,
         vlm_model="gpt-4o-mini",
-        llm_model="gpt-4o-mini",
-        output_path="results/predictions.csv",
+        llm_model="gpt-4o-mini",  # Ignored but needed for interface compatibility
+        output_path="results/structured_predictions.csv",
     )
 
     print(f"\n✓ Batch prediction complete!")
-    print(f"Results saved to: results/predictions.csv")
+    print(f"Results saved to: results/structured_predictions.csv")
 
     print("\n" + "=" * 70)
     print("Pipeline execution complete!")

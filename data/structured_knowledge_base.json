@@ -1,0 +1,205 @@
+{
+  "zebra": {
+    "attributes": {
+      "body_size": "medium",
+      "coat_color": "black and white",
+      "coat_pattern": "striped",
+      "ear_shape": "pointed",
+      "horns_antlers": "none",
+      "tail_shape": "tufted",
+      "facial_markings": "striped",
+      "legs_paws": "long legs",
+      "body_shape": "robust",
+      "distinctive_features": "strong vertical and horizontal stripes"
+    },
+    "wikipedia_title": "Zebra",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Zebra"
+  },
+
+  "buffalo": {
+    "attributes": {
+      "body_size": "large",
+      "coat_color": "dark brown",
+      "coat_pattern": "solid",
+      "ear_shape": "rounded",
+      "horns_antlers": "curved horns",
+      "tail_shape": "tufted",
+      "facial_markings": "plain",
+      "legs_paws": "hooves",
+      "body_shape": "stocky",
+      "distinctive_features": "large heavy horns forming a boss"
+    },
+    "wikipedia_title": "Buffalo",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Buffalo"
+  },
+
+  "elephant": {
+    "attributes": {
+      "body_size": "large",
+      "coat_color": "grey",
+      "coat_pattern": "solid",
+      "ear_shape": "large",
+      "horns_antlers": "tusks",
+      "tail_shape": "tufted",
+      "facial_markings": "plain",
+      "legs_paws": "thick legs",
+      "body_shape": "robust",
+      "distinctive_features": "long trunk, tusks, large fan-shaped ears"
+    },
+    "wikipedia_title": "Elephant",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Elephant"
+  },
+
+  "warthog": {
+    "attributes": {
+      "body_size": "medium",
+      "coat_color": "brown",
+      "coat_pattern": "mixed",
+      "ear_shape": "pointed",
+      "horns_antlers": "tusks",
+      "tail_shape": "tufted",
+      "facial_markings": "patches",
+      "legs_paws": "slim",
+      "body_shape": "stocky",
+      "distinctive_features": "facial wattles and upward-curved tusks"
+    },
+    "wikipedia_title": "Warthog",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Warthog"
+  },
+
+  "guineafowl": {
+    "attributes": {
+      "body_size": "medium",
+      "coat_color": "dark grey",
+      "coat_pattern": "spotted",
+      "ear_shape": "small",
+      "horns_antlers": "none",
+      "tail_shape": "short",
+      "facial_markings": "patches",
+      "legs_paws": "short legs",
+      "body_shape": "compact",
+      "distinctive_features": "bare head with casque-like structure"
+    },
+    "wikipedia_title": "Guinea fowl",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Guinea_fowl"
+  },
+
+  "impala": {
+    "attributes": {
+      "body_size": "medium",
+      "coat_color": "reddish brown",
+      "coat_pattern": "smooth",
+      "ear_shape": "long",
+      "horns_antlers": "long horns",
+      "tail_shape": "bushy",
+      "facial_markings": "patches",
+      "legs_paws": "slim",
+      "body_shape": "slender",
+      "distinctive_features": "characteristic black stripes on rump and tail"
+    },
+    "wikipedia_title": "Impala",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Impala"
+  },
+
+  "giraffe": {
+    "attributes": {
+      "body_size": "large",
+      "coat_color": "tan and brown",
+      "coat_pattern": "spotted",
+      "ear_shape": "large",
+      "horns_antlers": "none",
+      "tail_shape": "tufted",
+      "facial_markings": "patches",
+      "legs_paws": "long legs",
+      "body_shape": "elongated",
+      "distinctive_features": "very long neck, ossicones"
+    },
+    "wikipedia_title": "Giraffe",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Giraffe"
+  },
+
+  "hyenaspotted": {
+    "attributes": {
+      "body_size": "medium",
+      "coat_color": "yellowish or brown",
+      "coat_pattern": "spotted",
+      "ear_shape": "rounded",
+      "horns_antlers": "none",
+      "tail_shape": "bushy",
+      "facial_markings": "plain",
+      "legs_paws": "paws",
+      "body_shape": "robust",
+      "distinctive_features": "sloping back, large neck and shoulders"
+    },
+    "wikipedia_title": "Spotted hyena",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Spotted_hyena"
+  },
+
+  "baboon": {
+    "attributes": {
+      "body_size": "medium",
+      "coat_color": "brown or olive",
+      "coat_pattern": "solid",
+      "ear_shape": "small",
+      "horns_antlers": "none",
+      "tail_shape": "short",
+      "facial_markings": "patches",
+      "legs_paws": "paws",
+      "body_shape": "robust",
+      "distinctive_features": "elongated muzzle, ischial callosities"
+    },
+    "wikipedia_title": "Baboon",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Baboon"
+  },
+
+  "cheetah": {
+    "attributes": {
+      "body_size": "medium",
+      "coat_color": "tan",
+      "coat_pattern": "spotted",
+      "ear_shape": "small",
+      "horns_antlers": "none",
+      "tail_shape": "long",
+      "facial_markings": "tear streaks",
+      "legs_paws": "long legs",
+      "body_shape": "slender",
+      "distinctive_features": "black facial tear streaks and round solid spots"
+    },
+    "wikipedia_title": "Cheetah",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cheetah"
+  },
+
+  "hippopotamus": {
+    "attributes": {
+      "body_size": "large",
+      "coat_color": "grey",
+      "coat_pattern": "solid",
+      "ear_shape": "small",
+      "horns_antlers": "none",
+      "tail_shape": "short",
+      "facial_markings": "plain",
+      "legs_paws": "short legs",
+      "body_shape": "stocky",
+      "distinctive_features": "wide mouth, barrel-shaped body"
+    },
+    "wikipedia_title": "Hippopotamus",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hippopotamus"
+  },
+
+  "ostrich": {
+    "attributes": {
+      "body_size": "large",
+      "coat_color": "black and white",
+      "coat_pattern": "mixed",
+      "ear_shape": "small",
+      "horns_antlers": "none",
+      "tail_shape": "tufted",
+      "facial_markings": "plain",
+      "legs_paws": "long legs",
+      "body_shape": "elongated",
+      "distinctive_features": "long neck, large flightless bird"
+    },
+    "wikipedia_title": "Ostrich",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ostrich"
+  }
+}
