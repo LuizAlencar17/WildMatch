@@ -1,0 +1,94 @@
+{
+  "accuracy": 0.49083333333333334,
+  "precision": 0.5377914849681547,
+  "recall": 0.49083333333333334,
+  "f1_score": 0.47075838977349055,
+  "n_samples": 1200,
+  "n_failed": 0,
+  "per_class_metrics": [
+    {
+      "Species": "baboon",
+      "Precision": 0.37272727272727274,
+      "Recall": 0.41,
+      "F1-Score": 0.3904761904761905,
+      "Support": 100
+    },
+    {
+      "Species": "buffalo",
+      "Precision": 0.5145631067961165,
+      "Recall": 0.53,
+      "F1-Score": 0.5221674876847291,
+      "Support": 100
+    },
+    {
+      "Species": "cheetah",
+      "Precision": 0.8688524590163934,
+      "Recall": 0.53,
+      "F1-Score": 0.6583850931677019,
+      "Support": 100
+    },
+    {
+      "Species": "elephant",
+      "Precision": 0.7352941176470589,
+      "Recall": 0.75,
+      "F1-Score": 0.7425742574257426,
+      "Support": 100
+    },
+    {
+      "Species": "giraffe",
+      "Precision": 0.9493670886075949,
+      "Recall": 0.75,
+      "F1-Score": 0.8379888268156425,
+      "Support": 100
+    },
+    {
+      "Species": "guineafowl",
+      "Precision": 0.9423076923076923,
+      "Recall": 0.49,
+      "F1-Score": 0.6447368421052632,
+      "Support": 100
+    },
+    {
+      "Species": "hippopotamus",
+      "Precision": 0.23154362416107382,
+      "Recall": 0.69,
+      "F1-Score": 0.34673366834170855,
+      "Support": 100
+    },
+    {
+      "Species": "hyenaspotted",
+      "Precision": 0.35384615384615387,
+      "Recall": 0.46,
+      "F1-Score": 0.4,
+      "Support": 100
+    },
+    {
+      "Species": "impala",
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1-Score": 0.0,
+      "Support": 100
+    },
+    {
+      "Species": "ostrich",
+      "Precision": 0.7272727272727273,
+      "Recall": 0.4,
+      "F1-Score": 0.5161290322580645,
+      "Support": 100
+    },
+    {
+      "Species": "warthog",
+      "Precision": 0.3333333333333333,
+      "Recall": 0.01,
+      "F1-Score": 0.019417475728155338,
+      "Support": 100
+    },
+    {
+      "Species": "zebra",
+      "Precision": 0.424390243902439,
+      "Recall": 0.87,
+      "F1-Score": 0.5704918032786885,
+      "Support": 100
+    }
+  ]
+}
