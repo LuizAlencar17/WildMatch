@@ -42,42 +42,16 @@ def main():
 
     print(f"✓ Structured knowledge base loaded: {len(knowledge_base)} species")
 
-    # =========================================================================
-    # Step 2: Single Image Prediction (Example)
-    # =========================================================================
-    print("\n[2] Single Image Prediction Example...")
-
     # Load dataset
     df = pd.read_csv("data/serengeti/dataset.csv")
-
-    # Select a random sample
-    sample = df.sample(n=1, random_state=42).iloc[0]
-    test_image = sample["full_path"]
-    true_species = sample["species_name"]
-
-    print(f"Image: {test_image}")
-    print(f"True species: {true_species}")
 
     # Create predictor
     predictor = StructuredWildMatchPredictor(api_key)
 
-    # Make prediction
-    result = predictor.predict(
-        image_path=test_image,
-        knowledge_base=knowledge_base,
-        n_samples=5,
-        vlm_model="gpt-4o-mini",
-        verbose=True,
-    )
-
-    print(f"\nPrediction: {result['prediction']}")
-    print(f"Confidence: {result['confidence']:.2%}")
-    print(f"Correct: {result['prediction'] == true_species}")
-
     # =========================================================================
-    # Step 3: Batch Prediction
+    # Step 2: Batch Prediction
     # =========================================================================
-    print("\n[3] Batch Prediction...")
+    print("\n[2] Batch Prediction...")
 
     # Create batch predictor wrapper
     # We need to adapt the StructuredWildMatchPredictor to work with BatchPredictor
@@ -110,7 +84,8 @@ def main():
 
     # Run predictions
     predictions_df = batch_predictor.predict_dataset(
-        df=df,
+        # df=df,
+        df=df.sample(n=10, random_state=42),  # Limit to 10 samples for demo
         knowledge_base=knowledge_base,
         n_captions=5,
         vlm_model="gpt-4o-mini",
