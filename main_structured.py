@@ -85,9 +85,9 @@ def main():
     # Run predictions
     predictions_df = batch_predictor.predict_dataset(
         # df=df,
-        df=df.sample(n=10, random_state=42),  # Limit to 10 samples for demo
+        df=df.sample(n=100, random_state=42),
         knowledge_base=knowledge_base,
-        n_captions=5,
+        n_captions=3,
         vlm_model="gpt-4o-mini",
         llm_model="gpt-4o-mini",  # Ignored but needed for interface compatibility
         output_path="results/structured_predictions.csv",

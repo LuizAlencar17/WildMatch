@@ -1,11 +1,101 @@
 image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
-data/serengeti/images/S6_J07_R2_IMAG0227.JPG,S6/J07/J07_R2/S6_J07_R2_IMAG0227,ostrich,giraffe,0.8,"{'giraffe': 4, 'ostrich': 1}",False
-data/serengeti/images/S6_I01_R2_IMAG0323.JPG,S6/I01/I01_R2/S6_I01_R2_IMAG0323,baboon,cheetah,1.0,{'cheetah': 5},False
-data/serengeti/images/S2_F02_R1_IMAG0353.JPG,S2/F02/F02_R1/S2_F02_R1_IMAG0353,buffalo,baboon,1.0,{'baboon': 5},False
-data/serengeti/images/S5_L10_R1_IMAG0842.JPG,S5/L10/L10_R1/S5_L10_R1_IMAG0842,guineafowl,guineafowl,1.0,{'guineafowl': 5},True
-data/serengeti/images/S5_D02_R1_IMAG4422.JPG,S5/D02/D02_R1/S5_D02_R1_IMAG4422,zebra,zebra,1.0,{'zebra': 5},True
-data/serengeti/images/S3_F04_R11_IMAG0224.JPG,S3/F04/F04_R11/S3_F04_R11_IMAG0224,ostrich,ostrich,1.0,{'ostrich': 5},True
-data/serengeti/images/S6_I13_R1_IMAG0026.JPG,S6/I13/I13_R1/S6_I13_R1_IMAG0026,warthog,guineafowl,0.8,"{'guineafowl': 4, 'baboon': 1}",False
-data/serengeti/images/S2_D13_R3_IMAG0085.JPG,S2/D13/D13_R3/S2_D13_R3_IMAG0085,cheetah,cheetah,0.8,"{'cheetah': 4, 'hyenaspotted': 1}",True
-data/serengeti/images/S2_G10_R2_IMAG0181.JPG,S2/G10/G10_R2/S2_G10_R2_IMAG0181,guineafowl,guineafowl,1.0,{'guineafowl': 5},True
-data/serengeti/images/S1_H02_R2_PICT1073.JPG,S1/H02/H02_R2/S1_H02_R2_PICT1073,baboon,guineafowl,0.4,"{'guineafowl': 2, 'baboon': 2, 'unknown': 1}",False
+data/serengeti/images/S6_J07_R2_IMAG0227.JPG,S6/J07/J07_R2/S6_J07_R2_IMAG0227,ostrich,giraffe,1.0,{'giraffe': 3},False
+data/serengeti/images/S6_I01_R2_IMAG0323.JPG,S6/I01/I01_R2/S6_I01_R2_IMAG0323,baboon,cheetah,1.0,{'cheetah': 3},False
+data/serengeti/images/S2_F02_R1_IMAG0353.JPG,S2/F02/F02_R1/S2_F02_R1_IMAG0353,buffalo,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S5_L10_R1_IMAG0842.JPG,S5/L10/L10_R1/S5_L10_R1_IMAG0842,guineafowl,guineafowl,1.0,{'guineafowl': 3},True
+data/serengeti/images/S5_D02_R1_IMAG4422.JPG,S5/D02/D02_R1/S5_D02_R1_IMAG4422,zebra,zebra,1.0,{'zebra': 3},True
+data/serengeti/images/S3_F04_R11_IMAG0224.JPG,S3/F04/F04_R11/S3_F04_R11_IMAG0224,ostrich,ostrich,1.0,{'ostrich': 3},True
+data/serengeti/images/S6_I13_R1_IMAG0026.JPG,S6/I13/I13_R1/S6_I13_R1_IMAG0026,warthog,unknown,1.0,{'unknown': 3},False
+data/serengeti/images/S2_D13_R3_IMAG0085.JPG,S2/D13/D13_R3/S2_D13_R3_IMAG0085,cheetah,cheetah,0.6666666666666666,"{'cheetah': 2, 'guineafowl': 1}",True
+data/serengeti/images/S2_G10_R2_IMAG0181.JPG,S2/G10/G10_R2/S2_G10_R2_IMAG0181,guineafowl,guineafowl,1.0,{'guineafowl': 3},True
+data/serengeti/images/S1_H02_R2_PICT1073.JPG,S1/H02/H02_R2/S1_H02_R2_PICT1073,baboon,guineafowl,0.6666666666666666,"{'guineafowl': 2, 'baboon': 1}",False
+data/serengeti/images/S1_G02_R4_PICT0370.JPG,S1/G02/G02_R4/S1_G02_R4_PICT0370,baboon,guineafowl,0.6666666666666666,"{'guineafowl': 2, 'unknown': 1}",False
+data/serengeti/images/S5_B10_R3_IMAG0159.JPG,S5/B10/B10_R3/S5_B10_R3_IMAG0159,zebra,zebra,1.0,{'zebra': 3},True
+data/serengeti/images/S5_H04_R1_IMAG0409.JPG,S5/H04/H04_R1/S5_H04_R1_IMAG0409,zebra,warthog,1.0,{'warthog': 3},False
+data/serengeti/images/S2_D04_R2_PICT0121.JPG,S2/D04/D04_R2/S2_D04_R2_PICT0121,baboon,baboon,1.0,{'baboon': 3},True
+data/serengeti/images/S5_H03_R2_IMAG0792.JPG,S5/H03/H03_R2/S5_H03_R2_IMAG0792,elephant,elephant,1.0,{'elephant': 3},True
+data/serengeti/images/S3_K06_R12_IMAG0027.JPG,S3/K06/K06_R12/S3_K06_R12_IMAG0027,buffalo,buffalo,1.0,{'buffalo': 3},True
+data/serengeti/images/S2_H07_R3_PICT1607.JPG,S2/H07/H07_R3/S2_H07_R3_PICT1607,impala,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S5_B06_R1_IMAG1127.JPG,S5/B06/B06_R1/S5_B06_R1_IMAG1127,hyenaspotted,hyenaspotted,1.0,{'hyenaspotted': 3},True
+data/serengeti/images/S5_E03_R2_IMAG0022.JPG,S5/E03/E03_R2/S5_E03_R2_IMAG0022,baboon,unknown,0.3333333333333333,"{'unknown': 1, 'guineafowl': 1, 'warthog': 1}",False
+data/serengeti/images/S1_N05_R1_PICT2877.JPG,S1/N05/N05_R1/S1_N05_R1_PICT2877,guineafowl,guineafowl,1.0,{'guineafowl': 3},True
+data/serengeti/images/S1_L06_R1_PICT0545.JPG,S1/L06/L06_R1/S1_L06_R1_PICT0545,warthog,guineafowl,1.0,{'guineafowl': 3},False
+data/serengeti/images/S1_G04_R1_PICT2025.JPG,S1/G04/G04_R1/S1_G04_R1_PICT2025,giraffe,giraffe,1.0,{'giraffe': 3},True
+data/serengeti/images/S4_B13_R2_IMAG0100.JPG,S4/B13/B13_R2/S4_B13_R2_IMAG0100,giraffe,giraffe,1.0,{'giraffe': 3},True
+data/serengeti/images/S5_I02_R3_IMAG0981.JPG,S5/I02/I02_R3/S5_I02_R3_IMAG0981,warthog,elephant,0.6666666666666666,"{'elephant': 2, 'hippopotamus': 1}",False
+data/serengeti/images/S4_F05_R1_IMAG0192.JPG,S4/F05/F05_R1/S4_F05_R1_IMAG0192,buffalo,buffalo,1.0,{'buffalo': 3},True
+data/serengeti/images/S6_H11_R2_IMAG0041.JPG,S6/H11/H11_R2/S6_H11_R2_IMAG0041,elephant,elephant,1.0,{'elephant': 3},True
+data/serengeti/images/S4_I04_R1_IMAG0023.JPG,S4/I04/I04_R1/S4_I04_R1_IMAG0023,giraffe,giraffe,1.0,{'giraffe': 3},True
+data/serengeti/images/S6_U10_R1_IMAG0714.JPG,S6/U10/U10_R1/S6_U10_R1_IMAG0714,impala,hippopotamus,1.0,{'hippopotamus': 3},False
+data/serengeti/images/S5_L04_R2_IMAG0058.JPG,S5/L04/L04_R2/S5_L04_R2_IMAG0058,warthog,hippopotamus,1.0,{'hippopotamus': 3},False
+data/serengeti/images/S6_B06_R1_IMAG0122.JPG,S6/B06/B06_R1/S6_B06_R1_IMAG0122,impala,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S6_J04_R1_IMAG0136.JPG,S6/J04/J04_R1/S6_J04_R1_IMAG0136,warthog,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S2_E06_R3_IMAG0145.JPG,S2/E06/E06_R3/S2_E06_R3_IMAG0145,baboon,baboon,0.6666666666666666,"{'baboon': 2, 'guineafowl': 1}",True
+data/serengeti/images/S6_K02_R2_IMAG0228.JPG,S6/K02/K02_R2/S6_K02_R2_IMAG0228,giraffe,giraffe,1.0,{'giraffe': 3},True
+data/serengeti/images/S1_E05_R4_PICT0969.JPG,S1/E05/E05_R4/S1_E05_R4_PICT0969,hyenaspotted,guineafowl,1.0,{'guineafowl': 3},False
+data/serengeti/images/S5_D04_R2_IMAG0104.JPG,S5/D04/D04_R2/S5_D04_R2_IMAG0104,warthog,warthog,0.6666666666666666,"{'elephant': 1, 'warthog': 2}",True
+data/serengeti/images/S6_E02_R2_IMAG2018.JPG,S6/E02/E02_R2/S6_E02_R2_IMAG2018,impala,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S2_I05_R1_IMAG1192.JPG,S2/I05/I05_R1/S2_I05_R1_IMAG1192,guineafowl,guineafowl,1.0,{'guineafowl': 3},True
+data/serengeti/images/S4_T12_R2_IMAG1242.JPG,S4/T12/T12_R2/S4_T12_R2_IMAG1242,zebra,zebra,1.0,{'zebra': 3},True
+data/serengeti/images/S2_E12_R3_IMAG0044.JPG,S2/E12/E12_R3/S2_E12_R3_IMAG0044,warthog,elephant,1.0,{'elephant': 3},False
+data/serengeti/images/S4_D04_R2_IMAG0488.JPG,S4/D04/D04_R2/S4_D04_R2_IMAG0488,giraffe,giraffe,1.0,{'giraffe': 3},True
+data/serengeti/images/S5_D05_R1_IMAG2606.JPG,S5/D05/D05_R1/S5_D05_R1_IMAG2606,hippopotamus,buffalo,1.0,{'buffalo': 3},False
+data/serengeti/images/S5_B13_R1_IMAG0461.JPG,S5/B13/B13_R1/S5_B13_R1_IMAG0461,buffalo,buffalo,1.0,{'buffalo': 3},True
+data/serengeti/images/S5_C09_R3_IMAG2203.JPG,S5/C09/C09_R3/S5_C09_R3_IMAG2203,ostrich,giraffe,1.0,{'giraffe': 3},False
+data/serengeti/images/S4_F01_R2_IMAG0315.JPG,S4/F01/F01_R2/S4_F01_R2_IMAG0315,warthog,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S1_U11_R1_PICT0027.JPG,S1/U11/U11_R1/S1_U11_R1_PICT0027,cheetah,cheetah,1.0,{'cheetah': 3},True
+data/serengeti/images/S3_I02_R12_IMAG0458.JPG,S3/I02/I02_R12/S3_I02_R12_IMAG0458,warthog,hippopotamus,0.6666666666666666,"{'elephant': 1, 'hippopotamus': 2}",False
+data/serengeti/images/S5_D04_R2_IMAG0348.JPG,S5/D04/D04_R2/S5_D04_R2_IMAG0348,warthog,warthog,1.0,{'warthog': 3},True
+data/serengeti/images/S3_D09_R11_IMAG0219.JPG,S3/D09/D09_R11/S3_D09_R11_IMAG0219,zebra,zebra,1.0,{'zebra': 3},True
+data/serengeti/images/S3_H08_R11_IMAG0092.JPG,S3/H08/H08_R11/S3_H08_R11_IMAG0092,zebra,zebra,1.0,{'zebra': 3},True
+data/serengeti/images/S4_B06_R2_IMAG1253.JPG,S4/B06/B06_R2/S4_B06_R2_IMAG1253,elephant,elephant,1.0,{'elephant': 3},True
+data/serengeti/images/S4_F07_R2_IMAG0161.JPG,S4/F07/F07_R2/S4_F07_R2_IMAG0161,hyenaspotted,unknown,0.6666666666666666,"{'unknown': 2, 'guineafowl': 1}",False
+data/serengeti/images/S6_B07_R2_IMAG0136.JPG,S6/B07/B07_R2/S6_B07_R2_IMAG0136,ostrich,giraffe,1.0,{'giraffe': 3},False
+data/serengeti/images/S5_D06_R1_IMAG5839.JPG,S5/D06/D06_R1/S5_D06_R1_IMAG5839,warthog,buffalo,0.6666666666666666,"{'buffalo': 2, 'unknown': 1}",False
+data/serengeti/images/S3_H05_R12_IMAG1205.JPG,S3/H05/H05_R12/S3_H05_R12_IMAG1205,buffalo,buffalo,1.0,{'buffalo': 3},True
+data/serengeti/images/S5_B08_R2_IMAG0217.JPG,S5/B08/B08_R2/S5_B08_R2_IMAG0217,ostrich,giraffe,1.0,{'giraffe': 3},False
+data/serengeti/images/S6_C04_R1_IMAG0074.JPG,S6/C04/C04_R1/S6_C04_R1_IMAG0074,warthog,elephant,0.6666666666666666,"{'elephant': 2, 'hippopotamus': 1}",False
+data/serengeti/images/S1_T13_R1_PICT3389.JPG,S1/T13/T13_R1/S1_T13_R1_PICT3389,cheetah,cheetah,1.0,{'cheetah': 3},True
+data/serengeti/images/S6_U13_R1_IMAG2918.JPG,S6/U13/U13_R1/S6_U13_R1_IMAG2918,ostrich,buffalo,1.0,{'buffalo': 3},False
+data/serengeti/images/S5_U10_R1_IMAG0054.JPG,S5/U10/U10_R1/S5_U10_R1_IMAG0054,hippopotamus,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S6_J04_R1_IMAG0198.JPG,S6/J04/J04_R1/S6_J04_R1_IMAG0198,warthog,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S4_D04_R2_IMAG0227.JPG,S4/D04/D04_R2/S4_D04_R2_IMAG0227,warthog,warthog,1.0,{'warthog': 3},True
+data/serengeti/images/S3_C03_R11_IMAG0482.JPG,S3/C03/C03_R11/S3_C03_R11_IMAG0482,buffalo,buffalo,1.0,{'buffalo': 3},True
+data/serengeti/images/S1_F12_R1_PICT0788.JPG,S1/F12/F12_R1/S1_F12_R1_PICT0788,elephant,elephant,1.0,{'elephant': 3},True
+data/serengeti/images/S4_F03_R1_IMAG0580.JPG,S4/F03/F03_R1/S4_F03_R1_IMAG0580,zebra,zebra,1.0,{'zebra': 3},True
+data/serengeti/images/S3_G05_R12_IMAG0386.JPG,S3/G05/G05_R12/S3_G05_R12_IMAG0386,buffalo,buffalo,1.0,{'buffalo': 3},True
+data/serengeti/images/S2_G09_R2_PICT0017.JPG,S2/G09/G09_R2/S2_G09_R2_PICT0017,cheetah,cheetah,1.0,{'cheetah': 3},True
+data/serengeti/images/S4_P04_R2_IMAG0139.JPG,S4/P04/P04_R2/S4_P04_R2_IMAG0139,zebra,zebra,1.0,{'zebra': 3},True
+data/serengeti/images/S6_G10_R2_IMAG1003.JPG,S6/G10/G10_R2/S6_G10_R2_IMAG1003,guineafowl,guineafowl,1.0,{'guineafowl': 3},True
+data/serengeti/images/S3_N05_R11_IMAG0111.JPG,S3/N05/N05_R11/S3_N05_R11_IMAG0111,impala,impala,1.0,{'impala': 3},True
+data/serengeti/images/S1_E03_R6_PICT0402.JPG,S1/E03/E03_R6/S1_E03_R6_PICT0402,guineafowl,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S5_H07_R1_IMAG4202.JPG,S5/H07/H07_R1/S5_H07_R1_IMAG4202,guineafowl,guineafowl,1.0,{'guineafowl': 3},True
+data/serengeti/images/S5_J01_R2_IMAG0424.JPG,S5/J01/J01_R2/S5_J01_R2_IMAG0424,buffalo,buffalo,1.0,{'buffalo': 3},True
+data/serengeti/images/S5_U09_R3_IMAG0850.JPG,S5/U09/U09_R3/S5_U09_R3_IMAG0850,ostrich,hippopotamus,0.6666666666666666,"{'baboon': 1, 'hippopotamus': 2}",False
+data/serengeti/images/S4_R10_R2_IMAG0218.JPG,S4/R10/R10_R2/S4_R10_R2_IMAG0218,zebra,zebra,1.0,{'zebra': 3},True
+data/serengeti/images/S5_C09_R3_IMAG2796.JPG,S5/C09/C09_R3/S5_C09_R3_IMAG2796,zebra,zebra,1.0,{'zebra': 3},True
+data/serengeti/images/S1_L13_R1_PICT0442.JPG,S1/L13/L13_R1/S1_L13_R1_PICT0442,guineafowl,baboon,0.6666666666666666,"{'baboon': 2, 'guineafowl': 1}",False
+data/serengeti/images/S3_O06_R11_IMAG0390.JPG,S3/O06/O06_R11/S3_O06_R11_IMAG0390,buffalo,buffalo,1.0,{'buffalo': 3},True
+data/serengeti/images/S2_D02_R4_IMAG1972.JPG,S2/D02/D02_R4/S2_D02_R4_IMAG1972,zebra,zebra,1.0,{'zebra': 3},True
+data/serengeti/images/S5_I03_R2_IMAG0267.JPG,S5/I03/I03_R2/S5_I03_R2_IMAG0267,cheetah,cheetah,1.0,{'cheetah': 3},True
+data/serengeti/images/S5_B06_R3_IMAG0662.JPG,S5/B06/B06_R3/S5_B06_R3_IMAG0662,baboon,warthog,0.6666666666666666,"{'warthog': 2, 'hyenaspotted': 1}",False
+data/serengeti/images/S6_M11_R1_IMAG0877.JPG,S6/M11/M11_R1/S6_M11_R1_IMAG0877,ostrich,giraffe,1.0,{'giraffe': 3},False
+data/serengeti/images/S6_B03_R2_IMAG0420.JPG,S6/B03/B03_R2/S6_B03_R2_IMAG0420,elephant,elephant,1.0,{'elephant': 3},True
+data/serengeti/images/S5_Q04_R3_IMAG0150.JPG,S5/Q04/Q04_R3/S5_Q04_R3_IMAG0150,baboon,hyenaspotted,0.6666666666666666,"{'hyenaspotted': 2, 'baboon': 1}",False
+data/serengeti/images/S3_N04_R11_IMAG0258.JPG,S3/N04/N04_R11/S3_N04_R11_IMAG0258,buffalo,buffalo,1.0,{'buffalo': 3},True
+data/serengeti/images/S4_B05_R2_IMAG1938.JPG,S4/B05/B05_R2/S4_B05_R2_IMAG1938,impala,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S3_F07_R12_IMAG0874.JPG,S3/F07/F07_R12/S3_F07_R12_IMAG0874,hippopotamus,guineafowl,0.6666666666666666,"{'hyenaspotted': 1, 'guineafowl': 2}",False
+data/serengeti/images/S2_D03_R2_PICT0067.JPG,S2/D03/D03_R2/S2_D03_R2_PICT0067,hippopotamus,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S4_Q05_R1_IMAG0036.JPG,S4/Q05/Q05_R1/S4_Q05_R1_IMAG0036,buffalo,buffalo,0.6666666666666666,"{'buffalo': 2, 'baboon': 1}",True
+data/serengeti/images/S6_F06_R2_IMAG0142.JPG,S6/F06/F06_R2/S6_F06_R2_IMAG0142,hippopotamus,buffalo,1.0,{'buffalo': 3},False
+data/serengeti/images/S2_I04_R2_IMAG0034.JPG,S2/I04/I04_R2/S2_I04_R2_IMAG0034,giraffe,warthog,0.6666666666666666,"{'warthog': 2, 'hippopotamus': 1}",False
+data/serengeti/images/S5_N02_R1_IMAG1225.JPG,S5/N02/N02_R1/S5_N02_R1_IMAG1225,impala,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S5_H07_R1_IMAG3379.JPG,S5/H07/H07_R1/S5_H07_R1_IMAG3379,guineafowl,guineafowl,1.0,{'guineafowl': 3},True
+data/serengeti/images/S2_H02_R1_IMAG0488.JPG,S2/H02/H02_R1/S2_H02_R1_IMAG0488,elephant,elephant,1.0,{'elephant': 3},True
+data/serengeti/images/S4_E04_R1_IMAG0235.JPG,S4/E04/E04_R1/S4_E04_R1_IMAG0235,warthog,hippopotamus,1.0,{'hippopotamus': 3},False
+data/serengeti/images/S4_E05_R2_IMAG2319.JPG,S4/E05/E05_R2/S4_E05_R2_IMAG2319,hippopotamus,hippopotamus,1.0,{'hippopotamus': 3},True
+data/serengeti/images/S2_K05_R1_PICT0117.JPG,S2/K05/K05_R1/S2_K05_R1_PICT0117,giraffe,giraffe,1.0,{'giraffe': 3},True
+data/serengeti/images/S5_F03_R1_IMAG3365.JPG,S5/F03/F03_R1/S5_F03_R1_IMAG3365,impala,baboon,1.0,{'baboon': 3},False
+data/serengeti/images/S5_E13_R2_IMAG0438.JPG,S5/E13/E13_R2/S5_E13_R2_IMAG0438,cheetah,cheetah,1.0,{'cheetah': 3},True
+data/serengeti/images/S4_J01_R1_IMAG0079.JPG,S4/J01/J01_R1/S4_J01_R1_IMAG0079,elephant,unknown,0.3333333333333333,"{'unknown': 1, 'baboon': 1, 'guineafowl': 1}",False
+data/serengeti/images/S6_I06_R1_IMAG0066.JPG,S6/I06/I06_R1/S6_I06_R1_IMAG0066,buffalo,buffalo,1.0,{'buffalo': 3},True
