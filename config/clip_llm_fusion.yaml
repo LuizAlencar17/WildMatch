@@ -1,0 +1,46 @@
+# WildMatch-CLIP-LLM-Fusion Configuration
+
+# Fusion settings
+fusion:
+  enabled: true
+  alpha: 0.4  # Weight for visual score (visual * alpha + textual * (1-alpha))
+  normalize_scores: true  # Normalize scores to [0,1] before fusion
+
+# CLIP settings
+clip:
+  model: "ViT-L/14"  # Options: "ViT-B/32", "ViT-B/16", "ViT-L/14"
+  prefix: "camera trap image of an animal. "  # Prefix for KB text encoding
+  use_crop: false  # Not implemented yet (would require crop detection)
+
+# VLM settings (for description generation)
+vlm:
+  model: "gpt-4o-mini"
+  n_captions: 5  # Number of captions for self-consistency
+
+# Knowledge base
+knowledge_base:
+  path: "data/knowledge_base.json"
+  format: "vrs"  # Use VRS field from original KB
+
+# Dataset
+dataset:
+  path: "data/serengeti/dataset.csv"
+  image_col: "full_path"
+  label_col: "species_name"
+  sample_size: null  # null = use all, or specify number
+
+# Experiment settings
+experiment:
+  output_dir: "results/clip_llm_fusion"
+  save_predictions: true
+  save_metrics: true
+  verbose: true
+
+# Evaluation metrics
+metrics:
+  - "accuracy"
+  - "precision_macro"
+  - "recall_macro"
+  - "f1_macro"
+  - "top_3_accuracy"
+  - "top_5_accuracy"

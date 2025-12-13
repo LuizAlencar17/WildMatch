@@ -1,0 +1,3 @@
+image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
+data/serengeti/images/S6_J07_R2_IMAG0227.JPG,S6_J07_R2_IMAG0227.JPG,ostrich,ostrich,1.0,{'ostrich': 5},True
+data/serengeti/images/S6_I01_R2_IMAG0323.JPG,S6_I01_R2_IMAG0323.JPG,baboon,impala,0.6,"{'giraffe': 1, 'impala': 3, 'cheetah': 1}",False
