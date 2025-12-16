@@ -69,12 +69,12 @@ def main():
 
     print(f"\n{'='*70}")
 
-    df_test = df.sample(n=2, random_state=42)
+    df_test = df.sample(n=1200, random_state=42)
 
     correct = 0
     predictions_list = []
 
-    for idx, row in tqdm(df_test.iterrows()):
+    for idx, row in tqdm(df_test.iterrows(), total=len(df_test), desc="Processing images"):
         result = pipeline.predict(
             image_path=row["full_path"],
             knowledge_base=knowledge_base,

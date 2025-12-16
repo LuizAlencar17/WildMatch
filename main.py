@@ -69,7 +69,7 @@ def main():
     # Run predictions
     predictions_df = batch_predictor.predict_dataset(
         # df=df,
-        df=df.sample(n=100, random_state=42),
+        df=df.sample(n=1200, random_state=42),
         knowledge_base=knowledge_base,
         n_captions=3,
         vlm_model="gpt-4o-mini",
