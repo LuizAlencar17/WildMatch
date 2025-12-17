@@ -1,93 +1,93 @@
 {
-  "accuracy": 0.6991666666666667,
-  "precision": 0.7893967686282055,
-  "recall": 0.6991666666666667,
-  "f1_score": 0.7103353875571092,
+  "accuracy": 0.6833333333333333,
+  "precision": 0.7669382665597504,
+  "recall": 0.6833333333333333,
+  "f1_score": 0.6920852385624715,
   "n_samples": 1200,
   "n_failed": 0,
   "per_class_metrics": [
     {
       "Species": "baboon",
-      "Precision": 1.0,
+      "Precision": 0.9811320754716981,
       "Recall": 0.52,
-      "F1-Score": 0.6842105263157895,
+      "F1-Score": 0.6797385620915033,
       "Support": 100
     },
     {
       "Species": "buffalo",
-      "Precision": 0.6504065040650406,
-      "Recall": 0.8,
-      "F1-Score": 0.7174887892376681,
+      "Precision": 0.6290322580645161,
+      "Recall": 0.78,
+      "F1-Score": 0.6964285714285714,
       "Support": 100
     },
     {
       "Species": "cheetah",
-      "Precision": 0.9240506329113924,
-      "Recall": 0.73,
-      "F1-Score": 0.8156424581005587,
+      "Precision": 0.9382716049382716,
+      "Recall": 0.76,
+      "F1-Score": 0.8397790055248618,
       "Support": 100
     },
     {
       "Species": "elephant",
-      "Precision": 0.7889908256880734,
+      "Precision": 0.7818181818181819,
       "Recall": 0.86,
-      "F1-Score": 0.8229665071770335,
+      "F1-Score": 0.819047619047619,
       "Support": 100
     },
     {
       "Species": "giraffe",
-      "Precision": 0.9285714285714286,
+      "Precision": 0.8571428571428571,
       "Recall": 0.78,
-      "F1-Score": 0.8478260869565217,
+      "F1-Score": 0.8167539267015707,
       "Support": 100
     },
     {
       "Species": "guineafowl",
-      "Precision": 1.0,
+      "Precision": 0.9838709677419355,
       "Recall": 0.61,
-      "F1-Score": 0.7577639751552795,
+      "F1-Score": 0.7530864197530864,
       "Support": 100
     },
     {
       "Species": "hippopotamus",
-      "Precision": 0.9622641509433962,
-      "Recall": 0.51,
-      "F1-Score": 0.6666666666666666,
+      "Precision": 0.9583333333333334,
+      "Recall": 0.46,
+      "F1-Score": 0.6216216216216216,
       "Support": 100
     },
     {
       "Species": "hyenaspotted",
-      "Precision": 0.7261904761904762,
-      "Recall": 0.61,
-      "F1-Score": 0.6630434782608695,
+      "Precision": 0.6506024096385542,
+      "Recall": 0.54,
+      "F1-Score": 0.5901639344262295,
       "Support": 100
     },
     {
       "Species": "impala",
-      "Precision": 0.5562913907284768,
-      "Recall": 0.84,
-      "F1-Score": 0.6693227091633466,
+      "Precision": 0.5625,
+      "Recall": 0.81,
+      "F1-Score": 0.6639344262295082,
       "Support": 100
     },
     {
       "Species": "ostrich",
       "Precision": 1.0,
-      "Recall": 0.66,
-      "F1-Score": 0.7951807228915663,
+      "Recall": 0.65,
+      "F1-Score": 0.7878787878787878,
       "Support": 100
     },
     {
       "Species": "warthog",
-      "Precision": 0.5425531914893617,
-      "Recall": 0.51,
-      "F1-Score": 0.5257731958762887,
+      "Precision": 0.4528301886792453,
+      "Recall": 0.48,
+      "F1-Score": 0.46601941747572817,
       "Support": 100
     },
     {
       "Species": "zebra",
-      "Precision": 0.39344262295081966,
-      "Recall": 0.96,
-      "F1-Score": 0.5581395348837209,
+      "Precision": 0.40772532188841204,
+      "Recall": 0.95,
+      "F1-Score": 0.5705705705705706,
       "Support": 100
     }
   ]
