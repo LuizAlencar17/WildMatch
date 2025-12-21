@@ -65,14 +65,14 @@ def main(dataset="serengeti", image_type="full"):
 
     # Create predictor
     predictor = WildMatchPredictor(api_key)
+    batch_predictor = BatchPredictor(predictor)
 
     # =========================================================================
     # Step 2: Batch Prediction
     # =========================================================================
-    output_file = f"results/{dataset}_{image_type}_predictions.csv"
+    output_file = f"results/predictions/{dataset}_{image_type}_predictions.csv"
     predictions_df = batch_predictor.predict_dataset(
-        # df=df,
-        df=df.sample(n=1200, random_state=42),
+        df=df,
         knowledge_base=knowledge_base,
         n_captions=3,
         vlm_model="gpt-4o-mini",
@@ -81,20 +81,15 @@ def main(dataset="serengeti", image_type="full"):
     )
 
     print(f"\n✓ Batch prediction complete!")
-    print(f"Results saved to: {output_file}
-        llm_model="gpt-4o-mini",
-        output_path="results/predictions.csv",
-    )
-
-    print(f"\n✓ Batch prediction complete!")
-    print(f"Results saved to: results/predictions.csv")
+    print(f"Results saved to: {output_file}")
 
     print("\n" + "=" * 70)
     print("Pipeline execution complete!")
     print("=" * 70)
 
 
-if _parser = argparse.ArgumentParser(
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
         description="WildMatch Species Classification Pipeline"
     )
     parser.add_argument(
@@ -113,5 +108,4 @@ if _parser = argparse.ArgumentParser(
     )
 
     args = parser.parse_args()
-    main(dataset=args.dataset, image_type=args.image_type__ == "__main__":
-    main()
+    main(dataset=args.dataset, image_type=args.image_type)

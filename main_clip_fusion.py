@@ -73,7 +73,7 @@ def main(dataset="serengeti", image_type="full"):
 
     print(f"\n{'='*70}")
 
-    df_test = df.sample(n=1200, random_state=42)
+    df_test = df
 
     correct = 0
     predictions_list = []
@@ -112,7 +112,7 @@ def main(dataset="serengeti", image_type="full"):
     # Save predictions to CSV
     os.makedirs("results", exist_ok=True)
     predictions_df = pd.DataFrame(predictions_list)
-    output_path = f"results/{dataset}_{image_type}_clip_fusion_predictions.csv"
+    output_path = f"results/predictions/{dataset}_{image_type}_clip_fusion_predictions.csv"
     predictions_df.to_csv(output_path, index=False)
     print(f"✓ Predictions saved to: {output_path}")
 

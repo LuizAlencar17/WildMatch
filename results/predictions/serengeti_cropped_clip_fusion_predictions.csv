@@ -1,0 +1,6 @@
+image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
+data/serengeti/images_cropped/S1_D07_R3_PICT0108.JPG,S1_D07_R3_PICT0108.JPG,impala,cheetah,1.0,{'cheetah': 5},False
+data/serengeti/images_cropped/S5_K10_R3_IMAG1008.JPG,S5_K10_R3_IMAG1008.JPG,guineafowl,elephant,1.0,{'elephant': 5},False
+data/serengeti/images_cropped/S3_E05_R11_IMAG0418.JPG,S3_E05_R11_IMAG0418.JPG,baboon,elephant,0.8,"{'cheetah': 1, 'elephant': 4}",False
+data/serengeti/images_cropped/S5_C13_R2_IMAG0855.JPG,S5_C13_R2_IMAG0855.JPG,hippopotamus,hippopotamus,0.6,"{'buffalo': 2, 'hippopotamus': 3}",True
+data/serengeti/images_cropped/S6_F01_R2_IMAG0372.JPG,S6_F01_R2_IMAG0372.JPG,elephant,elephant,1.0,{'elephant': 5},True

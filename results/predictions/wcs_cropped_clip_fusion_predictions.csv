@@ -1,0 +1,6 @@
+image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
+data/wcs/images_cropped/1638.jpg,1638.jpg,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 5},True
+data/wcs/images_cropped/0332.jpg,0332.jpg,psophia leucoptera,mitu tuberosum,0.8,"{'mitu tuberosum': 4, 'psophia leucoptera': 1}",False
+data/wcs/images_cropped/0355.jpg,0355.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 5},False
+data/wcs/images_cropped/1421.jpg,1421.jpg,argusianus argus,mitu tuberosum,0.6,"{'argusianus argus': 2, 'mitu tuberosum': 3}",False
+data/wcs/images_cropped/0567.jpg,0567.jpg,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 5},True

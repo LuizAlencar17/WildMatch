@@ -1,0 +1,6 @@
+image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
+data/serengeti/images_cropped/S1_D07_R3_PICT0108.JPG,1178,impala,warthog,1.0,{'warthog': 3},False
+data/serengeti/images_cropped/S5_K10_R3_IMAG1008.JPG,865,guineafowl,zebra,1.0,{'zebra': 3},False
+data/serengeti/images_cropped/S3_E05_R11_IMAG0418.JPG,101,baboon,zebra,1.0,{'zebra': 3},False
+data/serengeti/images_cropped/S5_C13_R2_IMAG0855.JPG,439,hippopotamus,hippopotamus,1.0,{'hippopotamus': 3},True
+data/serengeti/images_cropped/S6_F01_R2_IMAG0372.JPG,58,elephant,elephant,1.0,{'elephant': 3},True

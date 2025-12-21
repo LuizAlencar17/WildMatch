@@ -1,0 +1,6 @@
+image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
+data/caltech/images_cropped/5a17dd50-23d2-11e8-a6a3-ec086b02610b.JPG,5a17dd50-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 5},True
+data/caltech/images_cropped/595c67df-23d2-11e8-a6a3-ec086b02610b.JPG,595c67df-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 5},True
+data/caltech/images_cropped/59b616f2-23d2-11e8-a6a3-ec086b02610b.JPG,59b616f2-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.8,"{'rodent': 4, 'deer': 1}",True
+data/caltech/images_cropped/59641efe-23d2-11e8-a6a3-ec086b02610b.JPG,59641efe-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 5},True
+data/caltech/images_cropped/5a2af4b0-23d2-11e8-a6a3-ec086b02610b.JPG,5a2af4b0-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.8,"{'coyote': 1, 'bobcat': 4}",True
