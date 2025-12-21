@@ -4,6 +4,7 @@ Interactive demo of the CLIP-LLM fusion approach.
 """
 
 import os
+import argparse
 from tqdm import tqdm
 import pandas as pd
 from dotenv import load_dotenv
@@ -12,7 +13,7 @@ from src.utils import load_json
 from pipelines.wildmatch_clip_llm_fusion import WildMatchCLIPLLMFusion
 
 
-def main():
+def main(dataset="serengeti", image_type="full"):
     """Main execution function."""
 
     # Load environment variables
@@ -25,11 +26,12 @@ def main():
     print("=" * 70)
     print("WildMatch-CLIP-LLM-Fusion Pipeline")
     print("Zero-shot fusion of visual CLIP and textual LLM scores")
+    print(f"Dataset: {dataset} | Image Type: {image_type}")
     print("=" * 70)
 
     # Load knowledge base
     print("\n[1] Loading Knowledge Base...")
-    kb_path = "data/knowledge_base.json"
+    kb_path = f"data/{dataset}/knowledge_base.json"
 
     if not os.path.exists(kb_path):
         print(f"Error: Knowledge base not found at {kb_path}")
@@ -64,7 +66,9 @@ def main():
 
     # Load dataset
     print("\n[4] Loading Dataset...")
-    df = pd.read_csv("data/serengeti/dataset.csv")
+    csv_suffix = "_cropped.csv" if image_type == "cropped" else ".csv"
+    dataset_csv = f"data/{dataset}/dataset{csv_suffix}"
+    df = pd.read_csv(dataset_csv)
     print(f"✓ Dataset loaded: {len(df)} images")
 
     print(f"\n{'='*70}")
@@ -74,7 +78,9 @@ def main():
     correct = 0
     predictions_list = []
 
-    for idx, row in tqdm(df_test.iterrows(), total=len(df_test), desc="Processing images"):
+    for idx, row in tqdm(
+        df_test.iterrows(), total=len(df_test), desc="Processing images"
+    ):
         result = pipeline.predict(
             image_path=row["full_path"],
             knowledge_base=knowledge_base,
@@ -106,7 +112,7 @@ def main():
     # Save predictions to CSV
     os.makedirs("results", exist_ok=True)
     predictions_df = pd.DataFrame(predictions_list)
-    output_path = "results/clip_fusion_predictions.csv"
+    output_path = f"results/{dataset}_{image_type}_clip_fusion_predictions.csv"
     predictions_df.to_csv(output_path, index=False)
     print(f"✓ Predictions saved to: {output_path}")
 
@@ -116,4 +122,21 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="WildMatch-CLIP-LLM-Fusion Pipeline")
+    parser.add_argument(
+        "--dataset",
+        type=str,
+        default="serengeti",
+        choices=["serengeti", "wcs", "caltech"],
+        help="Dataset to use (serengeti, wcs, or caltech)",
+    )
+    parser.add_argument(
+        "--image_type",
+        type=str,
+        default="full",
+        choices=["full", "cropped"],
+        help="Image type to use (full or cropped)",
+    )
+
+    args = parser.parse_args()
+    main(dataset=args.dataset, image_type=args.image_type)

@@ -4,6 +4,7 @@ Example usage of the WildMatch species classification system.
 """
 
 import os
+import argparse
 import pandas as pd
 from dotenv import load_dotenv
 
@@ -13,7 +14,7 @@ from src.pipeline import WildMatchPredictor
 from src.batch_predict import BatchPredictor
 
 
-def main():
+def main(dataset="serengeti", image_type="full"):
     """Main execution function."""
 
     # Load environment variables
@@ -25,6 +26,7 @@ def main():
 
     print("=" * 70)
     print("WildMatch Species Classification Pipeline")
+    print(f"Dataset: {dataset} | Image Type: {image_type}")
     print("=" * 70)
 
     # =========================================================================
@@ -32,7 +34,7 @@ def main():
     # =========================================================================
     print("\n[1] Loading/Building Knowledge Base...")
 
-    kb_path = "data/knowledge_base.json"
+    kb_path = f"data/{dataset}/knowledge_base.json"
 
     if os.path.exists(kb_path):
         print(f"✓ Loading existing knowledge base from {kb_path}")
@@ -40,8 +42,12 @@ def main():
     else:
         print("Building new knowledge base from Wikipedia...")
 
+        # Determine dataset CSV path
+        csv_suffix = "_cropped.csv" if image_type == "cropped" else ".csv"
+        dataset_csv = f"data/{dataset}/dataset{csv_suffix}"
+
         # Load dataset to get species list
-        df = pd.read_csv("data/serengeti/dataset.csv")
+        df = pd.read_csv(dataset_csv)
         unique_species = df["species_name"].dropna().unique().tolist()
 
         # Build knowledge base
@@ -53,7 +59,9 @@ def main():
     print(f"✓ Knowledge base loaded: {len(knowledge_base)} species")
 
     # Load dataset
-    df = pd.read_csv("data/serengeti/dataset.csv")
+    csv_suffix = "_cropped.csv" if image_type == "cropped" else ".csv"
+    dataset_csv = f"data/{dataset}/dataset{csv_suffix}"
+    df = pd.read_csv(dataset_csv)
 
     # Create predictor
     predictor = WildMatchPredictor(api_key)
@@ -61,18 +69,19 @@ def main():
     # =========================================================================
     # Step 2: Batch Prediction
     # =========================================================================
-    print("\n[2] Batch Prediction...")
-
-    # Create batch predictor
-    batch_predictor = BatchPredictor(predictor)
-
-    # Run predictions
+    output_file = f"results/{dataset}_{image_type}_predictions.csv"
     predictions_df = batch_predictor.predict_dataset(
         # df=df,
         df=df.sample(n=1200, random_state=42),
         knowledge_base=knowledge_base,
         n_captions=3,
         vlm_model="gpt-4o-mini",
+        llm_model="gpt-4o-mini",
+        output_path=output_file,
+    )
+
+    print(f"\n✓ Batch prediction complete!")
+    print(f"Results saved to: {output_file}
         llm_model="gpt-4o-mini",
         output_path="results/predictions.csv",
     )
@@ -85,5 +94,24 @@ def main():
     print("=" * 70)
 
 
-if __name__ == "__main__":
+if _parser = argparse.ArgumentParser(
+        description="WildMatch Species Classification Pipeline"
+    )
+    parser.add_argument(
+        "--dataset",
+        type=str,
+        default="serengeti",
+        choices=["serengeti", "wcs", "caltech"],
+        help="Dataset to use (serengeti, wcs, or caltech)",
+    )
+    parser.add_argument(
+        "--image_type",
+        type=str,
+        default="full",
+        choices=["full", "cropped"],
+        help="Image type to use (full or cropped)",
+    )
+
+    args = parser.parse_args()
+    main(dataset=args.dataset, image_type=args.image_type__ == "__main__":
     main()
