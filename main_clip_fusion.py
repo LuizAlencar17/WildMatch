@@ -45,7 +45,7 @@ def main(dataset="serengeti", image_type="full"):
     print("\n[2] Pipeline Configuration...")
     alpha = 0.4
     clip_model = "ViT-L/14"
-    n_captions = 5
+    n_captions = 3
 
     print(f"\nConfiguration:")
     print(f"  Alpha (visual weight): {alpha}")

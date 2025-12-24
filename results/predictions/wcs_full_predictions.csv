@@ -1,0 +1,1001 @@
+image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
+data/wcs/images/animals/0196/0200.jpg,0,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0017/1055.jpg,1,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0236/0307.jpg,2,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0234/0880.jpg,3,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0368/1946.jpg,4,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0375/1229.jpg,5,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0235/0932.jpg,6,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0234/0894.jpg,7,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0017/0843.jpg,8,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0366/0054.jpg,9,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0371/0631.jpg,10,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0376/1136.jpg,11,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0368/1280.jpg,12,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0264/1144.jpg,13,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0368/0841.jpg,14,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0301/1247.jpg,15,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0236/0707.jpg,16,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0375/0158.jpg,17,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0017/0846.jpg,18,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0349/0750.jpg,19,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0302/0857.jpg,20,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0366/0904.jpg,21,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0309/0087.jpg,22,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0234/0940.jpg,23,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0310/0490.jpg,24,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0375/0405.jpg,25,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0319/0498.jpg,26,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0371/1251.jpg,27,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0232/0788.jpg,28,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0375/0162.jpg,29,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0414/0191.jpg,30,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0319/1315.jpg,31,equus quagga,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'panthera onca': 1}",True
+data/wcs/images/animals/0308/1384.jpg,32,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0366/0252.jpg,33,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0195/1153.jpg,34,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0310/1304.jpg,35,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0025/1758.jpg,36,equus quagga,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'bos taurus': 1}",True
+data/wcs/images/animals/0195/1548.jpg,37,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0377/1532.jpg,38,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0195/0422.jpg,39,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0235/1656.jpg,40,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0309/1436.jpg,41,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0366/0299.jpg,42,equus quagga,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0194/1926.jpg,43,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0376/0441.jpg,44,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0375/1729.jpg,45,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0026/0117.jpg,46,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0368/0488.jpg,47,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0310/0487.jpg,48,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0369/0718.jpg,49,equus quagga,bos taurus,0.6666666666666666,"{'bos taurus': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0016/1988.jpg,50,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0235/1477.jpg,51,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0415/1243.jpg,52,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0236/0111.jpg,53,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0375/0723.jpg,54,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0368/0518.jpg,55,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0319/0342.jpg,56,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0196/0849.jpg,57,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0017/0916.jpg,58,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0416/1607.jpg,59,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0235/0506.jpg,60,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0374/0132.jpg,61,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0310/1894.jpg,62,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0232/0630.jpg,63,equus quagga,panthera onca,1.0,{'panthera onca': 3},False
+data/wcs/images/animals/0366/0899.jpg,64,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0016/1987.jpg,65,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0365/1810.jpg,66,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0192/0493.jpg,67,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0370/0134.jpg,68,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0372/1686.jpg,69,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0376/1135.jpg,70,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0368/1561.jpg,71,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0319/1552.jpg,72,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0219/1770.jpg,73,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0376/0408.jpg,74,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0367/0535.jpg,75,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0373/0677.jpg,76,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0375/1263.jpg,77,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0264/1149.jpg,78,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0370/0135.jpg,79,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0232/0618.jpg,80,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0365/0830.jpg,81,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0371/1073.jpg,82,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0366/0862.jpg,83,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0369/0186.jpg,84,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0375/0407.jpg,85,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0196/1526.jpg,86,equus quagga,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images/animals/0376/0439.jpg,87,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0017/0017.jpg,88,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0309/0938.jpg,89,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0195/0879.jpg,90,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0367/0430.jpg,91,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0323/0735.jpg,92,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0367/1074.jpg,93,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0366/0300.jpg,94,equus quagga,bos taurus,0.3333333333333333,"{'bos taurus': 1, 'loxodonta africana': 1, 'equus quagga': 1}",False
+data/wcs/images/animals/0376/1188.jpg,95,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0371/0812.jpg,96,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0369/0848.jpg,97,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0192/0980.jpg,98,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0369/1463.jpg,99,equus quagga,equus quagga,1.0,{'equus quagga': 3},True
+data/wcs/images/animals/0227/1472.jpg,100,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0299/0607.jpg,101,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0414/0382.jpg,102,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0031/1007.jpg,103,bos taurus,loxodonta africana,0.3333333333333333,"{'loxodonta africana': 1, 'equus quagga': 1, 'bos taurus': 1}",False
+data/wcs/images/animals/0187/1747.jpg,104,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0015/0197.jpg,105,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0368/0139.jpg,106,bos taurus,loxodonta africana,1.0,{'loxodonta africana': 3},False
+data/wcs/images/animals/0033/1670.jpg,107,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0365/1933.jpg,108,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0365/1934.jpg,109,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0345/0274.jpg,110,bos taurus,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'bos taurus': 1}",False
+data/wcs/images/animals/0289/1844.jpg,111,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0377/0757.jpg,112,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0415/0152.jpg,113,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0415/0007.jpg,114,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0375/0919.jpg,115,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0336/0755.jpg,116,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0026/1232.jpg,117,bos taurus,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0025/1506.jpg,118,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0299/0791.jpg,119,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0252/1259.jpg,120,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0252/0977.jpg,121,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0289/1714.jpg,122,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0414/1974.jpg,123,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0334/1772.jpg,124,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0304/1325.jpg,125,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0414/1334.jpg,126,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0035/0275.jpg,127,bos taurus,bos taurus,0.6666666666666666,"{'loxodonta africana': 1, 'bos taurus': 2}",True
+data/wcs/images/animals/0289/1902.jpg,128,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0290/0013.jpg,129,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0275/1872.jpg,130,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0187/0426.jpg,131,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0033/0792.jpg,132,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0304/1334.jpg,133,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0300/0479.jpg,134,bos taurus,bos taurus,0.6666666666666666,"{'macaca nemestrina': 1, 'bos taurus': 2}",True
+data/wcs/images/animals/0035/0459.jpg,135,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0334/1740.jpg,136,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0034/1366.jpg,137,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0187/1138.jpg,138,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0252/1262.jpg,139,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0033/1668.jpg,140,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0336/0182.jpg,141,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0197/0424.jpg,142,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0187/1746.jpg,143,bos taurus,hystrix brachyura,0.3333333333333333,"{'hystrix brachyura': 1, 'bos taurus': 1, 'loxodonta africana': 1}",False
+data/wcs/images/animals/0226/0046.jpg,144,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0227/1705.jpg,145,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0035/0496.jpg,146,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0336/0183.jpg,147,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0035/0420.jpg,148,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0373/1875.jpg,149,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0299/0387.jpg,150,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0299/1607.jpg,151,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0187/0430.jpg,152,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0377/0755.jpg,153,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0373/0879.jpg,154,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0415/0501.jpg,155,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0214/0064.jpg,156,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0188/0167.jpg,157,bos taurus,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images/animals/0293/0744.jpg,158,bos taurus,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0369/0937.jpg,159,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0025/1361.jpg,160,bos taurus,loxodonta africana,1.0,{'loxodonta africana': 3},False
+data/wcs/images/animals/0472/0876.jpg,161,bos taurus,bos taurus,0.6666666666666666,"{'tapirus terrestris': 1, 'bos taurus': 2}",True
+data/wcs/images/animals/0187/1741.jpg,162,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0417/1191.jpg,163,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0001/1948.jpg,164,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0197/0422.jpg,165,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0033/0833.jpg,166,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0038/0477.jpg,167,bos taurus,macaca nemestrina,0.6666666666666666,"{'loxodonta africana': 1, 'macaca nemestrina': 2}",False
+data/wcs/images/animals/0035/0151.jpg,168,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0365/1937.jpg,169,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0370/0400.jpg,170,bos taurus,bos taurus,0.6666666666666666,"{'bos taurus': 2, 'panthera onca': 1}",True
+data/wcs/images/animals/0025/1908.jpg,171,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0025/1366.jpg,172,bos taurus,loxodonta africana,1.0,{'loxodonta africana': 3},False
+data/wcs/images/animals/0035/0456.jpg,173,bos taurus,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'loxodonta africana': 1}",False
+data/wcs/images/animals/0304/1329.jpg,174,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0026/1273.jpg,175,bos taurus,loxodonta africana,0.6666666666666666,"{'bos taurus': 1, 'loxodonta africana': 2}",False
+data/wcs/images/animals/0299/0378.jpg,176,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0005/0904.jpg,177,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0375/0944.jpg,178,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0335/0163.jpg,179,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0227/1645.jpg,180,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0300/0793.jpg,181,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0301/0008.jpg,182,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0213/1721.jpg,183,bos taurus,bos taurus,0.6666666666666666,"{'equus quagga': 1, 'bos taurus': 2}",True
+data/wcs/images/animals/0415/0015.jpg,184,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0005/0899.jpg,185,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0035/0150.jpg,186,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0033/0830.jpg,187,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0309/1631.jpg,188,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0299/1218.jpg,189,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0187/1942.jpg,190,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0014/0934.jpg,191,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0040/0770.jpg,192,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0196/0549.jpg,193,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0035/0174.jpg,194,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0299/0571.jpg,195,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0187/0428.jpg,196,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0025/1362.jpg,197,bos taurus,bos taurus,1.0,{'bos taurus': 3},True
+data/wcs/images/animals/0300/0792.jpg,198,bos taurus,bos taurus,0.6666666666666666,"{'bos taurus': 2, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0345/0279.jpg,199,bos taurus,loxodonta africana,0.6666666666666666,"{'tapirus terrestris': 1, 'loxodonta africana': 2}",False
+data/wcs/images/animals/0264/0731.jpg,200,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0234/0194.jpg,201,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0348/1802.jpg,202,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0226/1964.jpg,203,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0196/0254.jpg,204,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0264/1077.jpg,205,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0411/1325.jpg,206,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0414/1824.jpg,207,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0196/0253.jpg,208,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0302/1284.jpg,209,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0016/1027.jpg,210,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0336/1080.jpg,211,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0302/1444.jpg,212,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0414/1822.jpg,213,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0298/1390.jpg,214,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0467/0398.jpg,215,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0345/1582.jpg,216,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0375/0695.jpg,217,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0308/1943.jpg,218,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0378/1484.jpg,219,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0345/0288.jpg,220,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0309/0477.jpg,221,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0348/1779.jpg,222,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0192/1691.jpg,223,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0184/1795.jpg,224,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0016/1029.jpg,225,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0204/1212.jpg,226,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0204/1491.jpg,227,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0235/1038.jpg,228,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0204/1711.jpg,229,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0318/1931.jpg,230,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0205/0073.jpg,231,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0369/1544.jpg,232,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0417/0807.jpg,233,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0204/1481.jpg,234,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0411/1324.jpg,235,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0262/1579.jpg,236,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0308/0957.jpg,237,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0253/0474.jpg,238,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0253/1564.jpg,239,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0191/1204.jpg,240,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0308/1251.jpg,241,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0318/1932.jpg,242,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0236/0751.jpg,243,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0194/1679.jpg,244,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0253/1565.jpg,245,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0040/0687.jpg,246,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0374/0844.jpg,247,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0236/0281.jpg,248,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0345/1996.jpg,249,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0191/1869.jpg,250,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0345/0290.jpg,251,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0040/0713.jpg,252,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0345/0309.jpg,253,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0369/1542.jpg,254,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0226/1966.jpg,255,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0309/1559.jpg,256,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0277/1418.jpg,257,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0191/1203.jpg,258,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0226/0553.jpg,259,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0309/1360.jpg,260,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0235/1040.jpg,261,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0378/1486.jpg,262,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0269/1485.jpg,263,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0196/1714.jpg,264,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0226/1924.jpg,265,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0203/1787.jpg,266,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0417/0805.jpg,267,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0264/1084.jpg,268,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0196/0256.jpg,269,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0184/1792.jpg,270,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0336/1076.jpg,271,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0264/0732.jpg,272,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0308/0871.jpg,273,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0325/0239.jpg,274,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0348/1798.jpg,275,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0253/0472.jpg,276,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0336/1081.jpg,277,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0005/0317.jpg,278,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0225/1994.jpg,279,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0225/1993.jpg,280,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0191/1875.jpg,281,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0228/0137.jpg,282,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0336/1079.jpg,283,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0225/1491.jpg,284,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0204/1391.jpg,285,loxodonta africana,loxodonta africana,0.6666666666666666,"{'tapirus terrestris': 1, 'loxodonta africana': 2}",True
+data/wcs/images/animals/0194/1680.jpg,286,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0348/1801.jpg,287,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0204/1483.jpg,288,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0308/0867.jpg,289,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0204/1713.jpg,290,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0234/0854.jpg,291,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0218/1969.jpg,292,loxodonta africana,loxodonta africana,0.6666666666666666,"{'bos taurus': 1, 'loxodonta africana': 2}",True
+data/wcs/images/animals/0035/1352.jpg,293,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0234/1574.jpg,294,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0277/1416.jpg,295,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0232/1606.jpg,296,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0204/1710.jpg,297,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0337/1045.jpg,298,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0350/1628.jpg,299,loxodonta africana,loxodonta africana,1.0,{'loxodonta africana': 3},True
+data/wcs/images/animals/0001/1356.jpg,300,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0058/1963.jpg,301,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0001/0306.jpg,302,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0160/1204.jpg,303,mitu tuberosum,macaca nemestrina,0.3333333333333333,"{'macaca nemestrina': 1, 'mitu tuberosum': 1, 'bos taurus': 1}",False
+data/wcs/images/animals/0075/1542.jpg,304,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'psophia leucoptera': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0107/1818.jpg,305,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'bos taurus': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0054/1929.jpg,306,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0101/0205.jpg,307,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'psophia leucoptera': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0135/0149.jpg,308,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0053/0289.jpg,309,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0031/0470.jpg,310,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0159/0416.jpg,311,mitu tuberosum,macaca nemestrina,0.3333333333333333,"{'macaca nemestrina': 1, 'mitu tuberosum': 1, 'equus quagga': 1}",False
+data/wcs/images/animals/0118/1824.jpg,312,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0031/0464.jpg,313,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0177/0854.jpg,314,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0122/1290.jpg,315,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0001/1226.jpg,316,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0058/1967.jpg,317,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'argusianus argus': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0122/1289.jpg,318,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0125/0109.jpg,319,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0104/0081.jpg,320,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'psophia leucoptera': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0155/0160.jpg,321,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0133/0292.jpg,322,mitu tuberosum,psophia leucoptera,0.3333333333333333,"{'psophia leucoptera': 1, 'equus quagga': 1, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0109/0031.jpg,323,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0171/1845.jpg,324,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0001/0391.jpg,325,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0088/1590.jpg,326,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0031/0312.jpg,327,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0041/0097.jpg,328,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'psophia leucoptera': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0105/0303.jpg,329,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0179/0141.jpg,330,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0000/0144.jpg,331,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0000/1754.jpg,332,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0030/0428.jpg,333,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0001/1232.jpg,334,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0180/1678.jpg,335,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0046/0346.jpg,336,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0053/0410.jpg,337,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0051/1875.jpg,338,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'psophia leucoptera': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0125/0106.jpg,339,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0045/0732.jpg,340,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0159/0413.jpg,341,mitu tuberosum,argusianus argus,0.3333333333333333,"{'argusianus argus': 1, 'mitu tuberosum': 1, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0155/0162.jpg,342,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0046/0260.jpg,343,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0122/1812.jpg,344,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'equus quagga': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0142/0597.jpg,345,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0001/0487.jpg,346,mitu tuberosum,macaca nemestrina,0.3333333333333333,"{'macaca nemestrina': 1, 'mitu tuberosum': 1, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0046/0350.jpg,347,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0001/1184.jpg,348,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'psophia leucoptera': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0177/0852.jpg,349,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0075/1539.jpg,350,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0058/1964.jpg,351,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'argusianus argus': 1}",False
+data/wcs/images/animals/0086/1508.jpg,352,mitu tuberosum,argusianus argus,0.3333333333333333,"{'argusianus argus': 1, 'psophia leucoptera': 1, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0179/0151.jpg,353,mitu tuberosum,argusianus argus,1.0,{'argusianus argus': 3},False
+data/wcs/images/animals/0161/1627.jpg,354,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0149/0619.jpg,355,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'psophia leucoptera': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0142/0774.jpg,356,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0142/0867.jpg,357,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'psophia leucoptera': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0155/0158.jpg,358,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0109/1394.jpg,359,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0135/0146.jpg,360,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0000/0116.jpg,361,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0159/0411.jpg,362,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0086/1514.jpg,363,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0142/1605.jpg,364,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0041/0133.jpg,365,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0110/1338.jpg,366,mitu tuberosum,psophia leucoptera,0.3333333333333333,"{'psophia leucoptera': 1, 'argusianus argus': 1, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0181/0146.jpg,367,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0132/1644.jpg,368,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'argusianus argus': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0086/1511.jpg,369,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'psophia leucoptera': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0134/1803.jpg,370,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0075/1540.jpg,371,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0149/0616.jpg,372,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0000/1312.jpg,373,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0030/1388.jpg,374,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0142/1672.jpg,375,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0133/0288.jpg,376,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0063/1811.jpg,377,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'bos taurus': 1, 'mitu tuberosum': 2}",True
+data/wcs/images/animals/0031/0654.jpg,378,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0157/1902.jpg,379,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0118/1827.jpg,380,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0030/0442.jpg,381,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0142/1607.jpg,382,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0000/0142.jpg,383,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0001/1863.jpg,384,mitu tuberosum,tapirus terrestris,0.6666666666666666,"{'hystrix brachyura': 1, 'tapirus terrestris': 2}",False
+data/wcs/images/animals/0177/0864.jpg,385,mitu tuberosum,argusianus argus,0.6666666666666666,"{'argusianus argus': 2, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0159/1784.jpg,386,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'macaca nemestrina': 1}",True
+data/wcs/images/animals/0177/0865.jpg,387,mitu tuberosum,argusianus argus,0.6666666666666666,"{'mitu tuberosum': 1, 'argusianus argus': 2}",False
+data/wcs/images/animals/0030/1704.jpg,388,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0163/1943.jpg,389,mitu tuberosum,argusianus argus,0.6666666666666666,"{'argusianus argus': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0147/0819.jpg,390,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0134/1802.jpg,391,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0001/0610.jpg,392,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0116/0537.jpg,393,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'bos taurus': 1}",True
+data/wcs/images/animals/0067/1288.jpg,394,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0000/0991.jpg,395,mitu tuberosum,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0030/1218.jpg,396,mitu tuberosum,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0086/1510.jpg,397,mitu tuberosum,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0078/1034.jpg,398,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0046/0256.jpg,399,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images/animals/0328/0161.jpg,400,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'mitu tuberosum': 1, 'macaca nemestrina': 2}",True
+data/wcs/images/animals/0440/0335.jpg,401,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0425/1100.jpg,402,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0327/0894.jpg,403,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0327/1219.jpg,404,macaca nemestrina,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0327/1725.jpg,405,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0327/1779.jpg,406,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/1043.jpg,407,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'equus quagga': 1, 'macaca nemestrina': 2}",True
+data/wcs/images/animals/0327/1734.jpg,408,macaca nemestrina,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images/animals/0328/1414.jpg,409,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0409/0082.jpg,410,macaca nemestrina,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0440/0567.jpg,411,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0327/1769.jpg,412,macaca nemestrina,tapirus terrestris,0.6666666666666666,"{'macaca nemestrina': 1, 'tapirus terrestris': 2}",False
+data/wcs/images/animals/0409/1232.jpg,413,macaca nemestrina,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0036/0689.jpg,414,macaca nemestrina,tapirus terrestris,0.3333333333333333,"{'tapirus terrestris': 1, 'macaca nemestrina': 1, 'bos taurus': 1}",False
+data/wcs/images/animals/0326/0002.jpg,415,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0525/1046.jpg,416,macaca nemestrina,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0325/0860.jpg,417,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'equus quagga': 1}",True
+data/wcs/images/animals/0325/1052.jpg,418,macaca nemestrina,equus quagga,0.3333333333333333,"{'equus quagga': 1, 'tapirus terrestris': 1, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0328/0853.jpg,419,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0327/1722.jpg,420,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0328/1717.jpg,421,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0036/0152.jpg,422,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0329/0216.jpg,423,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0328/1790.jpg,424,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0325/1556.jpg,425,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0409/1228.jpg,426,macaca nemestrina,macaca nemestrina,0.3333333333333333,"{'macaca nemestrina': 1, 'equus quagga': 1, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0325/1640.jpg,427,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0525/0519.jpg,428,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0433/0155.jpg,429,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0409/0083.jpg,430,macaca nemestrina,loxodonta africana,0.6666666666666666,"{'tapirus terrestris': 1, 'loxodonta africana': 2}",False
+data/wcs/images/animals/0408/1831.jpg,431,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0035/1785.jpg,432,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'tapirus terrestris': 1}",True
+data/wcs/images/animals/0326/1835.jpg,433,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/0111.jpg,434,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0525/0776.jpg,435,macaca nemestrina,bos taurus,0.3333333333333333,"{'bos taurus': 1, 'macaca nemestrina': 1, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0325/0691.jpg,436,macaca nemestrina,bos taurus,0.6666666666666666,"{'equus quagga': 1, 'bos taurus': 2}",False
+data/wcs/images/animals/0327/0261.jpg,437,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/0487.jpg,438,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0328/0756.jpg,439,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0330/0891.jpg,440,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/0255.jpg,441,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/1216.jpg,442,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/0415.jpg,443,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0036/1353.jpg,444,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0425/1501.jpg,445,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0462/1326.jpg,446,macaca nemestrina,equus quagga,0.3333333333333333,"{'equus quagga': 1, 'macaca nemestrina': 1, 'loxodonta africana': 1}",False
+data/wcs/images/animals/0327/1726.jpg,447,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/1022.jpg,448,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0036/1382.jpg,449,macaca nemestrina,mitu tuberosum,0.3333333333333333,"{'mitu tuberosum': 1, 'equus quagga': 1, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0328/1945.jpg,450,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0036/1436.jpg,451,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0399/1873.jpg,452,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'panthera onca': 1}",True
+data/wcs/images/animals/0432/1900.jpg,453,macaca nemestrina,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'loxodonta africana': 1}",False
+data/wcs/images/animals/0326/1085.jpg,454,macaca nemestrina,loxodonta africana,0.3333333333333333,"{'loxodonta africana': 1, 'tapirus terrestris': 1, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0452/1249.jpg,455,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/1003.jpg,456,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/0162.jpg,457,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/1425.jpg,458,macaca nemestrina,mitu tuberosum,0.6666666666666666,"{'tapirus terrestris': 1, 'mitu tuberosum': 2}",False
+data/wcs/images/animals/0036/0154.jpg,459,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0325/1106.jpg,460,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/0000.jpg,461,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0325/0825.jpg,462,macaca nemestrina,equus quagga,1.0,{'equus quagga': 3},False
+data/wcs/images/animals/0036/0156.jpg,463,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0432/0551.jpg,464,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0327/1610.jpg,465,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0327/1701.jpg,466,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0328/0154.jpg,467,macaca nemestrina,loxodonta africana,0.3333333333333333,"{'loxodonta africana': 1, 'macaca nemestrina': 1, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0330/1136.jpg,468,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/1823.jpg,469,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'mitu tuberosum': 1, 'macaca nemestrina': 2}",True
+data/wcs/images/animals/0327/1260.jpg,470,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0458/1461.jpg,471,macaca nemestrina,tapirus terrestris,0.6666666666666666,"{'mitu tuberosum': 1, 'tapirus terrestris': 2}",False
+data/wcs/images/animals/0326/0289.jpg,472,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0525/1017.jpg,473,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0330/0907.jpg,474,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0329/0667.jpg,475,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'tapirus terrestris': 1}",True
+data/wcs/images/animals/0330/0694.jpg,476,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/1824.jpg,477,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0328/0505.jpg,478,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0327/0615.jpg,479,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0330/0636.jpg,480,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0328/0153.jpg,481,macaca nemestrina,equus quagga,0.3333333333333333,"{'equus quagga': 1, 'macaca nemestrina': 1, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0036/0788.jpg,482,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0525/0518.jpg,483,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0330/0312.jpg,484,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'equus quagga': 1}",True
+data/wcs/images/animals/0325/1902.jpg,485,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0329/1920.jpg,486,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0329/0453.jpg,487,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'equus quagga': 1}",True
+data/wcs/images/animals/0452/1244.jpg,488,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/0771.jpg,489,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0433/1325.jpg,490,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0326/0160.jpg,491,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0327/1729.jpg,492,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0325/1038.jpg,493,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0036/0687.jpg,494,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0036/0686.jpg,495,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0330/0911.jpg,496,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0440/0529.jpg,497,macaca nemestrina,macaca nemestrina,1.0,{'macaca nemestrina': 3},True
+data/wcs/images/animals/0327/1731.jpg,498,macaca nemestrina,tapirus terrestris,0.3333333333333333,"{'tapirus terrestris': 1, 'equus quagga': 1, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0036/0280.jpg,499,macaca nemestrina,macaca nemestrina,0.6666666666666666,"{'bos taurus': 1, 'macaca nemestrina': 2}",True
+data/wcs/images/animals/0036/1455.jpg,500,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'bos taurus': 1, 'tapirus terrestris': 2}",True
+data/wcs/images/animals/0001/0683.jpg,501,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0030/0605.jpg,502,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0001/1643.jpg,503,tapirus terrestris,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0111/1639.jpg,504,tapirus terrestris,bos taurus,0.6666666666666666,"{'bos taurus': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0104/0419.jpg,505,tapirus terrestris,bos taurus,0.3333333333333333,"{'bos taurus': 1, 'equus quagga': 1, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0001/0982.jpg,506,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0119/0662.jpg,507,tapirus terrestris,tapirus terrestris,0.3333333333333333,"{'tapirus terrestris': 1, 'macaca nemestrina': 1, 'bos taurus': 1}",True
+data/wcs/images/animals/0122/0544.jpg,508,tapirus terrestris,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0001/1495.jpg,509,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0046/1215.jpg,510,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0180/1171.jpg,511,tapirus terrestris,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0183/1522.jpg,512,tapirus terrestris,panthera onca,0.6666666666666666,"{'panthera onca': 2, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0001/0420.jpg,513,tapirus terrestris,panthera onca,0.3333333333333333,"{'panthera onca': 1, 'equus quagga': 1, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0055/0694.jpg,514,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0107/1076.jpg,515,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0049/0274.jpg,516,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0075/1080.jpg,517,tapirus terrestris,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0001/0682.jpg,518,tapirus terrestris,loxodonta africana,1.0,{'loxodonta africana': 3},False
+data/wcs/images/animals/0000/1346.jpg,519,tapirus terrestris,bos taurus,0.3333333333333333,"{'bos taurus': 1, 'loxodonta africana': 1, 'equus quagga': 1}",False
+data/wcs/images/animals/0163/1586.jpg,520,tapirus terrestris,macaca nemestrina,1.0,{'macaca nemestrina': 3},False
+data/wcs/images/animals/0111/1638.jpg,521,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0001/1256.jpg,522,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0031/0493.jpg,523,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0000/1516.jpg,524,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0001/0830.jpg,525,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0000/1364.jpg,526,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0162/0930.jpg,527,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0046/1218.jpg,528,tapirus terrestris,bos taurus,1.0,{'bos taurus': 3},False
+data/wcs/images/animals/0097/0330.jpg,529,tapirus terrestris,tapirus terrestris,0.3333333333333333,"{'tapirus terrestris': 1, 'equus quagga': 1, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0046/0990.jpg,530,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0001/1559.jpg,531,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0107/1306.jpg,532,tapirus terrestris,equus quagga,1.0,{'equus quagga': 3},False
+data/wcs/images/animals/0049/0275.jpg,533,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0176/1021.jpg,534,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0055/0691.jpg,535,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0183/1488.jpg,536,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0175/0267.jpg,537,tapirus terrestris,panthera onca,0.6666666666666666,"{'panthera onca': 2, 'bos taurus': 1}",False
+data/wcs/images/animals/0001/1159.jpg,538,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0111/1641.jpg,539,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0030/0637.jpg,540,tapirus terrestris,bos taurus,0.3333333333333333,"{'bos taurus': 1, 'tapirus terrestris': 1, 'loxodonta africana': 1}",False
+data/wcs/images/animals/0180/1169.jpg,541,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'bos taurus': 1}",True
+data/wcs/images/animals/0104/1511.jpg,542,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'bos taurus': 1}",True
+data/wcs/images/animals/0119/0664.jpg,543,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0036/1449.jpg,544,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0001/0625.jpg,545,tapirus terrestris,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0041/0834.jpg,546,tapirus terrestris,loxodonta africana,1.0,{'loxodonta africana': 3},False
+data/wcs/images/animals/0046/1220.jpg,547,tapirus terrestris,bos taurus,1.0,{'bos taurus': 3},False
+data/wcs/images/animals/0183/1571.jpg,548,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'loxodonta africana': 1, 'tapirus terrestris': 2}",True
+data/wcs/images/animals/0100/1112.jpg,549,tapirus terrestris,bos taurus,0.6666666666666666,"{'bos taurus': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0001/0163.jpg,550,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0076/0806.jpg,551,tapirus terrestris,loxodonta africana,0.3333333333333333,"{'loxodonta africana': 1, 'equus quagga': 1, 'bos taurus': 1}",False
+data/wcs/images/animals/0094/0095.jpg,552,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0184/0006.jpg,553,tapirus terrestris,bos taurus,1.0,{'bos taurus': 3},False
+data/wcs/images/animals/0175/1560.jpg,554,tapirus terrestris,bos taurus,1.0,{'bos taurus': 3},False
+data/wcs/images/animals/0000/1908.jpg,555,tapirus terrestris,bos taurus,1.0,{'bos taurus': 3},False
+data/wcs/images/animals/0000/1378.jpg,556,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'loxodonta africana': 1, 'tapirus terrestris': 2}",True
+data/wcs/images/animals/0049/0119.jpg,557,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0077/1999.jpg,558,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0001/1266.jpg,559,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0001/0340.jpg,560,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0000/1775.jpg,561,tapirus terrestris,bos taurus,0.6666666666666666,"{'bos taurus': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0001/1009.jpg,562,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'loxodonta africana': 1, 'tapirus terrestris': 2}",True
+data/wcs/images/animals/0163/1585.jpg,563,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0111/1642.jpg,564,tapirus terrestris,loxodonta africana,0.6666666666666666,"{'tapirus terrestris': 1, 'loxodonta africana': 2}",False
+data/wcs/images/animals/0107/1075.jpg,565,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0104/0144.jpg,566,tapirus terrestris,loxodonta africana,1.0,{'loxodonta africana': 3},False
+data/wcs/images/animals/0100/1111.jpg,567,tapirus terrestris,loxodonta africana,0.3333333333333333,"{'loxodonta africana': 1, 'tapirus terrestris': 1, 'equus quagga': 1}",False
+data/wcs/images/animals/0049/0277.jpg,568,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0036/1452.jpg,569,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0001/1109.jpg,570,tapirus terrestris,equus quagga,1.0,{'equus quagga': 3},False
+data/wcs/images/animals/0104/0418.jpg,571,tapirus terrestris,bos taurus,1.0,{'bos taurus': 3},False
+data/wcs/images/animals/0030/0506.jpg,572,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0001/0979.jpg,573,tapirus terrestris,loxodonta africana,1.0,{'loxodonta africana': 3},False
+data/wcs/images/animals/0075/1081.jpg,574,tapirus terrestris,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'bos taurus': 1}",False
+data/wcs/images/animals/0076/0805.jpg,575,tapirus terrestris,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'panthera onca': 1}",False
+data/wcs/images/animals/0057/0194.jpg,576,tapirus terrestris,panthera onca,0.6666666666666666,"{'panthera onca': 2, 'bos taurus': 1}",False
+data/wcs/images/animals/0465/1282.jpg,577,tapirus terrestris,loxodonta africana,0.6666666666666666,"{'tapirus terrestris': 1, 'loxodonta africana': 2}",False
+data/wcs/images/animals/0030/1929.jpg,578,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0041/0787.jpg,579,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0094/0091.jpg,580,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0097/0325.jpg,581,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0000/1007.jpg,582,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0076/0808.jpg,583,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'bos taurus': 1, 'tapirus terrestris': 2}",True
+data/wcs/images/animals/0162/0931.jpg,584,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'loxodonta africana': 1, 'tapirus terrestris': 2}",True
+data/wcs/images/animals/0049/0116.jpg,585,tapirus terrestris,macaca nemestrina,0.3333333333333333,"{'macaca nemestrina': 1, 'tapirus terrestris': 1, 'equus quagga': 1}",False
+data/wcs/images/animals/0077/1998.jpg,586,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0046/1216.jpg,587,tapirus terrestris,loxodonta africana,0.6666666666666666,"{'tapirus terrestris': 1, 'loxodonta africana': 2}",False
+data/wcs/images/animals/0001/1547.jpg,588,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0046/0991.jpg,589,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0041/0980.jpg,590,tapirus terrestris,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0176/1025.jpg,591,tapirus terrestris,equus quagga,0.3333333333333333,"{'equus quagga': 1, 'loxodonta africana': 1, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0180/1167.jpg,592,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0180/0135.jpg,593,tapirus terrestris,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'bos taurus': 1}",False
+data/wcs/images/animals/0000/0281.jpg,594,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0041/1009.jpg,595,tapirus terrestris,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'panthera onca': 1}",False
+data/wcs/images/animals/0107/1064.jpg,596,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images/animals/0100/1114.jpg,597,tapirus terrestris,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0001/0650.jpg,598,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0175/0269.jpg,599,tapirus terrestris,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'panthera onca': 1}",False
+data/wcs/images/animals/0328/0346.jpg,600,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0328/0345.jpg,601,argusianus argus,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0328/1542.jpg,602,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0464/1545.jpg,603,argusianus argus,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0036/0979.jpg,604,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0329/0666.jpg,605,argusianus argus,argusianus argus,1.0,{'argusianus argus': 3},True
+data/wcs/images/animals/0325/1977.jpg,606,argusianus argus,tapirus terrestris,0.3333333333333333,"{'tapirus terrestris': 1, 'argusianus argus': 1, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0329/1341.jpg,607,argusianus argus,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0329/1249.jpg,608,argusianus argus,psophia leucoptera,0.3333333333333333,"{'psophia leucoptera': 1, 'mitu tuberosum': 1, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0465/0570.jpg,609,argusianus argus,psophia leucoptera,0.6666666666666666,"{'argusianus argus': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0326/0545.jpg,610,argusianus argus,equus quagga,1.0,{'equus quagga': 3},False
+data/wcs/images/animals/0462/0386.jpg,611,argusianus argus,mitu tuberosum,0.6666666666666666,"{'argusianus argus': 1, 'mitu tuberosum': 2}",False
+data/wcs/images/animals/0329/1681.jpg,612,argusianus argus,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0036/0614.jpg,613,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0326/0099.jpg,614,argusianus argus,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0327/1235.jpg,615,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0327/1268.jpg,616,argusianus argus,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'argusianus argus': 1}",False
+data/wcs/images/animals/0327/1163.jpg,617,argusianus argus,psophia leucoptera,0.6666666666666666,"{'argusianus argus': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0327/1265.jpg,618,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0463/0183.jpg,619,argusianus argus,argusianus argus,1.0,{'argusianus argus': 3},True
+data/wcs/images/animals/0036/0610.jpg,620,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0327/1490.jpg,621,argusianus argus,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'bos taurus': 1}",False
+data/wcs/images/animals/0328/1530.jpg,622,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0464/0631.jpg,623,argusianus argus,argusianus argus,1.0,{'argusianus argus': 3},True
+data/wcs/images/animals/0328/0322.jpg,624,argusianus argus,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0330/0698.jpg,625,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0330/0071.jpg,626,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0036/1372.jpg,627,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0326/0546.jpg,628,argusianus argus,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0328/0319.jpg,629,argusianus argus,panthera onca,0.3333333333333333,"{'panthera onca': 1, 'psophia leucoptera': 1, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0330/0892.jpg,630,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0328/0526.jpg,631,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0329/0825.jpg,632,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0465/0146.jpg,633,argusianus argus,equus quagga,0.3333333333333333,"{'equus quagga': 1, 'psophia leucoptera': 1, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0325/1332.jpg,634,argusianus argus,equus quagga,0.6666666666666666,"{'psophia leucoptera': 1, 'equus quagga': 2}",False
+data/wcs/images/animals/0462/1453.jpg,635,argusianus argus,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0401/1124.jpg,636,argusianus argus,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0325/1550.jpg,637,argusianus argus,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0327/1258.jpg,638,argusianus argus,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0325/0498.jpg,639,argusianus argus,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'loxodonta africana': 1}",False
+data/wcs/images/animals/0326/0375.jpg,640,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0325/1425.jpg,641,argusianus argus,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0326/0542.jpg,642,argusianus argus,tapirus terrestris,0.3333333333333333,"{'tapirus terrestris': 1, 'psophia leucoptera': 1, 'equus quagga': 1}",False
+data/wcs/images/animals/0329/0669.jpg,643,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0462/1415.jpg,644,argusianus argus,argusianus argus,0.6666666666666666,"{'mitu tuberosum': 1, 'argusianus argus': 2}",True
+data/wcs/images/animals/0036/1006.jpg,645,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0325/0637.jpg,646,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0036/0592.jpg,647,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0330/1051.jpg,648,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0400/0077.jpg,649,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0327/1316.jpg,650,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0463/0187.jpg,651,argusianus argus,argusianus argus,0.3333333333333333,"{'argusianus argus': 1, 'psophia leucoptera': 1, 'equus quagga': 1}",True
+data/wcs/images/animals/0325/0939.jpg,652,argusianus argus,mitu tuberosum,0.6666666666666666,"{'bos taurus': 1, 'mitu tuberosum': 2}",False
+data/wcs/images/animals/0329/0354.jpg,653,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0463/0051.jpg,654,argusianus argus,equus quagga,0.3333333333333333,"{'equus quagga': 1, 'mitu tuberosum': 1, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0326/0975.jpg,655,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0327/1111.jpg,656,argusianus argus,equus quagga,0.3333333333333333,"{'equus quagga': 1, 'psophia leucoptera': 1, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0463/0054.jpg,657,argusianus argus,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'bos taurus': 1}",False
+data/wcs/images/animals/0329/0824.jpg,658,argusianus argus,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0326/0614.jpg,659,argusianus argus,mitu tuberosum,0.6666666666666666,"{'psophia leucoptera': 1, 'mitu tuberosum': 2}",False
+data/wcs/images/animals/0328/1421.jpg,660,argusianus argus,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0326/1675.jpg,661,argusianus argus,equus quagga,0.3333333333333333,"{'equus quagga': 1, 'bos taurus': 1, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0329/1084.jpg,662,argusianus argus,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0325/1006.jpg,663,argusianus argus,bos taurus,0.6666666666666666,"{'bos taurus': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0327/1106.jpg,664,argusianus argus,tapirus terrestris,0.3333333333333333,"{'tapirus terrestris': 1, 'equus quagga': 1, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0327/1085.jpg,665,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0327/1994.jpg,666,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0036/0758.jpg,667,argusianus argus,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0326/0001.jpg,668,argusianus argus,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0325/1430.jpg,669,argusianus argus,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0036/1371.jpg,670,argusianus argus,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images/animals/0330/0849.jpg,671,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0327/1949.jpg,672,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0328/1484.jpg,673,argusianus argus,argusianus argus,0.6666666666666666,"{'psophia leucoptera': 1, 'argusianus argus': 2}",True
+data/wcs/images/animals/0328/0321.jpg,674,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0402/0438.jpg,675,argusianus argus,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'argusianus argus': 1}",False
+data/wcs/images/animals/0327/1161.jpg,676,argusianus argus,mitu tuberosum,0.3333333333333333,"{'mitu tuberosum': 1, 'equus quagga': 1, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0329/0413.jpg,677,argusianus argus,tapirus terrestris,0.6666666666666666,"{'macaca nemestrina': 1, 'tapirus terrestris': 2}",False
+data/wcs/images/animals/0328/1193.jpg,678,argusianus argus,mitu tuberosum,0.6666666666666666,"{'psophia leucoptera': 1, 'mitu tuberosum': 2}",False
+data/wcs/images/animals/0036/0309.jpg,679,argusianus argus,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0401/1125.jpg,680,argusianus argus,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0401/1532.jpg,681,argusianus argus,argusianus argus,0.6666666666666666,"{'argusianus argus': 2, 'psophia leucoptera': 1}",True
+data/wcs/images/animals/0036/0978.jpg,682,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0036/1307.jpg,683,argusianus argus,macaca nemestrina,1.0,{'macaca nemestrina': 3},False
+data/wcs/images/animals/0327/1595.jpg,684,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0328/0523.jpg,685,argusianus argus,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0462/1416.jpg,686,argusianus argus,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0325/1976.jpg,687,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0329/0364.jpg,688,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0328/0438.jpg,689,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0035/1761.jpg,690,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0325/1993.jpg,691,argusianus argus,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",False
+data/wcs/images/animals/0327/1958.jpg,692,argusianus argus,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0325/1424.jpg,693,argusianus argus,tapirus terrestris,0.6666666666666666,"{'equus quagga': 1, 'tapirus terrestris': 2}",False
+data/wcs/images/animals/0036/0981.jpg,694,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0328/0527.jpg,695,argusianus argus,psophia leucoptera,1.0,{'psophia leucoptera': 3},False
+data/wcs/images/animals/0402/0405.jpg,696,argusianus argus,argusianus argus,0.6666666666666666,"{'mitu tuberosum': 1, 'argusianus argus': 2}",True
+data/wcs/images/animals/0325/1423.jpg,697,argusianus argus,mitu tuberosum,0.6666666666666666,"{'tapirus terrestris': 1, 'mitu tuberosum': 2}",False
+data/wcs/images/animals/0326/0617.jpg,698,argusianus argus,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'argusianus argus': 1}",False
+data/wcs/images/animals/0325/0714.jpg,699,argusianus argus,equus quagga,0.6666666666666666,"{'tapirus terrestris': 1, 'equus quagga': 2}",False
+data/wcs/images/animals/0001/0389.jpg,700,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0000/0076.jpg,701,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0062/0328.jpg,702,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0093/0371.jpg,703,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images/animals/0137/1337.jpg,704,psophia leucoptera,argusianus argus,0.3333333333333333,"{'argusianus argus': 1, 'mitu tuberosum': 1, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0040/1748.jpg,705,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0120/0257.jpg,706,psophia leucoptera,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images/animals/0001/0651.jpg,707,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0137/1470.jpg,708,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'hystrix brachyura': 1, 'psophia leucoptera': 2}",True
+data/wcs/images/animals/0178/1205.jpg,709,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0137/1339.jpg,710,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'argusianus argus': 1}",True
+data/wcs/images/animals/0077/1753.jpg,711,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0162/1189.jpg,712,psophia leucoptera,panthera onca,0.3333333333333333,"{'panthera onca': 1, 'equus quagga': 1, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0095/0080.jpg,713,psophia leucoptera,tapirus terrestris,0.3333333333333333,"{'tapirus terrestris': 1, 'bos taurus': 1, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0112/0850.jpg,714,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0120/0256.jpg,715,psophia leucoptera,equus quagga,0.6666666666666666,"{'tapirus terrestris': 1, 'equus quagga': 2}",False
+data/wcs/images/animals/0164/0310.jpg,716,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0163/0763.jpg,717,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'argusianus argus': 1}",True
+data/wcs/images/animals/0132/0372.jpg,718,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0163/0764.jpg,719,psophia leucoptera,mitu tuberosum,0.3333333333333333,"{'mitu tuberosum': 1, 'tapirus terrestris': 1, 'equus quagga': 1}",False
+data/wcs/images/animals/0031/0800.jpg,720,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0143/0824.jpg,721,psophia leucoptera,psophia leucoptera,0.3333333333333333,"{'psophia leucoptera': 1, 'equus quagga': 1, 'macaca nemestrina': 1}",True
+data/wcs/images/animals/0161/1742.jpg,722,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0030/1409.jpg,723,psophia leucoptera,macaca nemestrina,0.3333333333333333,"{'macaca nemestrina': 1, 'mitu tuberosum': 1, 'bos taurus': 1}",False
+data/wcs/images/animals/0135/0741.jpg,724,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0164/0313.jpg,725,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0112/0845.jpg,726,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0175/1303.jpg,727,psophia leucoptera,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0030/0871.jpg,728,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0175/1299.jpg,729,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0132/0369.jpg,730,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'argusianus argus': 1, 'psophia leucoptera': 2}",True
+data/wcs/images/animals/0116/1262.jpg,731,psophia leucoptera,bos taurus,0.3333333333333333,"{'bos taurus': 1, 'psophia leucoptera': 1, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0001/0502.jpg,732,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0000/0118.jpg,733,psophia leucoptera,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0062/0329.jpg,734,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0140/1771.jpg,735,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0062/0324.jpg,736,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0177/0332.jpg,737,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0137/1340.jpg,738,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'argusianus argus': 1, 'psophia leucoptera': 2}",True
+data/wcs/images/animals/0178/1207.jpg,739,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0030/0355.jpg,740,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0158/1380.jpg,741,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0180/1488.jpg,742,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0001/0865.jpg,743,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0091/0275.jpg,744,psophia leucoptera,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0135/0745.jpg,745,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0164/0309.jpg,746,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0112/0844.jpg,747,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0001/1741.jpg,748,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0163/0760.jpg,749,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'argusianus argus': 1}",True
+data/wcs/images/animals/0031/0741.jpg,750,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0095/0079.jpg,751,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0137/1474.jpg,752,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'bos taurus': 1}",True
+data/wcs/images/animals/0001/0636.jpg,753,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0137/1473.jpg,754,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0030/1347.jpg,755,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0150/1944.jpg,756,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0093/0374.jpg,757,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0150/1945.jpg,758,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0135/0799.jpg,759,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0177/0331.jpg,760,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0001/0642.jpg,761,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0000/1794.jpg,762,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0062/0325.jpg,763,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0158/1106.jpg,764,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0143/0827.jpg,765,psophia leucoptera,equus quagga,1.0,{'equus quagga': 3},False
+data/wcs/images/animals/0030/1085.jpg,766,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'mitu tuberosum': 1, 'psophia leucoptera': 2}",True
+data/wcs/images/animals/0001/0455.jpg,767,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'equus quagga': 1}",True
+data/wcs/images/animals/0163/0758.jpg,768,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0118/0679.jpg,769,psophia leucoptera,macaca nemestrina,0.3333333333333333,"{'macaca nemestrina': 1, 'hystrix brachyura': 1, 'equus quagga': 1}",False
+data/wcs/images/animals/0030/1084.jpg,770,psophia leucoptera,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0036/1507.jpg,771,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'equus quagga': 1}",True
+data/wcs/images/animals/0158/1381.jpg,772,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0152/1183.jpg,773,psophia leucoptera,equus quagga,0.6666666666666666,"{'mitu tuberosum': 1, 'equus quagga': 2}",False
+data/wcs/images/animals/0001/0907.jpg,774,psophia leucoptera,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0135/0743.jpg,775,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0077/1758.jpg,776,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0177/0333.jpg,777,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0161/1738.jpg,778,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0000/0024.jpg,779,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0137/1471.jpg,780,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0178/1204.jpg,781,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0147/0199.jpg,782,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0001/0483.jpg,783,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0041/0046.jpg,784,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0162/1187.jpg,785,psophia leucoptera,equus quagga,1.0,{'equus quagga': 3},False
+data/wcs/images/animals/0141/0585.jpg,786,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0143/0822.jpg,787,psophia leucoptera,bos taurus,0.6666666666666666,"{'bos taurus': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0040/1307.jpg,788,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0158/1377.jpg,789,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0030/1887.jpg,790,psophia leucoptera,mitu tuberosum,0.3333333333333333,"{'mitu tuberosum': 1, 'macaca nemestrina': 1, 'bos taurus': 1}",False
+data/wcs/images/animals/0041/0047.jpg,791,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0180/1491.jpg,792,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0077/1756.jpg,793,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0140/1772.jpg,794,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'argusianus argus': 1}",True
+data/wcs/images/animals/0001/1008.jpg,795,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0132/0373.jpg,796,psophia leucoptera,psophia leucoptera,1.0,{'psophia leucoptera': 3},True
+data/wcs/images/animals/0052/1037.jpg,797,psophia leucoptera,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0001/0454.jpg,798,psophia leucoptera,tapirus terrestris,0.3333333333333333,"{'tapirus terrestris': 1, 'bos taurus': 1, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0095/0077.jpg,799,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images/animals/0031/0333.jpg,800,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0001/0140.jpg,801,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0082/1163.jpg,802,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0088/1375.jpg,803,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0379/0117.jpg,804,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0167/1305.jpg,805,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0118/0118.jpg,806,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0107/0865.jpg,807,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0381/0133.jpg,808,panthera onca,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'panthera onca': 1}",False
+data/wcs/images/animals/0065/1776.jpg,809,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0115/0679.jpg,810,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0391/0703.jpg,811,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0109/0689.jpg,812,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0094/1912.jpg,813,panthera onca,bos taurus,0.3333333333333333,"{'bos taurus': 1, 'panthera onca': 1, 'equus quagga': 1}",False
+data/wcs/images/animals/0088/1431.jpg,814,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0183/1878.jpg,815,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0398/1649.jpg,816,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0105/0725.jpg,817,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0001/1850.jpg,818,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0001/0326.jpg,819,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0390/0274.jpg,820,panthera onca,panthera onca,0.6666666666666666,"{'equus quagga': 1, 'panthera onca': 2}",True
+data/wcs/images/animals/0065/1775.jpg,821,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0095/1481.jpg,822,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0041/0425.jpg,823,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0088/1376.jpg,824,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0167/1302.jpg,825,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0398/0638.jpg,826,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0176/0072.jpg,827,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0075/0257.jpg,828,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0094/1910.jpg,829,panthera onca,panthera onca,0.3333333333333333,"{'panthera onca': 1, 'bos taurus': 1, 'equus quagga': 1}",True
+data/wcs/images/animals/0174/0869.jpg,830,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0001/0855.jpg,831,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0001/0146.jpg,832,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0105/0724.jpg,833,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0083/1765.jpg,834,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0095/1480.jpg,835,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0167/1312.jpg,836,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0112/0476.jpg,837,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0107/0867.jpg,838,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0398/0877.jpg,839,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0379/0140.jpg,840,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0109/0685.jpg,841,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0030/0337.jpg,842,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0161/1145.jpg,843,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0109/0544.jpg,844,panthera onca,bos taurus,0.6666666666666666,"{'bos taurus': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0109/0540.jpg,845,panthera onca,panthera onca,0.3333333333333333,"{'panthera onca': 1, 'bos taurus': 1, 'equus quagga': 1}",True
+data/wcs/images/animals/0084/1506.jpg,846,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0031/0331.jpg,847,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0117/1249.jpg,848,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0084/1508.jpg,849,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0174/0795.jpg,850,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0398/1141.jpg,851,panthera onca,mitu tuberosum,0.3333333333333333,"{'mitu tuberosum': 1, 'tapirus terrestris': 1, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0001/1400.jpg,852,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0398/1142.jpg,853,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0042/1973.jpg,854,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0108/1141.jpg,855,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0167/1306.jpg,856,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0115/0676.jpg,857,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0065/1779.jpg,858,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0398/1647.jpg,859,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0001/1401.jpg,860,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0001/0274.jpg,861,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0069/0124.jpg,862,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0122/0532.jpg,863,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0174/0871.jpg,864,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0042/1972.jpg,865,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0001/0376.jpg,866,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0379/0054.jpg,867,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0109/0958.jpg,868,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0042/1971.jpg,869,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0167/1318.jpg,870,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0115/0678.jpg,871,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0391/1019.jpg,872,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0030/1030.jpg,873,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0109/0543.jpg,874,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0167/1307.jpg,875,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0398/1029.jpg,876,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0082/1164.jpg,877,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0000/1599.jpg,878,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0392/0260.jpg,879,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0381/0132.jpg,880,panthera onca,panthera onca,0.6666666666666666,"{'equus quagga': 1, 'panthera onca': 2}",True
+data/wcs/images/animals/0001/0609.jpg,881,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0069/0125.jpg,882,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0176/0067.jpg,883,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0122/0535.jpg,884,panthera onca,panthera onca,0.6666666666666666,"{'panthera onca': 2, 'equus quagga': 1}",True
+data/wcs/images/animals/0094/1913.jpg,885,panthera onca,panthera onca,0.6666666666666666,"{'panthera onca': 2, 'equus quagga': 1}",True
+data/wcs/images/animals/0069/0123.jpg,886,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0174/0873.jpg,887,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0047/0861.jpg,888,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0069/0126.jpg,889,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0465/1561.jpg,890,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0117/1253.jpg,891,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0030/1109.jpg,892,panthera onca,panthera onca,0.6666666666666666,"{'equus quagga': 1, 'panthera onca': 2}",True
+data/wcs/images/animals/0107/0871.jpg,893,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0075/0256.jpg,894,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0001/0327.jpg,895,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0105/0727.jpg,896,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0122/0533.jpg,897,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0380/1479.jpg,898,panthera onca,panthera onca,0.6666666666666666,"{'panthera onca': 2, 'equus quagga': 1}",True
+data/wcs/images/animals/0176/0068.jpg,899,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images/animals/0479/1736.jpg,900,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0325/1919.jpg,901,hystrix brachyura,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0464/0544.jpg,902,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0330/0439.jpg,903,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0476/1376.jpg,904,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0329/0029.jpg,905,hystrix brachyura,panthera onca,0.3333333333333333,"{'panthera onca': 1, 'mitu tuberosum': 1, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0479/1115.jpg,906,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0329/0081.jpg,907,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0477/1229.jpg,908,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/0445.jpg,909,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0438/1237.jpg,910,hystrix brachyura,hystrix brachyura,0.3333333333333333,"{'hystrix brachyura': 1, 'tapirus terrestris': 1, 'mitu tuberosum': 1}",True
+data/wcs/images/animals/0326/0021.jpg,911,hystrix brachyura,macaca nemestrina,0.3333333333333333,"{'macaca nemestrina': 1, 'panthera onca': 1, 'mitu tuberosum': 1}",False
+data/wcs/images/animals/0330/0113.jpg,912,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0462/1928.jpg,913,hystrix brachyura,panthera onca,0.3333333333333333,"{'panthera onca': 1, 'macaca nemestrina': 1, 'hystrix brachyura': 1}",False
+data/wcs/images/animals/0326/0028.jpg,914,hystrix brachyura,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'hystrix brachyura': 1}",False
+data/wcs/images/animals/0476/1402.jpg,915,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0330/0054.jpg,916,hystrix brachyura,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0326/0022.jpg,917,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0330/0840.jpg,918,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0325/1743.jpg,919,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0401/1540.jpg,920,hystrix brachyura,macaca nemestrina,0.3333333333333333,"{'macaca nemestrina': 1, 'loxodonta africana': 1, 'bos taurus': 1}",False
+data/wcs/images/animals/0476/1720.jpg,921,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0478/0527.jpg,922,hystrix brachyura,tapirus terrestris,0.6666666666666666,"{'mitu tuberosum': 1, 'tapirus terrestris': 2}",False
+data/wcs/images/animals/0327/1328.jpg,923,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/0855.jpg,924,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/1222.jpg,925,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0325/1742.jpg,926,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0328/1997.jpg,927,hystrix brachyura,panthera onca,0.6666666666666666,"{'hystrix brachyura': 1, 'panthera onca': 2}",False
+data/wcs/images/animals/0460/0889.jpg,928,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0480/0270.jpg,929,hystrix brachyura,mitu tuberosum,0.3333333333333333,"{'mitu tuberosum': 1, 'hystrix brachyura': 1, 'equus quagga': 1}",False
+data/wcs/images/animals/0400/1695.jpg,930,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0328/0237.jpg,931,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0330/0848.jpg,932,hystrix brachyura,hystrix brachyura,0.6666666666666666,"{'panthera onca': 1, 'hystrix brachyura': 2}",True
+data/wcs/images/animals/0327/1083.jpg,933,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0329/0064.jpg,934,hystrix brachyura,macaca nemestrina,0.6666666666666666,"{'macaca nemestrina': 2, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0464/0545.jpg,935,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0036/1435.jpg,936,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0328/0078.jpg,937,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0477/1950.jpg,938,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0476/1092.jpg,939,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0328/1713.jpg,940,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0463/0350.jpg,941,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0325/1098.jpg,942,hystrix brachyura,equus quagga,0.3333333333333333,"{'equus quagga': 1, 'psophia leucoptera': 1, 'tapirus terrestris': 1}",False
+data/wcs/images/animals/0328/1913.jpg,943,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0479/1287.jpg,944,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0409/1093.jpg,945,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/1223.jpg,946,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0479/1589.jpg,947,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0464/0443.jpg,948,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0330/0839.jpg,949,hystrix brachyura,bos taurus,0.6666666666666666,"{'bos taurus': 2, 'hystrix brachyura': 1}",False
+data/wcs/images/animals/0464/0625.jpg,950,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0329/1035.jpg,951,hystrix brachyura,panthera onca,0.3333333333333333,"{'panthera onca': 1, 'tapirus terrestris': 1, 'psophia leucoptera': 1}",False
+data/wcs/images/animals/0329/0916.jpg,952,hystrix brachyura,equus quagga,1.0,{'equus quagga': 3},False
+data/wcs/images/animals/0425/1917.jpg,953,hystrix brachyura,hystrix brachyura,0.6666666666666666,"{'hystrix brachyura': 2, 'equus quagga': 1}",True
+data/wcs/images/animals/0325/1782.jpg,954,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/1668.jpg,955,hystrix brachyura,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0460/0892.jpg,956,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/0606.jpg,957,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0477/0190.jpg,958,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/1270.jpg,959,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0525/0549.jpg,960,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0327/1334.jpg,961,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0476/1673.jpg,962,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0327/1189.jpg,963,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0479/1506.jpg,964,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0327/1977.jpg,965,hystrix brachyura,equus quagga,0.6666666666666666,"{'equus quagga': 2, 'bos taurus': 1}",False
+data/wcs/images/animals/0326/1956.jpg,966,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/0018.jpg,967,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0327/0243.jpg,968,hystrix brachyura,panthera onca,0.3333333333333333,"{'panthera onca': 1, 'bos taurus': 1, 'macaca nemestrina': 1}",False
+data/wcs/images/animals/0330/0721.jpg,969,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/0238.jpg,970,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/1843.jpg,971,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0402/1044.jpg,972,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0329/1865.jpg,973,hystrix brachyura,hystrix brachyura,0.6666666666666666,"{'hystrix brachyura': 2, 'tapirus terrestris': 1}",True
+data/wcs/images/animals/0399/1675.jpg,974,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0328/1338.jpg,975,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0036/0708.jpg,976,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0476/1543.jpg,977,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0438/1222.jpg,978,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0330/0713.jpg,979,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0328/1848.jpg,980,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0327/1976.jpg,981,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0330/0835.jpg,982,hystrix brachyura,hystrix brachyura,0.6666666666666666,"{'hystrix brachyura': 2, 'loxodonta africana': 1}",True
+data/wcs/images/animals/0479/1288.jpg,983,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0476/1401.jpg,984,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0325/1869.jpg,985,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0330/0337.jpg,986,hystrix brachyura,hystrix brachyura,0.6666666666666666,"{'hystrix brachyura': 2, 'tapirus terrestris': 1}",True
+data/wcs/images/animals/0329/0846.jpg,987,hystrix brachyura,loxodonta africana,0.6666666666666666,"{'loxodonta africana': 2, 'equus quagga': 1}",False
+data/wcs/images/animals/0479/0272.jpg,988,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0438/1223.jpg,989,hystrix brachyura,tapirus terrestris,0.3333333333333333,"{'tapirus terrestris': 1, 'macaca nemestrina': 1, 'loxodonta africana': 1}",False
+data/wcs/images/animals/0325/1231.jpg,990,hystrix brachyura,bos taurus,0.3333333333333333,"{'bos taurus': 1, 'equus quagga': 1, 'hystrix brachyura': 1}",False
+data/wcs/images/animals/0476/1672.jpg,991,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0479/0756.jpg,992,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0325/1965.jpg,993,hystrix brachyura,panthera onca,0.3333333333333333,"{'panthera onca': 1, 'macaca nemestrina': 1, 'hystrix brachyura': 1}",False
+data/wcs/images/animals/0325/1275.jpg,994,hystrix brachyura,hystrix brachyura,0.6666666666666666,"{'hystrix brachyura': 2, 'equus quagga': 1}",True
+data/wcs/images/animals/0329/1767.jpg,995,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/1669.jpg,996,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0327/1194.jpg,997,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0479/1590.jpg,998,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images/animals/0326/1250.jpg,999,hystrix brachyura,psophia leucoptera,0.6666666666666666,"{'psophia leucoptera': 2, 'equus quagga': 1}",False

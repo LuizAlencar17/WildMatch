@@ -1,6 +1,1001 @@
 image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
-data/caltech/images_cropped/5a17dd50-23d2-11e8-a6a3-ec086b02610b.JPG,5a17dd50-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 5},True
-data/caltech/images_cropped/595c67df-23d2-11e8-a6a3-ec086b02610b.JPG,595c67df-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 5},True
-data/caltech/images_cropped/59b616f2-23d2-11e8-a6a3-ec086b02610b.JPG,59b616f2-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.8,"{'rodent': 4, 'deer': 1}",True
-data/caltech/images_cropped/59641efe-23d2-11e8-a6a3-ec086b02610b.JPG,59641efe-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 5},True
-data/caltech/images_cropped/5a2af4b0-23d2-11e8-a6a3-ec086b02610b.JPG,5a2af4b0-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.8,"{'coyote': 1, 'bobcat': 4}",True
+data/caltech/images_cropped/5860f034-23d2-11e8-a6a3-ec086b02610b.JPG,5860f034-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rabbit,0.6666666666666666,"{'rabbit': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/58c661d3-23d2-11e8-a6a3-ec086b02610b.JPG,58c661d3-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5a07ce7a-23d2-11e8-a6a3-ec086b02610b.JPG,5a07ce7a-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,bobcat,0.6666666666666666,"{'deer': 1, 'bobcat': 2}",False
+data/caltech/images_cropped/591b2423-23d2-11e8-a6a3-ec086b02610b.JPG,591b2423-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/597cd4ac-23d2-11e8-a6a3-ec086b02610b.JPG,597cd4ac-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/599fbdaa-23d2-11e8-a6a3-ec086b02610b.JPG,599fbdaa-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,coyote,0.6666666666666666,"{'deer': 1, 'coyote': 2}",False
+data/caltech/images_cropped/59247a77-23d2-11e8-a6a3-ec086b02610b.JPG,59247a77-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,bobcat,0.6666666666666666,"{'raccoon': 1, 'bobcat': 2}",False
+data/caltech/images_cropped/598495bd-23d2-11e8-a6a3-ec086b02610b.JPG,598495bd-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,0.6666666666666666,"{'deer': 2, 'rodent': 1}",False
+data/caltech/images_cropped/58eac9da-23d2-11e8-a6a3-ec086b02610b.JPG,58eac9da-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/58dabdab-23d2-11e8-a6a3-ec086b02610b.JPG,58dabdab-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/596bd9ab-23d2-11e8-a6a3-ec086b02610b.JPG,596bd9ab-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,0.6666666666666666,"{'deer': 2, 'coyote': 1}",False
+data/caltech/images_cropped/58f73e39-23d2-11e8-a6a3-ec086b02610b.JPG,58f73e39-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rabbit,0.6666666666666666,"{'rabbit': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/59a309fb-23d2-11e8-a6a3-ec086b02610b.JPG,59a309fb-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,0.6666666666666666,"{'deer': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/58aa59d9-23d2-11e8-a6a3-ec086b02610b.JPG,58aa59d9-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5a296431-23d2-11e8-a6a3-ec086b02610b.JPG,5a296431-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,bobcat,0.6666666666666666,"{'bobcat': 2, 'deer': 1}",False
+data/caltech/images_cropped/58a53074-23d2-11e8-a6a3-ec086b02610b.JPG,58a53074-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'raccoon': 2, 'skunk': 1}",True
+data/caltech/images_cropped/5879d2ae-23d2-11e8-a6a3-ec086b02610b.JPG,5879d2ae-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/59c99e61-23d2-11e8-a6a3-ec086b02610b.JPG,59c99e61-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,0.6666666666666666,"{'deer': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/593d6968-23d2-11e8-a6a3-ec086b02610b.JPG,593d6968-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5a2964e0-23d2-11e8-a6a3-ec086b02610b.JPG,5a2964e0-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5976a499-23d2-11e8-a6a3-ec086b02610b.JPG,5976a499-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'raccoon': 2, 'bobcat': 1}",True
+data/caltech/images_cropped/5a02fa59-23d2-11e8-a6a3-ec086b02610b.JPG,5a02fa59-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,coyote,1.0,{'coyote': 3},False
+data/caltech/images_cropped/5a197b2b-23d2-11e8-a6a3-ec086b02610b.JPG,5a197b2b-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/592de3fb-23d2-11e8-a6a3-ec086b02610b.JPG,592de3fb-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/596ef0d8-23d2-11e8-a6a3-ec086b02610b.JPG,596ef0d8-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/597cd58a-23d2-11e8-a6a3-ec086b02610b.JPG,597cd58a-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59edeffc-23d2-11e8-a6a3-ec086b02610b.JPG,59edeffc-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'raccoon': 2, 'rodent': 1}",True
+data/caltech/images_cropped/58823c05-23d2-11e8-a6a3-ec086b02610b.JPG,58823c05-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/58c97db9-23d2-11e8-a6a3-ec086b02610b.JPG,58c97db9-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/58d7a277-23d2-11e8-a6a3-ec086b02610b.JPG,58d7a277-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rodent,1.0,{'rodent': 3},False
+data/caltech/images_cropped/59e77c89-23d2-11e8-a6a3-ec086b02610b.JPG,59e77c89-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'raccoon': 2, 'bobcat': 1}",True
+data/caltech/images_cropped/588f67e5-23d2-11e8-a6a3-ec086b02610b.JPG,588f67e5-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.3333333333333333,"{'raccoon': 1, 'rodent': 1, 'deer': 1}",True
+data/caltech/images_cropped/585da9dc-23d2-11e8-a6a3-ec086b02610b.JPG,585da9dc-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rodent,1.0,{'rodent': 3},False
+data/caltech/images_cropped/59d5b658-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b658-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/59d5b809-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b809-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/58a52d75-23d2-11e8-a6a3-ec086b02610b.JPG,58a52d75-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/59bca38e-23d2-11e8-a6a3-ec086b02610b.JPG,59bca38e-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rabbit,0.6666666666666666,"{'rabbit': 2, 'deer': 1}",False
+data/caltech/images_cropped/591996c3-23d2-11e8-a6a3-ec086b02610b.JPG,591996c3-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,coyote,1.0,{'coyote': 3},False
+data/caltech/images_cropped/597cd4ed-23d2-11e8-a6a3-ec086b02610b.JPG,597cd4ed-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/58910ffc-23d2-11e8-a6a3-ec086b02610b.JPG,58910ffc-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/58fd7d2b-23d2-11e8-a6a3-ec086b02610b.JPG,58fd7d2b-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'rabbit': 1, 'raccoon': 2}",True
+data/caltech/images_cropped/5906f29a-23d2-11e8-a6a3-ec086b02610b.JPG,5906f29a-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5937346a-23d2-11e8-a6a3-ec086b02610b.JPG,5937346a-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5883e9cd-23d2-11e8-a6a3-ec086b02610b.JPG,5883e9cd-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a1cb107-23d2-11e8-a6a3-ec086b02610b.JPG,5a1cb107-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5a0495e7-23d2-11e8-a6a3-ec086b02610b.JPG,5a0495e7-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'raccoon': 2, 'rodent': 1}",True
+data/caltech/images_cropped/594cea2f-23d2-11e8-a6a3-ec086b02610b.JPG,594cea2f-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,bobcat,0.6666666666666666,"{'bobcat': 2, 'coyote': 1}",False
+data/caltech/images_cropped/59f1299a-23d2-11e8-a6a3-ec086b02610b.JPG,59f1299a-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",False
+data/caltech/images_cropped/59a7bbb0-23d2-11e8-a6a3-ec086b02610b.JPG,59a7bbb0-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/592163c2-23d2-11e8-a6a3-ec086b02610b.JPG,592163c2-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'rabbit': 1, 'raccoon': 2}",True
+data/caltech/images_cropped/58b4aab6-23d2-11e8-a6a3-ec086b02610b.JPG,58b4aab6-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5a0968db-23d2-11e8-a6a3-ec086b02610b.JPG,5a0968db-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rabbit,1.0,{'rabbit': 3},False
+data/caltech/images_cropped/59f5fd22-23d2-11e8-a6a3-ec086b02610b.JPG,59f5fd22-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'raccoon': 2, 'skunk': 1}",True
+data/caltech/images_cropped/5971fb9d-23d2-11e8-a6a3-ec086b02610b.JPG,5971fb9d-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,coyote,0.6666666666666666,"{'coyote': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/58c97c5f-23d2-11e8-a6a3-ec086b02610b.JPG,58c97c5f-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/59b482e2-23d2-11e8-a6a3-ec086b02610b.JPG,59b482e2-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/59cf47be-23d2-11e8-a6a3-ec086b02610b.JPG,59cf47be-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/58809569-23d2-11e8-a6a3-ec086b02610b.JPG,58809569-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/58857cd4-23d2-11e8-a6a3-ec086b02610b.JPG,58857cd4-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'rabbit': 1, 'raccoon': 2}",True
+data/caltech/images_cropped/59ddc25e-23d2-11e8-a6a3-ec086b02610b.JPG,59ddc25e-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,coyote,1.0,{'coyote': 3},False
+data/caltech/images_cropped/59279ad4-23d2-11e8-a6a3-ec086b02610b.JPG,59279ad4-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/59055d33-23d2-11e8-a6a3-ec086b02610b.JPG,59055d33-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,0.3333333333333333,"{'deer': 1, 'raccoon': 1, 'rodent': 1}",False
+data/caltech/images_cropped/58d2ed74-23d2-11e8-a6a3-ec086b02610b.JPG,58d2ed74-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rodent,0.6666666666666666,"{'bobcat': 1, 'rodent': 2}",False
+data/caltech/images_cropped/58c1c216-23d2-11e8-a6a3-ec086b02610b.JPG,58c1c216-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/598de8fb-23d2-11e8-a6a3-ec086b02610b.JPG,598de8fb-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5a04958b-23d2-11e8-a6a3-ec086b02610b.JPG,5a04958b-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'raccoon': 2, 'skunk': 1}",True
+data/caltech/images_cropped/5968c1b6-23d2-11e8-a6a3-ec086b02610b.JPG,5968c1b6-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,0.6666666666666666,"{'raccoon': 1, 'deer': 2}",False
+data/caltech/images_cropped/58aa58a6-23d2-11e8-a6a3-ec086b02610b.JPG,58aa58a6-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/59f5fd31-23d2-11e8-a6a3-ec086b02610b.JPG,59f5fd31-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/58b9d6ee-23d2-11e8-a6a3-ec086b02610b.JPG,58b9d6ee-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/59c177a8-23d2-11e8-a6a3-ec086b02610b.JPG,59c177a8-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'raccoon': 2, 'skunk': 1}",True
+data/caltech/images_cropped/591cb144-23d2-11e8-a6a3-ec086b02610b.JPG,591cb144-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59f129b3-23d2-11e8-a6a3-ec086b02610b.JPG,59f129b3-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rabbit,1.0,{'rabbit': 3},False
+data/caltech/images_cropped/59f79ae7-23d2-11e8-a6a3-ec086b02610b.JPG,59f79ae7-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/58b8231a-23d2-11e8-a6a3-ec086b02610b.JPG,58b8231a-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/59ac6c5e-23d2-11e8-a6a3-ec086b02610b.JPG,59ac6c5e-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",False
+data/caltech/images_cropped/59d5b861-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b861-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rodent,0.6666666666666666,"{'deer': 1, 'rodent': 2}",False
+data/caltech/images_cropped/599a5c19-23d2-11e8-a6a3-ec086b02610b.JPG,599a5c19-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,coyote,0.3333333333333333,"{'coyote': 1, 'bobcat': 1, 'raccoon': 1}",False
+data/caltech/images_cropped/59ac6c52-23d2-11e8-a6a3-ec086b02610b.JPG,59ac6c52-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,bobcat,0.6666666666666666,"{'bobcat': 2, 'rabbit': 1}",False
+data/caltech/images_cropped/59a49b4d-23d2-11e8-a6a3-ec086b02610b.JPG,59a49b4d-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5a2c8428-23d2-11e8-a6a3-ec086b02610b.JPG,5a2c8428-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5a2af6c9-23d2-11e8-a6a3-ec086b02610b.JPG,5a2af6c9-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'skunk': 1, 'raccoon': 2}",True
+data/caltech/images_cropped/5a24a74f-23d2-11e8-a6a3-ec086b02610b.JPG,5a24a74f-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5946b83c-23d2-11e8-a6a3-ec086b02610b.JPG,5946b83c-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'raccoon': 2, 'rabbit': 1}",True
+data/caltech/images_cropped/5a1978f7-23d2-11e8-a6a3-ec086b02610b.JPG,5a1978f7-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59fae405-23d2-11e8-a6a3-ec086b02610b.JPG,59fae405-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/585f4f02-23d2-11e8-a6a3-ec086b02610b.JPG,585f4f02-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5965a92d-23d2-11e8-a6a3-ec086b02610b.JPG,5965a92d-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/59849869-23d2-11e8-a6a3-ec086b02610b.JPG,59849869-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a130875-23d2-11e8-a6a3-ec086b02610b.JPG,5a130875-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/589958d1-23d2-11e8-a6a3-ec086b02610b.JPG,589958d1-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/59bac8fc-23d2-11e8-a6a3-ec086b02610b.JPG,59bac8fc-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59c66b91-23d2-11e8-a6a3-ec086b02610b.JPG,59c66b91-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,0.6666666666666666,"{'deer': 2, 'skunk': 1}",False
+data/caltech/images_cropped/58df6a45-23d2-11e8-a6a3-ec086b02610b.JPG,58df6a45-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",False
+data/caltech/images_cropped/5a217905-23d2-11e8-a6a3-ec086b02610b.JPG,5a217905-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5991032f-23d2-11e8-a6a3-ec086b02610b.JPG,5991032f-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/5a2e145f-23d2-11e8-a6a3-ec086b02610b.JPG,5a2e145f-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'raccoon': 2, 'bobcat': 1}",True
+data/caltech/images_cropped/5922ecac-23d2-11e8-a6a3-ec086b02610b.JPG,5922ecac-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,1.0,{'raccoon': 3},True
+data/caltech/images_cropped/59c99e25-23d2-11e8-a6a3-ec086b02610b.JPG,59c99e25-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,raccoon,0.6666666666666666,"{'raccoon': 2, 'rabbit': 1}",True
+data/caltech/images_cropped/58fd7c99-23d2-11e8-a6a3-ec086b02610b.JPG,58fd7c99-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/58823eb6-23d2-11e8-a6a3-ec086b02610b.JPG,58823eb6-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,bobcat,0.6666666666666666,"{'deer': 1, 'bobcat': 2}",False
+data/caltech/images_cropped/58bb8a5a-23d2-11e8-a6a3-ec086b02610b.JPG,58bb8a5a-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59a62944-23d2-11e8-a6a3-ec086b02610b.JPG,59a62944-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a0b0212-23d2-11e8-a6a3-ec086b02610b.JPG,5a0b0212-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59c66975-23d2-11e8-a6a3-ec086b02610b.JPG,59c66975-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/599d7be3-23d2-11e8-a6a3-ec086b02610b.JPG,599d7be3-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,0.6666666666666666,"{'deer': 1, 'coyote': 2}",True
+data/caltech/images_cropped/59af9924-23d2-11e8-a6a3-ec086b02610b.JPG,59af9924-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59af959b-23d2-11e8-a6a3-ec086b02610b.JPG,59af959b-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/595c6a1b-23d2-11e8-a6a3-ec086b02610b.JPG,595c6a1b-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5967362d-23d2-11e8-a6a3-ec086b02610b.JPG,5967362d-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58a1c961-23d2-11e8-a6a3-ec086b02610b.JPG,58a1c961-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58b131a2-23d2-11e8-a6a3-ec086b02610b.JPG,58b131a2-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58678e8a-23d2-11e8-a6a3-ec086b02610b.JPG,58678e8a-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5a1fe6d0-23d2-11e8-a6a3-ec086b02610b.JPG,5a1fe6d0-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59d0e4b5-23d2-11e8-a6a3-ec086b02610b.JPG,59d0e4b5-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58a6e643-23d2-11e8-a6a3-ec086b02610b.JPG,58a6e643-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59f2c3df-23d2-11e8-a6a3-ec086b02610b.JPG,59f2c3df-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59aadc30-23d2-11e8-a6a3-ec086b02610b.JPG,59aadc30-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58ede39c-23d2-11e8-a6a3-ec086b02610b.JPG,58ede39c-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a07cc6e-23d2-11e8-a6a3-ec086b02610b.JPG,5a07cc6e-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59ffbc25-23d2-11e8-a6a3-ec086b02610b.JPG,59ffbc25-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58ce3f83-23d2-11e8-a6a3-ec086b02610b.JPG,58ce3f83-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58643848-23d2-11e8-a6a3-ec086b02610b.JPG,58643848-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",True
+data/caltech/images_cropped/58ac0d49-23d2-11e8-a6a3-ec086b02610b.JPG,58ac0d49-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/599fc0f2-23d2-11e8-a6a3-ec086b02610b.JPG,599fc0f2-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59a7be21-23d2-11e8-a6a3-ec086b02610b.JPG,59a7be21-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/590b9e3f-23d2-11e8-a6a3-ec086b02610b.JPG,590b9e3f-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5a1cafd1-23d2-11e8-a6a3-ec086b02610b.JPG,5a1cafd1-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/597830d2-23d2-11e8-a6a3-ec086b02610b.JPG,597830d2-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59c99f23-23d2-11e8-a6a3-ec086b02610b.JPG,59c99f23-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59b130ec-23d2-11e8-a6a3-ec086b02610b.JPG,59b130ec-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,0.6666666666666666,"{'deer': 2, 'coyote': 1}",False
+data/caltech/images_cropped/596eee65-23d2-11e8-a6a3-ec086b02610b.JPG,596eee65-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5979bba6-23d2-11e8-a6a3-ec086b02610b.JPG,5979bba6-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a062e6b-23d2-11e8-a6a3-ec086b02610b.JPG,5a062e6b-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/58d612eb-23d2-11e8-a6a3-ec086b02610b.JPG,58d612eb-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59d5b6bf-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b6bf-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58ec5837-23d2-11e8-a6a3-ec086b02610b.JPG,58ec5837-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59e1034b-23d2-11e8-a6a3-ec086b02610b.JPG,59e1034b-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5998cd65-23d2-11e8-a6a3-ec086b02610b.JPG,5998cd65-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/591e3fb4-23d2-11e8-a6a3-ec086b02610b.JPG,591e3fb4-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/596a4d80-23d2-11e8-a6a3-ec086b02610b.JPG,596a4d80-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59dc255c-23d2-11e8-a6a3-ec086b02610b.JPG,59dc255c-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59973d32-23d2-11e8-a6a3-ec086b02610b.JPG,59973d32-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59c99cb9-23d2-11e8-a6a3-ec086b02610b.JPG,59c99cb9-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/599fc054-23d2-11e8-a6a3-ec086b02610b.JPG,599fc054-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59f945f1-23d2-11e8-a6a3-ec086b02610b.JPG,59f945f1-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5a29660f-23d2-11e8-a6a3-ec086b02610b.JPG,5a29660f-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58995892-23d2-11e8-a6a3-ec086b02610b.JPG,58995892-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59ac696d-23d2-11e8-a6a3-ec086b02610b.JPG,59ac696d-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/59f799a4-23d2-11e8-a6a3-ec086b02610b.JPG,59f799a4-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58dc4c87-23d2-11e8-a6a3-ec086b02610b.JPG,58dc4c87-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/599a5c41-23d2-11e8-a6a3-ec086b02610b.JPG,599a5c41-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59452d9d-23d2-11e8-a6a3-ec086b02610b.JPG,59452d9d-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/587eecf4-23d2-11e8-a6a3-ec086b02610b.JPG,587eecf4-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59b93920-23d2-11e8-a6a3-ec086b02610b.JPG,59b93920-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",True
+data/caltech/images_cropped/592de418-23d2-11e8-a6a3-ec086b02610b.JPG,592de418-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/59b4841e-23d2-11e8-a6a3-ec086b02610b.JPG,59b4841e-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,0.6666666666666666,"{'deer': 1, 'coyote': 2}",True
+data/caltech/images_cropped/59d0e3ec-23d2-11e8-a6a3-ec086b02610b.JPG,59d0e3ec-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/598309d9-23d2-11e8-a6a3-ec086b02610b.JPG,598309d9-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/598f7782-23d2-11e8-a6a3-ec086b02610b.JPG,598f7782-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/5967365a-23d2-11e8-a6a3-ec086b02610b.JPG,5967365a-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58a37a32-23d2-11e8-a6a3-ec086b02610b.JPG,58a37a32-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59d8edd1-23d2-11e8-a6a3-ec086b02610b.JPG,59d8edd1-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59d419dc-23d2-11e8-a6a3-ec086b02610b.JPG,59d419dc-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/597513a9-23d2-11e8-a6a3-ec086b02610b.JPG,597513a9-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58dabe4b-23d2-11e8-a6a3-ec086b02610b.JPG,58dabe4b-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58732ea6-23d2-11e8-a6a3-ec086b02610b.JPG,58732ea6-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5a231221-23d2-11e8-a6a3-ec086b02610b.JPG,5a231221-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58b9d728-23d2-11e8-a6a3-ec086b02610b.JPG,58b9d728-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,0.6666666666666666,"{'coyote': 2, 'bobcat': 1}",True
+data/caltech/images_cropped/5a063107-23d2-11e8-a6a3-ec086b02610b.JPG,5a063107-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/596bdb4a-23d2-11e8-a6a3-ec086b02610b.JPG,596bdb4a-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59ef8c84-23d2-11e8-a6a3-ec086b02610b.JPG,59ef8c84-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59be4073-23d2-11e8-a6a3-ec086b02610b.JPG,59be4073-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59ac6ae9-23d2-11e8-a6a3-ec086b02610b.JPG,59ac6ae9-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,bobcat,0.6666666666666666,"{'bobcat': 2, 'coyote': 1}",False
+data/caltech/images_cropped/5a14a555-23d2-11e8-a6a3-ec086b02610b.JPG,5a14a555-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,0.6666666666666666,"{'coyote': 1, 'deer': 2}",False
+data/caltech/images_cropped/59b7a8f6-23d2-11e8-a6a3-ec086b02610b.JPG,59b7a8f6-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59fae4fe-23d2-11e8-a6a3-ec086b02610b.JPG,59fae4fe-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59f79aa5-23d2-11e8-a6a3-ec086b02610b.JPG,59f79aa5-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,0.6666666666666666,"{'deer': 2, 'coyote': 1}",False
+data/caltech/images_cropped/5946b819-23d2-11e8-a6a3-ec086b02610b.JPG,5946b819-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,0.6666666666666666,"{'deer': 2, 'coyote': 1}",False
+data/caltech/images_cropped/5968c1d2-23d2-11e8-a6a3-ec086b02610b.JPG,5968c1d2-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5a1fe6e2-23d2-11e8-a6a3-ec086b02610b.JPG,5a1fe6e2-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/599fc0e9-23d2-11e8-a6a3-ec086b02610b.JPG,599fc0e9-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a1cb184-23d2-11e8-a6a3-ec086b02610b.JPG,5a1cb184-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5962927b-23d2-11e8-a6a3-ec086b02610b.JPG,5962927b-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,0.6666666666666666,"{'deer': 2, 'coyote': 1}",False
+data/caltech/images_cropped/5a2637cd-23d2-11e8-a6a3-ec086b02610b.JPG,5a2637cd-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/593d684d-23d2-11e8-a6a3-ec086b02610b.JPG,593d684d-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/596a4e2e-23d2-11e8-a6a3-ec086b02610b.JPG,596a4e2e-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/593a4d1f-23d2-11e8-a6a3-ec086b02610b.JPG,593a4d1f-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5a24aa20-23d2-11e8-a6a3-ec086b02610b.JPG,5a24aa20-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/597e6107-23d2-11e8-a6a3-ec086b02610b.JPG,597e6107-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58ddd8a9-23d2-11e8-a6a3-ec086b02610b.JPG,58ddd8a9-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58c7f2a9-23d2-11e8-a6a3-ec086b02610b.JPG,58c7f2a9-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/597b47ee-23d2-11e8-a6a3-ec086b02610b.JPG,597b47ee-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59e91b47-23d2-11e8-a6a3-ec086b02610b.JPG,59e91b47-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5954a806-23d2-11e8-a6a3-ec086b02610b.JPG,5954a806-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/59629186-23d2-11e8-a6a3-ec086b02610b.JPG,59629186-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/58c97a78-23d2-11e8-a6a3-ec086b02610b.JPG,58c97a78-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/598306b9-23d2-11e8-a6a3-ec086b02610b.JPG,598306b9-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,0.6666666666666666,"{'deer': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/59f128ba-23d2-11e8-a6a3-ec086b02610b.JPG,59f128ba-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5883ea55-23d2-11e8-a6a3-ec086b02610b.JPG,5883ea55-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,coyote,1.0,{'coyote': 3},True
+data/caltech/images_cropped/5a17df45-23d2-11e8-a6a3-ec086b02610b.JPG,5a17df45-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59e10543-23d2-11e8-a6a3-ec086b02610b.JPG,59e10543-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,0.6666666666666666,"{'deer': 2, 'rabbit': 1}",True
+data/caltech/images_cropped/5a02fbeb-23d2-11e8-a6a3-ec086b02610b.JPG,5a02fbeb-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5992936a-23d2-11e8-a6a3-ec086b02610b.JPG,5992936a-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59f5fd6c-23d2-11e8-a6a3-ec086b02610b.JPG,59f5fd6c-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59817c19-23d2-11e8-a6a3-ec086b02610b.JPG,59817c19-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59a30db2-23d2-11e8-a6a3-ec086b02610b.JPG,59a30db2-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a0494dc-23d2-11e8-a6a3-ec086b02610b.JPG,5a0494dc-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59a179ea-23d2-11e8-a6a3-ec086b02610b.JPG,59a179ea-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59df5e6d-23d2-11e8-a6a3-ec086b02610b.JPG,59df5e6d-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5968bfdd-23d2-11e8-a6a3-ec086b02610b.JPG,5968bfdd-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59751654-23d2-11e8-a6a3-ec086b02610b.JPG,59751654-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59aadaea-23d2-11e8-a6a3-ec086b02610b.JPG,59aadaea-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59a49c0e-23d2-11e8-a6a3-ec086b02610b.JPG,59a49c0e-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59e44000-23d2-11e8-a6a3-ec086b02610b.JPG,59e44000-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59e43f93-23d2-11e8-a6a3-ec086b02610b.JPG,59e43f93-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/595c6a99-23d2-11e8-a6a3-ec086b02610b.JPG,595c6a99-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59c99ca9-23d2-11e8-a6a3-ec086b02610b.JPG,59c99ca9-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5979bdd1-23d2-11e8-a6a3-ec086b02610b.JPG,5979bdd1-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/598acf1b-23d2-11e8-a6a3-ec086b02610b.JPG,598acf1b-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59f462b3-23d2-11e8-a6a3-ec086b02610b.JPG,59f462b3-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59d27db5-23d2-11e8-a6a3-ec086b02610b.JPG,59d27db5-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a02f9a8-23d2-11e8-a6a3-ec086b02610b.JPG,5a02f9a8-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59d5b669-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b669-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59d8eb2a-23d2-11e8-a6a3-ec086b02610b.JPG,59d8eb2a-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,0.6666666666666666,"{'deer': 2, 'rabbit': 1}",True
+data/caltech/images_cropped/59830742-23d2-11e8-a6a3-ec086b02610b.JPG,59830742-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a23110d-23d2-11e8-a6a3-ec086b02610b.JPG,5a23110d-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/597cd513-23d2-11e8-a6a3-ec086b02610b.JPG,597cd513-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a16409b-23d2-11e8-a6a3-ec086b02610b.JPG,5a16409b-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5968c0a6-23d2-11e8-a6a3-ec086b02610b.JPG,5968c0a6-23d2-11e8-a6a3-ec086b02610b.JPG,deer,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/597cd454-23d2-11e8-a6a3-ec086b02610b.JPG,597cd454-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/590b9c04-23d2-11e8-a6a3-ec086b02610b.JPG,590b9c04-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59fae60f-23d2-11e8-a6a3-ec086b02610b.JPG,59fae60f-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a1979fa-23d2-11e8-a6a3-ec086b02610b.JPG,5a1979fa-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59aadcc5-23d2-11e8-a6a3-ec086b02610b.JPG,59aadcc5-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59d5b7e7-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b7e7-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59fe228d-23d2-11e8-a6a3-ec086b02610b.JPG,59fe228d-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/598306ac-23d2-11e8-a6a3-ec086b02610b.JPG,598306ac-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59adfb6e-23d2-11e8-a6a3-ec086b02610b.JPG,59adfb6e-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59ddc32a-23d2-11e8-a6a3-ec086b02610b.JPG,59ddc32a-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59751572-23d2-11e8-a6a3-ec086b02610b.JPG,59751572-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59f79a34-23d2-11e8-a6a3-ec086b02610b.JPG,59f79a34-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5979bbf2-23d2-11e8-a6a3-ec086b02610b.JPG,5979bbf2-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59fae415-23d2-11e8-a6a3-ec086b02610b.JPG,59fae415-23d2-11e8-a6a3-ec086b02610b.JPG,deer,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/59973f28-23d2-11e8-a6a3-ec086b02610b.JPG,59973f28-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59b2eaa6-23d2-11e8-a6a3-ec086b02610b.JPG,59b2eaa6-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59b6163e-23d2-11e8-a6a3-ec086b02610b.JPG,59b6163e-23d2-11e8-a6a3-ec086b02610b.JPG,deer,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",False
+data/caltech/images_cropped/59d419cc-23d2-11e8-a6a3-ec086b02610b.JPG,59d419cc-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59da8af2-23d2-11e8-a6a3-ec086b02610b.JPG,59da8af2-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a27d8d1-23d2-11e8-a6a3-ec086b02610b.JPG,5a27d8d1-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/599a59d9-23d2-11e8-a6a3-ec086b02610b.JPG,599a59d9-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a2e122b-23d2-11e8-a6a3-ec086b02610b.JPG,5a2e122b-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59f79bb2-23d2-11e8-a6a3-ec086b02610b.JPG,59f79bb2-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59c99eac-23d2-11e8-a6a3-ec086b02610b.JPG,59c99eac-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59af9779-23d2-11e8-a6a3-ec086b02610b.JPG,59af9779-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a2af559-23d2-11e8-a6a3-ec086b02610b.JPG,5a2af559-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a1640ca-23d2-11e8-a6a3-ec086b02610b.JPG,5a1640ca-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5998cdb2-23d2-11e8-a6a3-ec086b02610b.JPG,5998cdb2-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59c99e78-23d2-11e8-a6a3-ec086b02610b.JPG,59c99e78-23d2-11e8-a6a3-ec086b02610b.JPG,deer,coyote,0.3333333333333333,"{'coyote': 1, 'bobcat': 1, 'raccoon': 1}",False
+data/caltech/images_cropped/5965ab69-23d2-11e8-a6a3-ec086b02610b.JPG,5965ab69-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5979bc7b-23d2-11e8-a6a3-ec086b02610b.JPG,5979bc7b-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,0.6666666666666666,"{'deer': 2, 'coyote': 1}",True
+data/caltech/images_cropped/59d27b59-23d2-11e8-a6a3-ec086b02610b.JPG,59d27b59-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/598deac5-23d2-11e8-a6a3-ec086b02610b.JPG,598deac5-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59e91a32-23d2-11e8-a6a3-ec086b02610b.JPG,59e91a32-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a2c84a9-23d2-11e8-a6a3-ec086b02610b.JPG,5a2c84a9-23d2-11e8-a6a3-ec086b02610b.JPG,deer,bobcat,0.6666666666666666,"{'bobcat': 2, 'deer': 1}",False
+data/caltech/images_cropped/5998cd75-23d2-11e8-a6a3-ec086b02610b.JPG,5998cd75-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59849860-23d2-11e8-a6a3-ec086b02610b.JPG,59849860-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59adfb5c-23d2-11e8-a6a3-ec086b02610b.JPG,59adfb5c-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a0b01be-23d2-11e8-a6a3-ec086b02610b.JPG,5a0b01be-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/597e6113-23d2-11e8-a6a3-ec086b02610b.JPG,597e6113-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59751551-23d2-11e8-a6a3-ec086b02610b.JPG,59751551-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/596737c9-23d2-11e8-a6a3-ec086b02610b.JPG,596737c9-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59f79888-23d2-11e8-a6a3-ec086b02610b.JPG,59f79888-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59c31bae-23d2-11e8-a6a3-ec086b02610b.JPG,59c31bae-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a17dcd3-23d2-11e8-a6a3-ec086b02610b.JPG,5a17dcd3-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59fae36e-23d2-11e8-a6a3-ec086b02610b.JPG,59fae36e-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59b7a708-23d2-11e8-a6a3-ec086b02610b.JPG,59b7a708-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59ffbc41-23d2-11e8-a6a3-ec086b02610b.JPG,59ffbc41-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59eaba20-23d2-11e8-a6a3-ec086b02610b.JPG,59eaba20-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59d0e2aa-23d2-11e8-a6a3-ec086b02610b.JPG,59d0e2aa-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a17dde6-23d2-11e8-a6a3-ec086b02610b.JPG,5a17dde6-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/58cb13db-23d2-11e8-a6a3-ec086b02610b.JPG,58cb13db-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59f4619d-23d2-11e8-a6a3-ec086b02610b.JPG,59f4619d-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a2af339-23d2-11e8-a6a3-ec086b02610b.JPG,5a2af339-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59642062-23d2-11e8-a6a3-ec086b02610b.JPG,59642062-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59eab755-23d2-11e8-a6a3-ec086b02610b.JPG,59eab755-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59531d7f-23d2-11e8-a6a3-ec086b02610b.JPG,59531d7f-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59aadc67-23d2-11e8-a6a3-ec086b02610b.JPG,59aadc67-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/596bd846-23d2-11e8-a6a3-ec086b02610b.JPG,596bd846-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5987b21f-23d2-11e8-a6a3-ec086b02610b.JPG,5987b21f-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5a2e1469-23d2-11e8-a6a3-ec086b02610b.JPG,5a2e1469-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59c8050b-23d2-11e8-a6a3-ec086b02610b.JPG,59c8050b-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5968c147-23d2-11e8-a6a3-ec086b02610b.JPG,5968c147-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59673810-23d2-11e8-a6a3-ec086b02610b.JPG,59673810-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59dc280a-23d2-11e8-a6a3-ec086b02610b.JPG,59dc280a-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/5995af0a-23d2-11e8-a6a3-ec086b02610b.JPG,5995af0a-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59edf1db-23d2-11e8-a6a3-ec086b02610b.JPG,59edf1db-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,0.6666666666666666,"{'deer': 2, 'bobcat': 1}",True
+data/caltech/images_cropped/59751446-23d2-11e8-a6a3-ec086b02610b.JPG,59751446-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/599be98b-23d2-11e8-a6a3-ec086b02610b.JPG,599be98b-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/59be3f5d-23d2-11e8-a6a3-ec086b02610b.JPG,59be3f5d-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images_cropped/591cb36e-23d2-11e8-a6a3-ec086b02610b.JPG,591cb36e-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5914ef8f-23d2-11e8-a6a3-ec086b02610b.JPG,5914ef8f-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59ccd1b1-23d2-11e8-a6a3-ec086b02610b.JPG,59ccd1b1-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a1979dc-23d2-11e8-a6a3-ec086b02610b.JPG,5a1979dc-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/599be89e-23d2-11e8-a6a3-ec086b02610b.JPG,599be89e-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59c8054a-23d2-11e8-a6a3-ec086b02610b.JPG,59c8054a-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59a49b58-23d2-11e8-a6a3-ec086b02610b.JPG,59a49b58-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59f7996f-23d2-11e8-a6a3-ec086b02610b.JPG,59f7996f-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a263a15-23d2-11e8-a6a3-ec086b02610b.JPG,5a263a15-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59f2c397-23d2-11e8-a6a3-ec086b02610b.JPG,59f2c397-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rodent,0.6666666666666666,"{'rabbit': 1, 'rodent': 2}",False
+data/caltech/images_cropped/59b12fc2-23d2-11e8-a6a3-ec086b02610b.JPG,59b12fc2-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59783253-23d2-11e8-a6a3-ec086b02610b.JPG,59783253-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/598de7c8-23d2-11e8-a6a3-ec086b02610b.JPG,598de7c8-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/58c4d782-23d2-11e8-a6a3-ec086b02610b.JPG,58c4d782-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/58fa5cb2-23d2-11e8-a6a3-ec086b02610b.JPG,58fa5cb2-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59d75097-23d2-11e8-a6a3-ec086b02610b.JPG,59d75097-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/596d63e2-23d2-11e8-a6a3-ec086b02610b.JPG,596d63e2-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59f46215-23d2-11e8-a6a3-ec086b02610b.JPG,59f46215-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,0.6666666666666666,"{'rabbit': 2, 'skunk': 1}",True
+data/caltech/images_cropped/58a52f3d-23d2-11e8-a6a3-ec086b02610b.JPG,58a52f3d-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a1b137c-23d2-11e8-a6a3-ec086b02610b.JPG,5a1b137c-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59aadc73-23d2-11e8-a6a3-ec086b02610b.JPG,59aadc73-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5954a949-23d2-11e8-a6a3-ec086b02610b.JPG,5954a949-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rodent,0.6666666666666666,"{'rodent': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/5a096a15-23d2-11e8-a6a3-ec086b02610b.JPG,5a096a15-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5913678b-23d2-11e8-a6a3-ec086b02610b.JPG,5913678b-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a296343-23d2-11e8-a6a3-ec086b02610b.JPG,5a296343-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59e5e153-23d2-11e8-a6a3-ec086b02610b.JPG,59e5e153-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,0.6666666666666666,"{'rabbit': 2, 'bobcat': 1}",True
+data/caltech/images_cropped/59830719-23d2-11e8-a6a3-ec086b02610b.JPG,59830719-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59b6160e-23d2-11e8-a6a3-ec086b02610b.JPG,59b6160e-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/59f5fd25-23d2-11e8-a6a3-ec086b02610b.JPG,59f5fd25-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/597b4734-23d2-11e8-a6a3-ec086b02610b.JPG,597b4734-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a164028-23d2-11e8-a6a3-ec086b02610b.JPG,5a164028-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59ffba4c-23d2-11e8-a6a3-ec086b02610b.JPG,59ffba4c-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59f12ae4-23d2-11e8-a6a3-ec086b02610b.JPG,59f12ae4-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59bfde8d-23d2-11e8-a6a3-ec086b02610b.JPG,59bfde8d-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59738638-23d2-11e8-a6a3-ec086b02610b.JPG,59738638-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59d8ec8a-23d2-11e8-a6a3-ec086b02610b.JPG,59d8ec8a-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,0.6666666666666666,"{'rodent': 1, 'deer': 2}",False
+data/caltech/images_cropped/593d68c9-23d2-11e8-a6a3-ec086b02610b.JPG,593d68c9-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59adfce6-23d2-11e8-a6a3-ec086b02610b.JPG,59adfce6-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59fc7ec0-23d2-11e8-a6a3-ec086b02610b.JPG,59fc7ec0-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/59ccd36b-23d2-11e8-a6a3-ec086b02610b.JPG,59ccd36b-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59817b50-23d2-11e8-a6a3-ec086b02610b.JPG,59817b50-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,0.6666666666666666,"{'rabbit': 2, 'squirrel': 1}",True
+data/caltech/images_cropped/596734a0-23d2-11e8-a6a3-ec086b02610b.JPG,596734a0-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59c4c265-23d2-11e8-a6a3-ec086b02610b.JPG,59c4c265-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59d5b680-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b680-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59a7bc15-23d2-11e8-a6a3-ec086b02610b.JPG,59a7bc15-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/58910d43-23d2-11e8-a6a3-ec086b02610b.JPG,58910d43-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a163ee1-23d2-11e8-a6a3-ec086b02610b.JPG,5a163ee1-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5968bf72-23d2-11e8-a6a3-ec086b02610b.JPG,5968bf72-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59be417a-23d2-11e8-a6a3-ec086b02610b.JPG,59be417a-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59c99f3c-23d2-11e8-a6a3-ec086b02610b.JPG,59c99f3c-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a0e3651-23d2-11e8-a6a3-ec086b02610b.JPG,5a0e3651-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59c66c45-23d2-11e8-a6a3-ec086b02610b.JPG,59c66c45-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59f5fdf6-23d2-11e8-a6a3-ec086b02610b.JPG,59f5fdf6-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,0.6666666666666666,"{'bobcat': 1, 'rabbit': 2}",True
+data/caltech/images_cropped/5a0e369a-23d2-11e8-a6a3-ec086b02610b.JPG,5a0e369a-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59b2e898-23d2-11e8-a6a3-ec086b02610b.JPG,59b2e898-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/58e72512-23d2-11e8-a6a3-ec086b02610b.JPG,58e72512-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59751756-23d2-11e8-a6a3-ec086b02610b.JPG,59751756-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59a7bf2e-23d2-11e8-a6a3-ec086b02610b.JPG,59a7bf2e-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59e43fb4-23d2-11e8-a6a3-ec086b02610b.JPG,59e43fb4-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a1caf02-23d2-11e8-a6a3-ec086b02610b.JPG,5a1caf02-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59d41ae6-23d2-11e8-a6a3-ec086b02610b.JPG,59d41ae6-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59929131-23d2-11e8-a6a3-ec086b02610b.JPG,59929131-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59df5e9e-23d2-11e8-a6a3-ec086b02610b.JPG,59df5e9e-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/58dc4bed-23d2-11e8-a6a3-ec086b02610b.JPG,58dc4bed-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5957c208-23d2-11e8-a6a3-ec086b02610b.JPG,5957c208-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5876812a-23d2-11e8-a6a3-ec086b02610b.JPG,5876812a-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a14a3a1-23d2-11e8-a6a3-ec086b02610b.JPG,5a14a3a1-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59a94e63-23d2-11e8-a6a3-ec086b02610b.JPG,59a94e63-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59f46449-23d2-11e8-a6a3-ec086b02610b.JPG,59f46449-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/58629535-23d2-11e8-a6a3-ec086b02610b.JPG,58629535-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59e77d03-23d2-11e8-a6a3-ec086b02610b.JPG,59e77d03-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59f463d0-23d2-11e8-a6a3-ec086b02610b.JPG,59f463d0-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a0fd11e-23d2-11e8-a6a3-ec086b02610b.JPG,5a0fd11e-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a096b48-23d2-11e8-a6a3-ec086b02610b.JPG,5a096b48-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/58adc3af-23d2-11e8-a6a3-ec086b02610b.JPG,58adc3af-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/598497a0-23d2-11e8-a6a3-ec086b02610b.JPG,598497a0-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a0b0356-23d2-11e8-a6a3-ec086b02610b.JPG,5a0b0356-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,0.6666666666666666,"{'deer': 2, 'coyote': 1}",False
+data/caltech/images_cropped/58af7859-23d2-11e8-a6a3-ec086b02610b.JPG,58af7859-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/598c5a28-23d2-11e8-a6a3-ec086b02610b.JPG,598c5a28-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/598309e3-23d2-11e8-a6a3-ec086b02610b.JPG,598309e3-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5897b313-23d2-11e8-a6a3-ec086b02610b.JPG,5897b313-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59292d2f-23d2-11e8-a6a3-ec086b02610b.JPG,59292d2f-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a1e529d-23d2-11e8-a6a3-ec086b02610b.JPG,5a1e529d-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a1b148d-23d2-11e8-a6a3-ec086b02610b.JPG,5a1b148d-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,0.6666666666666666,"{'rabbit': 2, 'bobcat': 1}",True
+data/caltech/images_cropped/59be3f38-23d2-11e8-a6a3-ec086b02610b.JPG,59be3f38-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/58871899-23d2-11e8-a6a3-ec086b02610b.JPG,58871899-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59b2eb6a-23d2-11e8-a6a3-ec086b02610b.JPG,59b2eb6a-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59408201-23d2-11e8-a6a3-ec086b02610b.JPG,59408201-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",False
+data/caltech/images_cropped/599104dc-23d2-11e8-a6a3-ec086b02610b.JPG,599104dc-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,0.6666666666666666,"{'deer': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/58df682d-23d2-11e8-a6a3-ec086b02610b.JPG,58df682d-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,squirrel,0.6666666666666666,"{'squirrel': 2, 'skunk': 1}",False
+data/caltech/images_cropped/5a17dd9c-23d2-11e8-a6a3-ec086b02610b.JPG,5a17dd9c-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,bobcat,0.3333333333333333,"{'bobcat': 1, 'rodent': 1, 'squirrel': 1}",False
+data/caltech/images_cropped/585da90a-23d2-11e8-a6a3-ec086b02610b.JPG,585da90a-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59e2a46b-23d2-11e8-a6a3-ec086b02610b.JPG,59e2a46b-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59d0e223-23d2-11e8-a6a3-ec086b02610b.JPG,59d0e223-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5978324b-23d2-11e8-a6a3-ec086b02610b.JPG,5978324b-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5949ceba-23d2-11e8-a6a3-ec086b02610b.JPG,5949ceba-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59a30ce9-23d2-11e8-a6a3-ec086b02610b.JPG,59a30ce9-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a27d9bb-23d2-11e8-a6a3-ec086b02610b.JPG,5a27d9bb-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/5a163f2f-23d2-11e8-a6a3-ec086b02610b.JPG,5a163f2f-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/59941f54-23d2-11e8-a6a3-ec086b02610b.JPG,59941f54-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rabbit,1.0,{'rabbit': 3},True
+data/caltech/images_cropped/598ace10-23d2-11e8-a6a3-ec086b02610b.JPG,598ace10-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59c3189e-23d2-11e8-a6a3-ec086b02610b.JPG,59c3189e-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a0c9ad9-23d2-11e8-a6a3-ec086b02610b.JPG,5a0c9ad9-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.6666666666666666,"{'bobcat': 2, 'deer': 1}",True
+data/caltech/images_cropped/59c179a2-23d2-11e8-a6a3-ec086b02610b.JPG,59c179a2-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/58df6ae7-23d2-11e8-a6a3-ec086b02610b.JPG,58df6ae7-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/596d6403-23d2-11e8-a6a3-ec086b02610b.JPG,596d6403-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.6666666666666666,"{'bobcat': 2, 'deer': 1}",True
+data/caltech/images_cropped/59817bd8-23d2-11e8-a6a3-ec086b02610b.JPG,59817bd8-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.6666666666666666,"{'bobcat': 2, 'rabbit': 1}",True
+data/caltech/images_cropped/5a17de7c-23d2-11e8-a6a3-ec086b02610b.JPG,5a17de7c-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59180a62-23d2-11e8-a6a3-ec086b02610b.JPG,59180a62-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59eab75a-23d2-11e8-a6a3-ec086b02610b.JPG,59eab75a-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.6666666666666666,"{'bobcat': 2, 'deer': 1}",True
+data/caltech/images_cropped/597fee05-23d2-11e8-a6a3-ec086b02610b.JPG,597fee05-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/5a2af4b0-23d2-11e8-a6a3-ec086b02610b.JPG,5a2af4b0-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.6666666666666666,"{'bobcat': 2, 'coyote': 1}",True
+data/caltech/images_cropped/59fc7e5f-23d2-11e8-a6a3-ec086b02610b.JPG,59fc7e5f-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59751757-23d2-11e8-a6a3-ec086b02610b.JPG,59751757-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59fe20a8-23d2-11e8-a6a3-ec086b02610b.JPG,59fe20a8-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.3333333333333333,"{'bobcat': 1, 'deer': 1, 'coyote': 1}",True
+data/caltech/images_cropped/5a0fd222-23d2-11e8-a6a3-ec086b02610b.JPG,5a0fd222-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/58d613c1-23d2-11e8-a6a3-ec086b02610b.JPG,58d613c1-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/599bea79-23d2-11e8-a6a3-ec086b02610b.JPG,599bea79-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",False
+data/caltech/images_cropped/5a164153-23d2-11e8-a6a3-ec086b02610b.JPG,5a164153-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,0.6666666666666666,"{'deer': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/5987b4df-23d2-11e8-a6a3-ec086b02610b.JPG,5987b4df-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59fc7e48-23d2-11e8-a6a3-ec086b02610b.JPG,59fc7e48-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/587eeb4b-23d2-11e8-a6a3-ec086b02610b.JPG,587eeb4b-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59f462ab-23d2-11e8-a6a3-ec086b02610b.JPG,59f462ab-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59d5b8ff-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b8ff-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/5979bed9-23d2-11e8-a6a3-ec086b02610b.JPG,5979bed9-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59da8988-23d2-11e8-a6a3-ec086b02610b.JPG,59da8988-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/5a049649-23d2-11e8-a6a3-ec086b02610b.JPG,5a049649-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/599103e4-23d2-11e8-a6a3-ec086b02610b.JPG,599103e4-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,coyote,0.6666666666666666,"{'coyote': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/594ceb90-23d2-11e8-a6a3-ec086b02610b.JPG,594ceb90-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59ec52d6-23d2-11e8-a6a3-ec086b02610b.JPG,59ec52d6-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,coyote,0.3333333333333333,"{'coyote': 1, 'rodent': 1, 'skunk': 1}",False
+data/caltech/images_cropped/59c31af4-23d2-11e8-a6a3-ec086b02610b.JPG,59c31af4-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59fe2250-23d2-11e8-a6a3-ec086b02610b.JPG,59fe2250-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.6666666666666666,"{'bobcat': 2, 'coyote': 1}",True
+data/caltech/images_cropped/58bea5c3-23d2-11e8-a6a3-ec086b02610b.JPG,58bea5c3-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",False
+data/caltech/images_cropped/592f7118-23d2-11e8-a6a3-ec086b02610b.JPG,592f7118-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,raccoon,0.6666666666666666,"{'raccoon': 2, 'deer': 1}",False
+data/caltech/images_cropped/595dee6e-23d2-11e8-a6a3-ec086b02610b.JPG,595dee6e-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/5976a5bb-23d2-11e8-a6a3-ec086b02610b.JPG,5976a5bb-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.6666666666666666,"{'bobcat': 2, 'skunk': 1}",True
+data/caltech/images_cropped/59c4c14a-23d2-11e8-a6a3-ec086b02610b.JPG,59c4c14a-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/5a062eec-23d2-11e8-a6a3-ec086b02610b.JPG,5a062eec-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/589b04a6-23d2-11e8-a6a3-ec086b02610b.JPG,589b04a6-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/596734e2-23d2-11e8-a6a3-ec086b02610b.JPG,596734e2-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/598acfb8-23d2-11e8-a6a3-ec086b02610b.JPG,598acfb8-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59e5e0e6-23d2-11e8-a6a3-ec086b02610b.JPG,59e5e0e6-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59b4863b-23d2-11e8-a6a3-ec086b02610b.JPG,59b4863b-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59531ab7-23d2-11e8-a6a3-ec086b02610b.JPG,59531ab7-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/597fed19-23d2-11e8-a6a3-ec086b02610b.JPG,597fed19-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/591e4247-23d2-11e8-a6a3-ec086b02610b.JPG,591e4247-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,skunk,0.3333333333333333,"{'skunk': 1, 'deer': 1, 'bobcat': 1}",False
+data/caltech/images_cropped/596735b2-23d2-11e8-a6a3-ec086b02610b.JPG,596735b2-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59f79a4d-23d2-11e8-a6a3-ec086b02610b.JPG,59f79a4d-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,coyote,0.3333333333333333,"{'coyote': 1, 'raccoon': 1, 'skunk': 1}",False
+data/caltech/images_cropped/59df5d28-23d2-11e8-a6a3-ec086b02610b.JPG,59df5d28-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a263a76-23d2-11e8-a6a3-ec086b02610b.JPG,5a263a76-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,0.6666666666666666,"{'deer': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/58e40d83-23d2-11e8-a6a3-ec086b02610b.JPG,58e40d83-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/5914f163-23d2-11e8-a6a3-ec086b02610b.JPG,5914f163-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,0.6666666666666666,"{'raccoon': 1, 'deer': 2}",False
+data/caltech/images_cropped/58b2eff0-23d2-11e8-a6a3-ec086b02610b.JPG,58b2eff0-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/594cec63-23d2-11e8-a6a3-ec086b02610b.JPG,594cec63-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/598de848-23d2-11e8-a6a3-ec086b02610b.JPG,598de848-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59e5e0fd-23d2-11e8-a6a3-ec086b02610b.JPG,59e5e0fd-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a21787b-23d2-11e8-a6a3-ec086b02610b.JPG,5a21787b-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59a30c82-23d2-11e8-a6a3-ec086b02610b.JPG,59a30c82-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59341bcb-23d2-11e8-a6a3-ec086b02610b.JPG,59341bcb-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59b2ea3f-23d2-11e8-a6a3-ec086b02610b.JPG,59b2ea3f-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/5a163eb7-23d2-11e8-a6a3-ec086b02610b.JPG,5a163eb7-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/5a26396b-23d2-11e8-a6a3-ec086b02610b.JPG,5a26396b-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59f5fcd5-23d2-11e8-a6a3-ec086b02610b.JPG,59f5fcd5-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59b48451-23d2-11e8-a6a3-ec086b02610b.JPG,59b48451-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59b61621-23d2-11e8-a6a3-ec086b02610b.JPG,59b61621-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/597cd66a-23d2-11e8-a6a3-ec086b02610b.JPG,597cd66a-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/588c13ae-23d2-11e8-a6a3-ec086b02610b.JPG,588c13ae-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/596bd982-23d2-11e8-a6a3-ec086b02610b.JPG,596bd982-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.6666666666666666,"{'bobcat': 2, 'coyote': 1}",True
+data/caltech/images_cropped/597fed98-23d2-11e8-a6a3-ec086b02610b.JPG,597fed98-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/58ff0fa6-23d2-11e8-a6a3-ec086b02610b.JPG,58ff0fa6-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a14a3a5-23d2-11e8-a6a3-ec086b02610b.JPG,5a14a3a5-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,0.3333333333333333,"{'bobcat': 1, 'skunk': 1, 'deer': 1}",True
+data/caltech/images_cropped/58a6e8b5-23d2-11e8-a6a3-ec086b02610b.JPG,58a6e8b5-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/5a17dcb2-23d2-11e8-a6a3-ec086b02610b.JPG,5a17dcb2-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/596a4e38-23d2-11e8-a6a3-ec086b02610b.JPG,596a4e38-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/5a0494b0-23d2-11e8-a6a3-ec086b02610b.JPG,5a0494b0-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/596eefaa-23d2-11e8-a6a3-ec086b02610b.JPG,596eefaa-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,0.6666666666666666,"{'deer': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/5971fa29-23d2-11e8-a6a3-ec086b02610b.JPG,5971fa29-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59e5e0da-23d2-11e8-a6a3-ec086b02610b.JPG,59e5e0da-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/589cb31a-23d2-11e8-a6a3-ec086b02610b.JPG,589cb31a-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/596d6464-23d2-11e8-a6a3-ec086b02610b.JPG,596d6464-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59fc804a-23d2-11e8-a6a3-ec086b02610b.JPG,59fc804a-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59641cf0-23d2-11e8-a6a3-ec086b02610b.JPG,59641cf0-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/58fa6069-23d2-11e8-a6a3-ec086b02610b.JPG,58fa6069-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59eab712-23d2-11e8-a6a3-ec086b02610b.JPG,59eab712-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59c66a9e-23d2-11e8-a6a3-ec086b02610b.JPG,59c66a9e-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59fe2425-23d2-11e8-a6a3-ec086b02610b.JPG,59fe2425-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59be40dc-23d2-11e8-a6a3-ec086b02610b.JPG,59be40dc-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59279d6a-23d2-11e8-a6a3-ec086b02610b.JPG,59279d6a-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,raccoon,1.0,{'raccoon': 3},False
+data/caltech/images_cropped/595004a7-23d2-11e8-a6a3-ec086b02610b.JPG,595004a7-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/589cb402-23d2-11e8-a6a3-ec086b02610b.JPG,589cb402-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/58f73e8e-23d2-11e8-a6a3-ec086b02610b.JPG,58f73e8e-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59e43ea6-23d2-11e8-a6a3-ec086b02610b.JPG,59e43ea6-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59247bf2-23d2-11e8-a6a3-ec086b02610b.JPG,59247bf2-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,0.6666666666666666,"{'coyote': 1, 'deer': 2}",False
+data/caltech/images_cropped/5957c3fc-23d2-11e8-a6a3-ec086b02610b.JPG,5957c3fc-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59167973-23d2-11e8-a6a3-ec086b02610b.JPG,59167973-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/585c04e7-23d2-11e8-a6a3-ec086b02610b.JPG,585c04e7-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59fc7e20-23d2-11e8-a6a3-ec086b02610b.JPG,59fc7e20-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/58eaca73-23d2-11e8-a6a3-ec086b02610b.JPG,58eaca73-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/5a062f77-23d2-11e8-a6a3-ec086b02610b.JPG,5a062f77-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/58ede2b9-23d2-11e8-a6a3-ec086b02610b.JPG,58ede2b9-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,bobcat,1.0,{'bobcat': 3},True
+data/caltech/images_cropped/59d8ed53-23d2-11e8-a6a3-ec086b02610b.JPG,59d8ed53-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59d75218-23d2-11e8-a6a3-ec086b02610b.JPG,59d75218-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,0.6666666666666666,"{'bird': 2, 'deer': 1}",True
+data/caltech/images_cropped/58dc4cbe-23d2-11e8-a6a3-ec086b02610b.JPG,58dc4cbe-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/591807fb-23d2-11e8-a6a3-ec086b02610b.JPG,591807fb-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/594cebbf-23d2-11e8-a6a3-ec086b02610b.JPG,594cebbf-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a14a4f4-23d2-11e8-a6a3-ec086b02610b.JPG,5a14a4f4-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a24a86e-23d2-11e8-a6a3-ec086b02610b.JPG,5a24a86e-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a1e50a4-23d2-11e8-a6a3-ec086b02610b.JPG,5a1e50a4-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59531bcd-23d2-11e8-a6a3-ec086b02610b.JPG,59531bcd-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/594b5e15-23d2-11e8-a6a3-ec086b02610b.JPG,594b5e15-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a296584-23d2-11e8-a6a3-ec086b02610b.JPG,5a296584-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5878291e-23d2-11e8-a6a3-ec086b02610b.JPG,5878291e-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59a49b7e-23d2-11e8-a6a3-ec086b02610b.JPG,59a49b7e-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5995adb6-23d2-11e8-a6a3-ec086b02610b.JPG,5995adb6-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/598c5deb-23d2-11e8-a6a3-ec086b02610b.JPG,598c5deb-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a04966c-23d2-11e8-a6a3-ec086b02610b.JPG,5a04966c-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/595deff8-23d2-11e8-a6a3-ec086b02610b.JPG,595deff8-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,0.3333333333333333,"{'deer': 1, 'skunk': 1, 'bird': 1}",False
+data/caltech/images_cropped/5976a24c-23d2-11e8-a6a3-ec086b02610b.JPG,5976a24c-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bobcat,0.3333333333333333,"{'bobcat': 1, 'coyote': 1, 'bird': 1}",False
+data/caltech/images_cropped/597fedad-23d2-11e8-a6a3-ec086b02610b.JPG,597fedad-23d2-11e8-a6a3-ec086b02610b.JPG,bird,coyote,0.3333333333333333,"{'coyote': 1, 'skunk': 1, 'lizard': 1}",False
+data/caltech/images_cropped/5968c158-23d2-11e8-a6a3-ec086b02610b.JPG,5968c158-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/595adae1-23d2-11e8-a6a3-ec086b02610b.JPG,595adae1-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a17dd50-23d2-11e8-a6a3-ec086b02610b.JPG,5a17dd50-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5979bbdf-23d2-11e8-a6a3-ec086b02610b.JPG,5979bbdf-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/594b5f8d-23d2-11e8-a6a3-ec086b02610b.JPG,594b5f8d-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/58bd1cac-23d2-11e8-a6a3-ec086b02610b.JPG,58bd1cac-23d2-11e8-a6a3-ec086b02610b.JPG,bird,rabbit,0.6666666666666666,"{'deer': 1, 'rabbit': 2}",False
+data/caltech/images_cropped/594e7812-23d2-11e8-a6a3-ec086b02610b.JPG,594e7812-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59292ec8-23d2-11e8-a6a3-ec086b02610b.JPG,59292ec8-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5959511b-23d2-11e8-a6a3-ec086b02610b.JPG,5959511b-23d2-11e8-a6a3-ec086b02610b.JPG,bird,lizard,0.6666666666666666,"{'lizard': 2, 'coyote': 1}",False
+data/caltech/images_cropped/58aa5a67-23d2-11e8-a6a3-ec086b02610b.JPG,58aa5a67-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a116dcb-23d2-11e8-a6a3-ec086b02610b.JPG,5a116dcb-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59751635-23d2-11e8-a6a3-ec086b02610b.JPG,59751635-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59b6140e-23d2-11e8-a6a3-ec086b02610b.JPG,59b6140e-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,0.6666666666666666,"{'bird': 2, 'deer': 1}",True
+data/caltech/images_cropped/595f7c2c-23d2-11e8-a6a3-ec086b02610b.JPG,595f7c2c-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/597e6304-23d2-11e8-a6a3-ec086b02610b.JPG,597e6304-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/594b6017-23d2-11e8-a6a3-ec086b02610b.JPG,594b6017-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59817a99-23d2-11e8-a6a3-ec086b02610b.JPG,59817a99-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59b12fed-23d2-11e8-a6a3-ec086b02610b.JPG,59b12fed-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a17dcd1-23d2-11e8-a6a3-ec086b02610b.JPG,5a17dcd1-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/597cd487-23d2-11e8-a6a3-ec086b02610b.JPG,597cd487-23d2-11e8-a6a3-ec086b02610b.JPG,bird,raccoon,0.3333333333333333,"{'raccoon': 1, 'deer': 1, 'coyote': 1}",False
+data/caltech/images_cropped/59f12b9f-23d2-11e8-a6a3-ec086b02610b.JPG,59f12b9f-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a17dccd-23d2-11e8-a6a3-ec086b02610b.JPG,5a17dccd-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,0.6666666666666666,"{'deer': 2, 'bird': 1}",False
+data/caltech/images_cropped/5995ae4c-23d2-11e8-a6a3-ec086b02610b.JPG,5995ae4c-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59ddc2a4-23d2-11e8-a6a3-ec086b02610b.JPG,59ddc2a4-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/594cea93-23d2-11e8-a6a3-ec086b02610b.JPG,594cea93-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/58a8a130-23d2-11e8-a6a3-ec086b02610b.JPG,58a8a130-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,0.3333333333333333,"{'deer': 1, 'rodent': 1, 'coyote': 1}",False
+data/caltech/images_cropped/59279b4a-23d2-11e8-a6a3-ec086b02610b.JPG,59279b4a-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a2178cc-23d2-11e8-a6a3-ec086b02610b.JPG,5a2178cc-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a1cb1d5-23d2-11e8-a6a3-ec086b02610b.JPG,5a1cb1d5-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5957c49b-23d2-11e8-a6a3-ec086b02610b.JPG,5957c49b-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/595defca-23d2-11e8-a6a3-ec086b02610b.JPG,595defca-23d2-11e8-a6a3-ec086b02610b.JPG,bird,rabbit,1.0,{'rabbit': 3},False
+data/caltech/images_cropped/597386fa-23d2-11e8-a6a3-ec086b02610b.JPG,597386fa-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a015d09-23d2-11e8-a6a3-ec086b02610b.JPG,5a015d09-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/599105a4-23d2-11e8-a6a3-ec086b02610b.JPG,599105a4-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/59e5df79-23d2-11e8-a6a3-ec086b02610b.JPG,59e5df79-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5957c424-23d2-11e8-a6a3-ec086b02610b.JPG,5957c424-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/598f77a3-23d2-11e8-a6a3-ec086b02610b.JPG,598f77a3-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59531da3-23d2-11e8-a6a3-ec086b02610b.JPG,59531da3-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/598c5bca-23d2-11e8-a6a3-ec086b02610b.JPG,598c5bca-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5954a835-23d2-11e8-a6a3-ec086b02610b.JPG,5954a835-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/596107ea-23d2-11e8-a6a3-ec086b02610b.JPG,596107ea-23d2-11e8-a6a3-ec086b02610b.JPG,bird,raccoon,0.6666666666666666,"{'skunk': 1, 'raccoon': 2}",False
+data/caltech/images_cropped/58fa5d87-23d2-11e8-a6a3-ec086b02610b.JPG,58fa5d87-23d2-11e8-a6a3-ec086b02610b.JPG,bird,rabbit,0.6666666666666666,"{'rabbit': 2, 'coyote': 1}",False
+data/caltech/images_cropped/59fae53e-23d2-11e8-a6a3-ec086b02610b.JPG,59fae53e-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59da8b6f-23d2-11e8-a6a3-ec086b02610b.JPG,59da8b6f-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/595adc86-23d2-11e8-a6a3-ec086b02610b.JPG,595adc86-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a24a9f4-23d2-11e8-a6a3-ec086b02610b.JPG,5a24a9f4-23d2-11e8-a6a3-ec086b02610b.JPG,bird,skunk,0.3333333333333333,"{'skunk': 1, 'rabbit': 1, 'raccoon': 1}",False
+data/caltech/images_cropped/59b48367-23d2-11e8-a6a3-ec086b02610b.JPG,59b48367-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/596bd97a-23d2-11e8-a6a3-ec086b02610b.JPG,596bd97a-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/595c6741-23d2-11e8-a6a3-ec086b02610b.JPG,595c6741-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/58cca524-23d2-11e8-a6a3-ec086b02610b.JPG,58cca524-23d2-11e8-a6a3-ec086b02610b.JPG,bird,coyote,0.6666666666666666,"{'coyote': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/59260b85-23d2-11e8-a6a3-ec086b02610b.JPG,59260b85-23d2-11e8-a6a3-ec086b02610b.JPG,bird,skunk,1.0,{'skunk': 3},False
+data/caltech/images_cropped/5a062eaa-23d2-11e8-a6a3-ec086b02610b.JPG,5a062eaa-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/593bdd75-23d2-11e8-a6a3-ec086b02610b.JPG,593bdd75-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a04943a-23d2-11e8-a6a3-ec086b02610b.JPG,5a04943a-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5957c37d-23d2-11e8-a6a3-ec086b02610b.JPG,5957c37d-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5968c223-23d2-11e8-a6a3-ec086b02610b.JPG,5968c223-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/597fedea-23d2-11e8-a6a3-ec086b02610b.JPG,597fedea-23d2-11e8-a6a3-ec086b02610b.JPG,bird,rabbit,1.0,{'rabbit': 3},False
+data/caltech/images_cropped/59f2c643-23d2-11e8-a6a3-ec086b02610b.JPG,59f2c643-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a015b97-23d2-11e8-a6a3-ec086b02610b.JPG,5a015b97-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/594b5f18-23d2-11e8-a6a3-ec086b02610b.JPG,594b5f18-23d2-11e8-a6a3-ec086b02610b.JPG,bird,skunk,0.6666666666666666,"{'bird': 1, 'skunk': 2}",False
+data/caltech/images_cropped/5a0b01c1-23d2-11e8-a6a3-ec086b02610b.JPG,5a0b01c1-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,0.6666666666666666,"{'coyote': 1, 'bird': 2}",True
+data/caltech/images_cropped/59fae382-23d2-11e8-a6a3-ec086b02610b.JPG,59fae382-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,0.6666666666666666,"{'deer': 2, 'coyote': 1}",False
+data/caltech/images_cropped/59673645-23d2-11e8-a6a3-ec086b02610b.JPG,59673645-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a1cb25c-23d2-11e8-a6a3-ec086b02610b.JPG,5a1cb25c-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/596a4d60-23d2-11e8-a6a3-ec086b02610b.JPG,596a4d60-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59d8ebbf-23d2-11e8-a6a3-ec086b02610b.JPG,59d8ebbf-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,0.6666666666666666,"{'bird': 2, 'deer': 1}",True
+data/caltech/images_cropped/5a24aa43-23d2-11e8-a6a3-ec086b02610b.JPG,5a24aa43-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59cb3772-23d2-11e8-a6a3-ec086b02610b.JPG,59cb3772-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/59a30b68-23d2-11e8-a6a3-ec086b02610b.JPG,59a30b68-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,0.6666666666666666,"{'bird': 2, 'bobcat': 1}",True
+data/caltech/images_cropped/596bd8e3-23d2-11e8-a6a3-ec086b02610b.JPG,596bd8e3-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/596a4d5e-23d2-11e8-a6a3-ec086b02610b.JPG,596a4d5e-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5987b479-23d2-11e8-a6a3-ec086b02610b.JPG,5987b479-23d2-11e8-a6a3-ec086b02610b.JPG,bird,raccoon,0.6666666666666666,"{'raccoon': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/59518e70-23d2-11e8-a6a3-ec086b02610b.JPG,59518e70-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a07ce7b-23d2-11e8-a6a3-ec086b02610b.JPG,5a07ce7b-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/599291f5-23d2-11e8-a6a3-ec086b02610b.JPG,599291f5-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/591e3f9a-23d2-11e8-a6a3-ec086b02610b.JPG,591e3f9a-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/5a1e50ec-23d2-11e8-a6a3-ec086b02610b.JPG,5a1e50ec-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/596bda02-23d2-11e8-a6a3-ec086b02610b.JPG,596bda02-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/595dee36-23d2-11e8-a6a3-ec086b02610b.JPG,595dee36-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/596bda22-23d2-11e8-a6a3-ec086b02610b.JPG,596bda22-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/596291eb-23d2-11e8-a6a3-ec086b02610b.JPG,596291eb-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images_cropped/58f4253c-23d2-11e8-a6a3-ec086b02610b.JPG,58f4253c-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/593ef809-23d2-11e8-a6a3-ec086b02610b.JPG,593ef809-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5a0969ce-23d2-11e8-a6a3-ec086b02610b.JPG,5a0969ce-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/587829a8-23d2-11e8-a6a3-ec086b02610b.JPG,587829a8-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5a217748-23d2-11e8-a6a3-ec086b02610b.JPG,5a217748-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/596a4e20-23d2-11e8-a6a3-ec086b02610b.JPG,596a4e20-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5937361f-23d2-11e8-a6a3-ec086b02610b.JPG,5937361f-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58782b4b-23d2-11e8-a6a3-ec086b02610b.JPG,58782b4b-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'squirrel': 2, 'rodent': 1}",True
+data/caltech/images_cropped/58782845-23d2-11e8-a6a3-ec086b02610b.JPG,58782845-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'squirrel': 2, 'rodent': 1}",True
+data/caltech/images_cropped/58d7a12f-23d2-11e8-a6a3-ec086b02610b.JPG,58d7a12f-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,skunk,0.6666666666666666,"{'squirrel': 1, 'skunk': 2}",False
+data/caltech/images_cropped/5a049343-23d2-11e8-a6a3-ec086b02610b.JPG,5a049343-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'squirrel': 2, 'rodent': 1}",True
+data/caltech/images_cropped/58f8ce82-23d2-11e8-a6a3-ec086b02610b.JPG,58f8ce82-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/585f4e92-23d2-11e8-a6a3-ec086b02610b.JPG,585f4e92-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,raccoon,1.0,{'raccoon': 3},False
+data/caltech/images_cropped/58857cef-23d2-11e8-a6a3-ec086b02610b.JPG,58857cef-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'squirrel': 2, 'rodent': 1}",True
+data/caltech/images_cropped/5979bb6f-23d2-11e8-a6a3-ec086b02610b.JPG,5979bb6f-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58693780-23d2-11e8-a6a3-ec086b02610b.JPG,58693780-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59fe241f-23d2-11e8-a6a3-ec086b02610b.JPG,59fe241f-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/598495c7-23d2-11e8-a6a3-ec086b02610b.JPG,598495c7-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,coyote,0.6666666666666666,"{'deer': 1, 'coyote': 2}",False
+data/caltech/images_cropped/5922ebdc-23d2-11e8-a6a3-ec086b02610b.JPG,5922ebdc-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58995893-23d2-11e8-a6a3-ec086b02610b.JPG,58995893-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,skunk,0.3333333333333333,"{'skunk': 1, 'coyote': 1, 'squirrel': 1}",False
+data/caltech/images_cropped/59e1043b-23d2-11e8-a6a3-ec086b02610b.JPG,59e1043b-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,0.3333333333333333,"{'rodent': 1, 'bobcat': 1, 'rabbit': 1}",False
+data/caltech/images_cropped/598c5cea-23d2-11e8-a6a3-ec086b02610b.JPG,598c5cea-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58bd1b03-23d2-11e8-a6a3-ec086b02610b.JPG,58bd1b03-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/590b9cd7-23d2-11e8-a6a3-ec086b02610b.JPG,590b9cd7-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59ef8e94-23d2-11e8-a6a3-ec086b02610b.JPG,59ef8e94-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5a02faa5-23d2-11e8-a6a3-ec086b02610b.JPG,5a02faa5-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58a1c954-23d2-11e8-a6a3-ec086b02610b.JPG,58a1c954-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,0.6666666666666666,"{'squirrel': 1, 'rodent': 2}",False
+data/caltech/images_cropped/5938c403-23d2-11e8-a6a3-ec086b02610b.JPG,5938c403-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'squirrel': 2, 'coyote': 1}",True
+data/caltech/images_cropped/59c4c050-23d2-11e8-a6a3-ec086b02610b.JPG,59c4c050-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58f29620-23d2-11e8-a6a3-ec086b02610b.JPG,58f29620-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58e2825c-23d2-11e8-a6a3-ec086b02610b.JPG,58e2825c-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59fc8047-23d2-11e8-a6a3-ec086b02610b.JPG,59fc8047-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'squirrel': 2, 'skunk': 1}",True
+data/caltech/images_cropped/585dabe8-23d2-11e8-a6a3-ec086b02610b.JPG,585dabe8-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/599d7ec8-23d2-11e8-a6a3-ec086b02610b.JPG,599d7ec8-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,skunk,0.3333333333333333,"{'skunk': 1, 'deer': 1, 'rodent': 1}",False
+data/caltech/images_cropped/59b2ebc0-23d2-11e8-a6a3-ec086b02610b.JPG,59b2ebc0-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5954a94f-23d2-11e8-a6a3-ec086b02610b.JPG,5954a94f-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58f5aede-23d2-11e8-a6a3-ec086b02610b.JPG,58f5aede-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5a1e52c5-23d2-11e8-a6a3-ec086b02610b.JPG,5a1e52c5-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,coyote,0.3333333333333333,"{'coyote': 1, 'bobcat': 1, 'rodent': 1}",False
+data/caltech/images_cropped/5967351a-23d2-11e8-a6a3-ec086b02610b.JPG,5967351a-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58c7f0d5-23d2-11e8-a6a3-ec086b02610b.JPG,58c7f0d5-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/592c4ece-23d2-11e8-a6a3-ec086b02610b.JPG,592c4ece-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5a0c9d36-23d2-11e8-a6a3-ec086b02610b.JPG,5a0c9d36-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/58c34e1d-23d2-11e8-a6a3-ec086b02610b.JPG,58c34e1d-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/585a65ea-23d2-11e8-a6a3-ec086b02610b.JPG,585a65ea-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59439dc9-23d2-11e8-a6a3-ec086b02610b.JPG,59439dc9-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,bobcat,0.6666666666666666,"{'rodent': 1, 'bobcat': 2}",False
+data/caltech/images_cropped/58e9383e-23d2-11e8-a6a3-ec086b02610b.JPG,58e9383e-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5860ed29-23d2-11e8-a6a3-ec086b02610b.JPG,5860ed29-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5865e1c0-23d2-11e8-a6a3-ec086b02610b.JPG,5865e1c0-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,bobcat,0.3333333333333333,"{'bobcat': 1, 'lizard': 1, 'rodent': 1}",False
+data/caltech/images_cropped/58d7a466-23d2-11e8-a6a3-ec086b02610b.JPG,58d7a466-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,0.6666666666666666,"{'rodent': 2, 'coyote': 1}",False
+data/caltech/images_cropped/58ac0c80-23d2-11e8-a6a3-ec086b02610b.JPG,58ac0c80-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'deer': 1, 'squirrel': 2}",True
+data/caltech/images_cropped/596d6432-23d2-11e8-a6a3-ec086b02610b.JPG,596d6432-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59087f1b-23d2-11e8-a6a3-ec086b02610b.JPG,59087f1b-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5a0fd010-23d2-11e8-a6a3-ec086b02610b.JPG,5a0fd010-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59ef8c1f-23d2-11e8-a6a3-ec086b02610b.JPG,59ef8c1f-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/587d40c5-23d2-11e8-a6a3-ec086b02610b.JPG,587d40c5-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5a0b00b8-23d2-11e8-a6a3-ec086b02610b.JPG,5a0b00b8-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5a116d63-23d2-11e8-a6a3-ec086b02610b.JPG,5a116d63-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58bd1c55-23d2-11e8-a6a3-ec086b02610b.JPG,58bd1c55-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,deer,0.6666666666666666,"{'deer': 2, 'rabbit': 1}",False
+data/caltech/images_cropped/58a1ca34-23d2-11e8-a6a3-ec086b02610b.JPG,58a1ca34-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,skunk,0.6666666666666666,"{'squirrel': 1, 'skunk': 2}",False
+data/caltech/images_cropped/5a0c9a74-23d2-11e8-a6a3-ec086b02610b.JPG,5a0c9a74-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59641efe-23d2-11e8-a6a3-ec086b02610b.JPG,59641efe-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59f12a64-23d2-11e8-a6a3-ec086b02610b.JPG,59f12a64-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'raccoon': 1, 'squirrel': 2}",True
+data/caltech/images_cropped/598309f0-23d2-11e8-a6a3-ec086b02610b.JPG,598309f0-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59ffba2e-23d2-11e8-a6a3-ec086b02610b.JPG,59ffba2e-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59a629d6-23d2-11e8-a6a3-ec086b02610b.JPG,59a629d6-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,0.6666666666666666,"{'rodent': 2, 'squirrel': 1}",False
+data/caltech/images_cropped/59bac89b-23d2-11e8-a6a3-ec086b02610b.JPG,59bac89b-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/591e411d-23d2-11e8-a6a3-ec086b02610b.JPG,591e411d-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/590a0dea-23d2-11e8-a6a3-ec086b02610b.JPG,590a0dea-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58b6672c-23d2-11e8-a6a3-ec086b02610b.JPG,58b6672c-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58d6133a-23d2-11e8-a6a3-ec086b02610b.JPG,58d6133a-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'squirrel': 2, 'rodent': 1}",True
+data/caltech/images_cropped/59104b19-23d2-11e8-a6a3-ec086b02610b.JPG,59104b19-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59fae58a-23d2-11e8-a6a3-ec086b02610b.JPG,59fae58a-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5a14a446-23d2-11e8-a6a3-ec086b02610b.JPG,5a14a446-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58bd19f1-23d2-11e8-a6a3-ec086b02610b.JPG,58bd19f1-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59bac80e-23d2-11e8-a6a3-ec086b02610b.JPG,59bac80e-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5a0494fd-23d2-11e8-a6a3-ec086b02610b.JPG,5a0494fd-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,skunk,0.3333333333333333,"{'skunk': 1, 'bobcat': 1, 'rabbit': 1}",False
+data/caltech/images_cropped/595635e1-23d2-11e8-a6a3-ec086b02610b.JPG,595635e1-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,1.0,{'rodent': 3},False
+data/caltech/images_cropped/599be9b5-23d2-11e8-a6a3-ec086b02610b.JPG,599be9b5-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58d15e35-23d2-11e8-a6a3-ec086b02610b.JPG,58d15e35-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,skunk,0.3333333333333333,"{'skunk': 1, 'deer': 1, 'squirrel': 1}",False
+data/caltech/images_cropped/5995ad85-23d2-11e8-a6a3-ec086b02610b.JPG,5995ad85-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,raccoon,0.6666666666666666,"{'raccoon': 2, 'deer': 1}",False
+data/caltech/images_cropped/59817a62-23d2-11e8-a6a3-ec086b02610b.JPG,59817a62-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'squirrel': 2, 'skunk': 1}",True
+data/caltech/images_cropped/59c4c12c-23d2-11e8-a6a3-ec086b02610b.JPG,59c4c12c-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,bird,0.3333333333333333,"{'bird': 1, 'bobcat': 1, 'squirrel': 1}",False
+data/caltech/images_cropped/592c4be9-23d2-11e8-a6a3-ec086b02610b.JPG,592c4be9-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58c97b1c-23d2-11e8-a6a3-ec086b02610b.JPG,58c97b1c-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,0.3333333333333333,"{'rodent': 1, 'deer': 1, 'squirrel': 1}",False
+data/caltech/images_cropped/590b9c34-23d2-11e8-a6a3-ec086b02610b.JPG,590b9c34-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,bobcat,0.3333333333333333,"{'bobcat': 1, 'rabbit': 1, 'coyote': 1}",False
+data/caltech/images_cropped/59fae441-23d2-11e8-a6a3-ec086b02610b.JPG,59fae441-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59a30b0b-23d2-11e8-a6a3-ec086b02610b.JPG,59a30b0b-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,bobcat,0.3333333333333333,"{'bobcat': 1, 'squirrel': 1, 'rodent': 1}",False
+data/caltech/images_cropped/58e28367-23d2-11e8-a6a3-ec086b02610b.JPG,58e28367-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'rodent': 1, 'squirrel': 2}",True
+data/caltech/images_cropped/598944a9-23d2-11e8-a6a3-ec086b02610b.JPG,598944a9-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5a164252-23d2-11e8-a6a3-ec086b02610b.JPG,5a164252-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58995973-23d2-11e8-a6a3-ec086b02610b.JPG,58995973-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/58e59a0d-23d2-11e8-a6a3-ec086b02610b.JPG,58e59a0d-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5858bf2b-23d2-11e8-a6a3-ec086b02610b.JPG,5858bf2b-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'rodent': 1, 'squirrel': 2}",True
+data/caltech/images_cropped/59f2c582-23d2-11e8-a6a3-ec086b02610b.JPG,59f2c582-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'squirrel': 2, 'deer': 1}",True
+data/caltech/images_cropped/59d0e485-23d2-11e8-a6a3-ec086b02610b.JPG,59d0e485-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,0.6666666666666666,"{'squirrel': 2, 'deer': 1}",True
+data/caltech/images_cropped/586fdcc3-23d2-11e8-a6a3-ec086b02610b.JPG,586fdcc3-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/5938c1fa-23d2-11e8-a6a3-ec086b02610b.JPG,5938c1fa-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/586e3126-23d2-11e8-a6a3-ec086b02610b.JPG,586e3126-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,raccoon,1.0,{'raccoon': 3},False
+data/caltech/images_cropped/59f94454-23d2-11e8-a6a3-ec086b02610b.JPG,59f94454-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,deer,0.6666666666666666,"{'bobcat': 1, 'deer': 2}",False
+data/caltech/images_cropped/59d5b6b9-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b6b9-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,squirrel,1.0,{'squirrel': 3},True
+data/caltech/images_cropped/59a62973-23d2-11e8-a6a3-ec086b02610b.JPG,59a62973-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,raccoon,0.6666666666666666,"{'raccoon': 2, 'rabbit': 1}",False
+data/caltech/images_cropped/59ccd104-23d2-11e8-a6a3-ec086b02610b.JPG,59ccd104-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,raccoon,1.0,{'raccoon': 3},False
+data/caltech/images_cropped/59adfe61-23d2-11e8-a6a3-ec086b02610b.JPG,59adfe61-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'deer': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/59d41b9f-23d2-11e8-a6a3-ec086b02610b.JPG,59d41b9f-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/5957c36f-23d2-11e8-a6a3-ec086b02610b.JPG,5957c36f-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/596eef5e-23d2-11e8-a6a3-ec086b02610b.JPG,596eef5e-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'coyote': 1, 'rodent': 2}",True
+data/caltech/images_cropped/5a1cb1f3-23d2-11e8-a6a3-ec086b02610b.JPG,5a1cb1f3-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,raccoon,1.0,{'raccoon': 3},False
+data/caltech/images_cropped/598c5d2f-23d2-11e8-a6a3-ec086b02610b.JPG,598c5d2f-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,bobcat,0.3333333333333333,"{'bobcat': 1, 'raccoon': 1, 'rodent': 1}",False
+data/caltech/images_cropped/5950045d-23d2-11e8-a6a3-ec086b02610b.JPG,5950045d-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/5a14a4ea-23d2-11e8-a6a3-ec086b02610b.JPG,5a14a4ea-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a2af3af-23d2-11e8-a6a3-ec086b02610b.JPG,5a2af3af-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59941eb6-23d2-11e8-a6a3-ec086b02610b.JPG,59941eb6-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,coyote,0.3333333333333333,"{'coyote': 1, 'deer': 1, 'bobcat': 1}",False
+data/caltech/images_cropped/59bfde07-23d2-11e8-a6a3-ec086b02610b.JPG,59bfde07-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59641d2c-23d2-11e8-a6a3-ec086b02610b.JPG,59641d2c-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59594fd9-23d2-11e8-a6a3-ec086b02610b.JPG,59594fd9-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",False
+data/caltech/images_cropped/59b93805-23d2-11e8-a6a3-ec086b02610b.JPG,59b93805-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59aadc0d-23d2-11e8-a6a3-ec086b02610b.JPG,59aadc0d-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59595175-23d2-11e8-a6a3-ec086b02610b.JPG,59595175-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/596eef56-23d2-11e8-a6a3-ec086b02610b.JPG,596eef56-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'rodent': 2, 'rabbit': 1}",True
+data/caltech/images_cropped/59862608-23d2-11e8-a6a3-ec086b02610b.JPG,59862608-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59910509-23d2-11e8-a6a3-ec086b02610b.JPG,59910509-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,bobcat,0.6666666666666666,"{'deer': 1, 'bobcat': 2}",False
+data/caltech/images_cropped/59bac812-23d2-11e8-a6a3-ec086b02610b.JPG,59bac812-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59cf4611-23d2-11e8-a6a3-ec086b02610b.JPG,59cf4611-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a1b1353-23d2-11e8-a6a3-ec086b02610b.JPG,5a1b1353-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/597ff049-23d2-11e8-a6a3-ec086b02610b.JPG,597ff049-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,skunk,0.3333333333333333,"{'skunk': 1, 'rabbit': 1, 'lizard': 1}",False
+data/caltech/images_cropped/596736ac-23d2-11e8-a6a3-ec086b02610b.JPG,596736ac-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'bobcat': 1, 'rodent': 2}",True
+data/caltech/images_cropped/599be9b9-23d2-11e8-a6a3-ec086b02610b.JPG,599be9b9-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'rodent': 2, 'rabbit': 1}",True
+data/caltech/images_cropped/596d6545-23d2-11e8-a6a3-ec086b02610b.JPG,596d6545-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'rabbit': 1, 'rodent': 2}",True
+data/caltech/images_cropped/59929271-23d2-11e8-a6a3-ec086b02610b.JPG,59929271-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/599be9fd-23d2-11e8-a6a3-ec086b02610b.JPG,599be9fd-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'rodent': 2, 'coyote': 1}",True
+data/caltech/images_cropped/59fc7ff6-23d2-11e8-a6a3-ec086b02610b.JPG,59fc7ff6-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59cf4799-23d2-11e8-a6a3-ec086b02610b.JPG,59cf4799-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rabbit,0.6666666666666666,"{'rabbit': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/595634b7-23d2-11e8-a6a3-ec086b02610b.JPG,595634b7-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,raccoon,1.0,{'raccoon': 3},False
+data/caltech/images_cropped/59be4227-23d2-11e8-a6a3-ec086b02610b.JPG,59be4227-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/595deedd-23d2-11e8-a6a3-ec086b02610b.JPG,595deedd-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,bobcat,0.3333333333333333,"{'bobcat': 1, 'raccoon': 1, 'rabbit': 1}",False
+data/caltech/images_cropped/598dea3f-23d2-11e8-a6a3-ec086b02610b.JPG,598dea3f-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'deer': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/594ceb1e-23d2-11e8-a6a3-ec086b02610b.JPG,594ceb1e-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'deer': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/595c67df-23d2-11e8-a6a3-ec086b02610b.JPG,595c67df-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59e43f70-23d2-11e8-a6a3-ec086b02610b.JPG,59e43f70-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.3333333333333333,"{'deer': 1, 'coyote': 1, 'rabbit': 1}",False
+data/caltech/images_cropped/5962938b-23d2-11e8-a6a3-ec086b02610b.JPG,5962938b-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'rodent': 2, 'bobcat': 1}",True
+data/caltech/images_cropped/59b616f2-23d2-11e8-a6a3-ec086b02610b.JPG,59b616f2-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rabbit,0.6666666666666666,"{'deer': 1, 'rabbit': 2}",False
+data/caltech/images_cropped/5a230f57-23d2-11e8-a6a3-ec086b02610b.JPG,5a230f57-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59fae5d5-23d2-11e8-a6a3-ec086b02610b.JPG,59fae5d5-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/598acee1-23d2-11e8-a6a3-ec086b02610b.JPG,598acee1-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59cb38ad-23d2-11e8-a6a3-ec086b02610b.JPG,59cb38ad-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,raccoon,0.3333333333333333,"{'raccoon': 1, 'deer': 1, 'coyote': 1}",False
+data/caltech/images_cropped/5a197c2f-23d2-11e8-a6a3-ec086b02610b.JPG,5a197c2f-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59b2e95f-23d2-11e8-a6a3-ec086b02610b.JPG,59b2e95f-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'deer': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/59df5ce3-23d2-11e8-a6a3-ec086b02610b.JPG,59df5ce3-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59cf4782-23d2-11e8-a6a3-ec086b02610b.JPG,59cf4782-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'deer': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/59b93a52-23d2-11e8-a6a3-ec086b02610b.JPG,59b93a52-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59738779-23d2-11e8-a6a3-ec086b02610b.JPG,59738779-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'deer': 2, 'rabbit': 1}",False
+data/caltech/images_cropped/59500513-23d2-11e8-a6a3-ec086b02610b.JPG,59500513-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rabbit,0.6666666666666666,"{'rabbit': 2, 'rodent': 1}",False
+data/caltech/images_cropped/5a1cb1df-23d2-11e8-a6a3-ec086b02610b.JPG,5a1cb1df-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,bobcat,0.6666666666666666,"{'bobcat': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/5a230fa0-23d2-11e8-a6a3-ec086b02610b.JPG,5a230fa0-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59a62c9f-23d2-11e8-a6a3-ec086b02610b.JPG,59a62c9f-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'skunk': 1, 'rodent': 2}",True
+data/caltech/images_cropped/5a0e371e-23d2-11e8-a6a3-ec086b02610b.JPG,5a0e371e-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,bobcat,0.6666666666666666,"{'bobcat': 2, 'coyote': 1}",False
+data/caltech/images_cropped/599a59eb-23d2-11e8-a6a3-ec086b02610b.JPG,599a59eb-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59d27cd5-23d2-11e8-a6a3-ec086b02610b.JPG,59d27cd5-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'rabbit': 1, 'rodent': 2}",True
+data/caltech/images_cropped/5a164029-23d2-11e8-a6a3-ec086b02610b.JPG,5a164029-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'rodent': 2, 'rabbit': 1}",True
+data/caltech/images_cropped/59d5b799-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b799-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'rabbit': 1, 'rodent': 2}",True
+data/caltech/images_cropped/59531d66-23d2-11e8-a6a3-ec086b02610b.JPG,59531d66-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/595635f6-23d2-11e8-a6a3-ec086b02610b.JPG,595635f6-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59edf292-23d2-11e8-a6a3-ec086b02610b.JPG,59edf292-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,bobcat,0.6666666666666666,"{'bobcat': 2, 'coyote': 1}",False
+data/caltech/images_cropped/5a2178a5-23d2-11e8-a6a3-ec086b02610b.JPG,5a2178a5-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rabbit,0.3333333333333333,"{'rabbit': 1, 'raccoon': 1, 'bobcat': 1}",False
+data/caltech/images_cropped/5956383a-23d2-11e8-a6a3-ec086b02610b.JPG,5956383a-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59817b74-23d2-11e8-a6a3-ec086b02610b.JPG,59817b74-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rabbit,0.6666666666666666,"{'rabbit': 2, 'rodent': 1}",False
+data/caltech/images_cropped/5a130955-23d2-11e8-a6a3-ec086b02610b.JPG,5a130955-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/5a1cb19a-23d2-11e8-a6a3-ec086b02610b.JPG,5a1cb19a-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'deer': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/59ddc1ef-23d2-11e8-a6a3-ec086b02610b.JPG,59ddc1ef-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'coyote': 1, 'deer': 2}",False
+data/caltech/images_cropped/599fc0ab-23d2-11e8-a6a3-ec086b02610b.JPG,599fc0ab-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59941e66-23d2-11e8-a6a3-ec086b02610b.JPG,59941e66-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/596bd925-23d2-11e8-a6a3-ec086b02610b.JPG,596bd925-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59500560-23d2-11e8-a6a3-ec086b02610b.JPG,59500560-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59eab9a7-23d2-11e8-a6a3-ec086b02610b.JPG,59eab9a7-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59ef8df0-23d2-11e8-a6a3-ec086b02610b.JPG,59ef8df0-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59518f92-23d2-11e8-a6a3-ec086b02610b.JPG,59518f92-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/595f7c35-23d2-11e8-a6a3-ec086b02610b.JPG,595f7c35-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/5961081f-23d2-11e8-a6a3-ec086b02610b.JPG,5961081f-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/5a1e52e0-23d2-11e8-a6a3-ec086b02610b.JPG,5a1e52e0-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/5a2e1205-23d2-11e8-a6a3-ec086b02610b.JPG,5a2e1205-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'bobcat': 1, 'deer': 2}",False
+data/caltech/images_cropped/59ccd11e-23d2-11e8-a6a3-ec086b02610b.JPG,59ccd11e-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,raccoon,1.0,{'raccoon': 3},False
+data/caltech/images_cropped/598f78b9-23d2-11e8-a6a3-ec086b02610b.JPG,598f78b9-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a24a856-23d2-11e8-a6a3-ec086b02610b.JPG,5a24a856-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59d41bd6-23d2-11e8-a6a3-ec086b02610b.JPG,59d41bd6-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rabbit,0.6666666666666666,"{'rabbit': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/59adfb88-23d2-11e8-a6a3-ec086b02610b.JPG,59adfb88-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rabbit,1.0,{'rabbit': 3},False
+data/caltech/images_cropped/59830685-23d2-11e8-a6a3-ec086b02610b.JPG,59830685-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/598c5b78-23d2-11e8-a6a3-ec086b02610b.JPG,598c5b78-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,bobcat,0.6666666666666666,"{'bobcat': 2, 'coyote': 1}",False
+data/caltech/images_cropped/59cf4642-23d2-11e8-a6a3-ec086b02610b.JPG,59cf4642-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/598de914-23d2-11e8-a6a3-ec086b02610b.JPG,598de914-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,raccoon,0.6666666666666666,"{'raccoon': 2, 'rodent': 1}",False
+data/caltech/images_cropped/5a062ed3-23d2-11e8-a6a3-ec086b02610b.JPG,5a062ed3-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/594b5cbd-23d2-11e8-a6a3-ec086b02610b.JPG,594b5cbd-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/596a4ff4-23d2-11e8-a6a3-ec086b02610b.JPG,596a4ff4-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'deer': 1, 'rodent': 2}",True
+data/caltech/images_cropped/598309e8-23d2-11e8-a6a3-ec086b02610b.JPG,598309e8-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'rodent': 2, 'coyote': 1}",True
+data/caltech/images_cropped/59af991a-23d2-11e8-a6a3-ec086b02610b.JPG,59af991a-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'rodent': 2, 'raccoon': 1}",True
+data/caltech/images_cropped/598624e2-23d2-11e8-a6a3-ec086b02610b.JPG,598624e2-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/5954ab8c-23d2-11e8-a6a3-ec086b02610b.JPG,5954ab8c-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images_cropped/59be3f57-23d2-11e8-a6a3-ec086b02610b.JPG,59be3f57-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'deer': 2, 'rodent': 1}",False
+data/caltech/images_cropped/5a07cc9b-23d2-11e8-a6a3-ec086b02610b.JPG,5a07cc9b-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'deer': 2, 'rodent': 1}",False
+data/caltech/images_cropped/598624c5-23d2-11e8-a6a3-ec086b02610b.JPG,598624c5-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,0.6666666666666666,"{'rodent': 2, 'raccoon': 1}",True
+data/caltech/images_cropped/59dc2725-23d2-11e8-a6a3-ec086b02610b.JPG,59dc2725-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rabbit,0.6666666666666666,"{'rabbit': 2, 'rodent': 1}",False
+data/caltech/images_cropped/598de966-23d2-11e8-a6a3-ec086b02610b.JPG,598de966-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,0.6666666666666666,"{'coyote': 1, 'deer': 2}",False
+data/caltech/images_cropped/5860ee39-23d2-11e8-a6a3-ec086b02610b.JPG,5860ee39-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,coyote,0.6666666666666666,"{'coyote': 2, 'skunk': 1}",False
+data/caltech/images_cropped/599be7d9-23d2-11e8-a6a3-ec086b02610b.JPG,599be7d9-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59fc7e00-23d2-11e8-a6a3-ec086b02610b.JPG,59fc7e00-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,0.6666666666666666,"{'raccoon': 1, 'deer': 2}",False
+data/caltech/images_cropped/59c8052b-23d2-11e8-a6a3-ec086b02610b.JPG,59c8052b-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,coyote,1.0,{'coyote': 3},False
+data/caltech/images_cropped/599106c5-23d2-11e8-a6a3-ec086b02610b.JPG,599106c5-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/599bea4f-23d2-11e8-a6a3-ec086b02610b.JPG,599bea4f-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/599d7c4e-23d2-11e8-a6a3-ec086b02610b.JPG,599d7c4e-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59a17b78-23d2-11e8-a6a3-ec086b02610b.JPG,59a17b78-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,raccoon,0.6666666666666666,"{'raccoon': 2, 'deer': 1}",False
+data/caltech/images_cropped/59104ad2-23d2-11e8-a6a3-ec086b02610b.JPG,59104ad2-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59d27b22-23d2-11e8-a6a3-ec086b02610b.JPG,59d27b22-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,0.6666666666666666,"{'deer': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/5a217818-23d2-11e8-a6a3-ec086b02610b.JPG,5a217818-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59adfb92-23d2-11e8-a6a3-ec086b02610b.JPG,59adfb92-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/596bda14-23d2-11e8-a6a3-ec086b02610b.JPG,596bda14-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/595c6859-23d2-11e8-a6a3-ec086b02610b.JPG,595c6859-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59e440f4-23d2-11e8-a6a3-ec086b02610b.JPG,59e440f4-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59dc2581-23d2-11e8-a6a3-ec086b02610b.JPG,59dc2581-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/5a015b42-23d2-11e8-a6a3-ec086b02610b.JPG,5a015b42-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a1e5246-23d2-11e8-a6a3-ec086b02610b.JPG,5a1e5246-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,0.6666666666666666,"{'deer': 2, 'raccoon': 1}",False
+data/caltech/images_cropped/598f7731-23d2-11e8-a6a3-ec086b02610b.JPG,598f7731-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59a49c36-23d2-11e8-a6a3-ec086b02610b.JPG,59a49c36-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,raccoon,1.0,{'raccoon': 3},False
+data/caltech/images_cropped/5957c150-23d2-11e8-a6a3-ec086b02610b.JPG,5957c150-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,raccoon,1.0,{'raccoon': 3},False
+data/caltech/images_cropped/5954a80f-23d2-11e8-a6a3-ec086b02610b.JPG,5954a80f-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/5995af56-23d2-11e8-a6a3-ec086b02610b.JPG,5995af56-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59e91bc0-23d2-11e8-a6a3-ec086b02610b.JPG,59e91bc0-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,bobcat,0.3333333333333333,"{'bobcat': 1, 'rabbit': 1, 'coyote': 1}",False
+data/caltech/images_cropped/596108c0-23d2-11e8-a6a3-ec086b02610b.JPG,596108c0-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/5a1b1452-23d2-11e8-a6a3-ec086b02610b.JPG,5a1b1452-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/58d9322b-23d2-11e8-a6a3-ec086b02610b.JPG,58d9322b-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59cb374b-23d2-11e8-a6a3-ec086b02610b.JPG,59cb374b-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/588f66a9-23d2-11e8-a6a3-ec086b02610b.JPG,588f66a9-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/5976a382-23d2-11e8-a6a3-ec086b02610b.JPG,5976a382-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/597cd486-23d2-11e8-a6a3-ec086b02610b.JPG,597cd486-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/596bd881-23d2-11e8-a6a3-ec086b02610b.JPG,596bd881-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,raccoon,0.6666666666666666,"{'raccoon': 2, 'coyote': 1}",False
+data/caltech/images_cropped/59247c5a-23d2-11e8-a6a3-ec086b02610b.JPG,59247c5a-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/58fa5fc5-23d2-11e8-a6a3-ec086b02610b.JPG,58fa5fc5-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59d5b85c-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b85c-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59f947b2-23d2-11e8-a6a3-ec086b02610b.JPG,59f947b2-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/58bd1c7a-23d2-11e8-a6a3-ec086b02610b.JPG,58bd1c7a-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/596a4c82-23d2-11e8-a6a3-ec086b02610b.JPG,596a4c82-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a14a62d-23d2-11e8-a6a3-ec086b02610b.JPG,5a14a62d-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5888bd7e-23d2-11e8-a6a3-ec086b02610b.JPG,5888bd7e-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59af964a-23d2-11e8-a6a3-ec086b02610b.JPG,59af964a-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/58a8a1f0-23d2-11e8-a6a3-ec086b02610b.JPG,58a8a1f0-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/597cd615-23d2-11e8-a6a3-ec086b02610b.JPG,597cd615-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59f461d9-23d2-11e8-a6a3-ec086b02610b.JPG,59f461d9-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,coyote,0.6666666666666666,"{'deer': 1, 'coyote': 2}",False
+data/caltech/images_cropped/59b7a99e-23d2-11e8-a6a3-ec086b02610b.JPG,59b7a99e-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59e91aa4-23d2-11e8-a6a3-ec086b02610b.JPG,59e91aa4-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/596a4dbd-23d2-11e8-a6a3-ec086b02610b.JPG,596a4dbd-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/587eead8-23d2-11e8-a6a3-ec086b02610b.JPG,587eead8-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59cb3847-23d2-11e8-a6a3-ec086b02610b.JPG,59cb3847-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59b2e965-23d2-11e8-a6a3-ec086b02610b.JPG,59b2e965-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/598acdfe-23d2-11e8-a6a3-ec086b02610b.JPG,598acdfe-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,0.6666666666666666,"{'skunk': 2, 'raccoon': 1}",True
+data/caltech/images_cropped/59c31b5e-23d2-11e8-a6a3-ec086b02610b.JPG,59c31b5e-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/5a263af5-23d2-11e8-a6a3-ec086b02610b.JPG,5a263af5-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/58c97d89-23d2-11e8-a6a3-ec086b02610b.JPG,58c97d89-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,0.6666666666666666,"{'skunk': 2, 'raccoon': 1}",True
+data/caltech/images_cropped/59738728-23d2-11e8-a6a3-ec086b02610b.JPG,59738728-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",False
+data/caltech/images_cropped/59ccd3d8-23d2-11e8-a6a3-ec086b02610b.JPG,59ccd3d8-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a2c85a0-23d2-11e8-a6a3-ec086b02610b.JPG,5a2c85a0-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,0.6666666666666666,"{'skunk': 2, 'deer': 1}",True
+data/caltech/images_cropped/59e77cd5-23d2-11e8-a6a3-ec086b02610b.JPG,59e77cd5-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59f1295a-23d2-11e8-a6a3-ec086b02610b.JPG,59f1295a-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,raccoon,1.0,{'raccoon': 3},False
+data/caltech/images_cropped/5a0e3451-23d2-11e8-a6a3-ec086b02610b.JPG,5a0e3451-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/5a1978fd-23d2-11e8-a6a3-ec086b02610b.JPG,5a1978fd-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/599fbdc3-23d2-11e8-a6a3-ec086b02610b.JPG,599fbdc3-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,0.6666666666666666,"{'skunk': 2, 'raccoon': 1}",True
+data/caltech/images_cropped/59eab7d3-23d2-11e8-a6a3-ec086b02610b.JPG,59eab7d3-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/598622ee-23d2-11e8-a6a3-ec086b02610b.JPG,598622ee-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/596a4f23-23d2-11e8-a6a3-ec086b02610b.JPG,596a4f23-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/5879d335-23d2-11e8-a6a3-ec086b02610b.JPG,5879d335-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59a94b2f-23d2-11e8-a6a3-ec086b02610b.JPG,59a94b2f-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,0.6666666666666666,"{'deer': 2, 'skunk': 1}",False
+data/caltech/images_cropped/59782f9c-23d2-11e8-a6a3-ec086b02610b.JPG,59782f9c-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/593732c3-23d2-11e8-a6a3-ec086b02610b.JPG,593732c3-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59ddc30b-23d2-11e8-a6a3-ec086b02610b.JPG,59ddc30b-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/598de872-23d2-11e8-a6a3-ec086b02610b.JPG,598de872-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59817935-23d2-11e8-a6a3-ec086b02610b.JPG,59817935-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59f79bea-23d2-11e8-a6a3-ec086b02610b.JPG,59f79bea-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/599d7cf2-23d2-11e8-a6a3-ec086b02610b.JPG,599d7cf2-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59c99de0-23d2-11e8-a6a3-ec086b02610b.JPG,59c99de0-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/599a59f2-23d2-11e8-a6a3-ec086b02610b.JPG,599a59f2-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,0.6666666666666666,"{'deer': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/59c31956-23d2-11e8-a6a3-ec086b02610b.JPG,59c31956-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59f946b0-23d2-11e8-a6a3-ec086b02610b.JPG,59f946b0-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,raccoon,0.3333333333333333,"{'raccoon': 1, 'rabbit': 1, 'deer': 1}",False
+data/caltech/images_cropped/58e59aba-23d2-11e8-a6a3-ec086b02610b.JPG,58e59aba-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59942151-23d2-11e8-a6a3-ec086b02610b.JPG,59942151-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/5a197ab9-23d2-11e8-a6a3-ec086b02610b.JPG,5a197ab9-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59c99cd2-23d2-11e8-a6a3-ec086b02610b.JPG,59c99cd2-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59edf1f6-23d2-11e8-a6a3-ec086b02610b.JPG,59edf1f6-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,0.6666666666666666,"{'raccoon': 1, 'deer': 2}",False
+data/caltech/images_cropped/59e10410-23d2-11e8-a6a3-ec086b02610b.JPG,59e10410-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/58b9d692-23d2-11e8-a6a3-ec086b02610b.JPG,58b9d692-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/58dc4c82-23d2-11e8-a6a3-ec086b02610b.JPG,58dc4c82-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59c66c7c-23d2-11e8-a6a3-ec086b02610b.JPG,59c66c7c-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/5a2e1412-23d2-11e8-a6a3-ec086b02610b.JPG,5a2e1412-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/596d65dc-23d2-11e8-a6a3-ec086b02610b.JPG,596d65dc-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/586fdcaf-23d2-11e8-a6a3-ec086b02610b.JPG,586fdcaf-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59d5b72e-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b72e-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,0.6666666666666666,"{'rabbit': 1, 'deer': 2}",False
+data/caltech/images_cropped/59e77cce-23d2-11e8-a6a3-ec086b02610b.JPG,59e77cce-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,0.6666666666666666,"{'deer': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/59ccd14a-23d2-11e8-a6a3-ec086b02610b.JPG,59ccd14a-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/58e40fb2-23d2-11e8-a6a3-ec086b02610b.JPG,58e40fb2-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/5a0fd1c7-23d2-11e8-a6a3-ec086b02610b.JPG,5a0fd1c7-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59f947b7-23d2-11e8-a6a3-ec086b02610b.JPG,59f947b7-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,raccoon,0.6666666666666666,"{'raccoon': 2, 'deer': 1}",False
+data/caltech/images_cropped/59ac6bb4-23d2-11e8-a6a3-ec086b02610b.JPG,59ac6bb4-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/58ff0cb1-23d2-11e8-a6a3-ec086b02610b.JPG,58ff0cb1-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,raccoon,1.0,{'raccoon': 3},False
+data/caltech/images_cropped/58782b58-23d2-11e8-a6a3-ec086b02610b.JPG,58782b58-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,skunk,1.0,{'skunk': 3},True
+data/caltech/images_cropped/59b4852e-23d2-11e8-a6a3-ec086b02610b.JPG,59b4852e-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59b61529-23d2-11e8-a6a3-ec086b02610b.JPG,59b61529-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,0.3333333333333333,"{'lizard': 1, 'bobcat': 1, 'coyote': 1}",True
+data/caltech/images_cropped/5975165b-23d2-11e8-a6a3-ec086b02610b.JPG,5975165b-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a1b165c-23d2-11e8-a6a3-ec086b02610b.JPG,5a1b165c-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59738741-23d2-11e8-a6a3-ec086b02610b.JPG,59738741-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5968c0d5-23d2-11e8-a6a3-ec086b02610b.JPG,5968c0d5-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59a17bdc-23d2-11e8-a6a3-ec086b02610b.JPG,59a17bdc-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59cb3a8f-23d2-11e8-a6a3-ec086b02610b.JPG,59cb3a8f-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,coyote,0.6666666666666666,"{'raccoon': 1, 'coyote': 2}",False
+data/caltech/images_cropped/5987b34e-23d2-11e8-a6a3-ec086b02610b.JPG,5987b34e-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59c66a05-23d2-11e8-a6a3-ec086b02610b.JPG,59c66a05-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/596eefc4-23d2-11e8-a6a3-ec086b02610b.JPG,596eefc4-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,0.6666666666666666,"{'lizard': 2, 'deer': 1}",True
+data/caltech/images_cropped/597387b5-23d2-11e8-a6a3-ec086b02610b.JPG,597387b5-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,0.6666666666666666,"{'deer': 2, 'lizard': 1}",False
+data/caltech/images_cropped/59e2a34a-23d2-11e8-a6a3-ec086b02610b.JPG,59e2a34a-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59673593-23d2-11e8-a6a3-ec086b02610b.JPG,59673593-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a2965e6-23d2-11e8-a6a3-ec086b02610b.JPG,5a2965e6-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a07cebc-23d2-11e8-a6a3-ec086b02610b.JPG,5a07cebc-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/599bea80-23d2-11e8-a6a3-ec086b02610b.JPG,599bea80-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,0.6666666666666666,"{'coyote': 1, 'deer': 2}",False
+data/caltech/images_cropped/5a0e35c0-23d2-11e8-a6a3-ec086b02610b.JPG,5a0e35c0-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a02f9c2-23d2-11e8-a6a3-ec086b02610b.JPG,5a02f9c2-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59c80576-23d2-11e8-a6a3-ec086b02610b.JPG,59c80576-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59d0e1e6-23d2-11e8-a6a3-ec086b02610b.JPG,59d0e1e6-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59d0e49d-23d2-11e8-a6a3-ec086b02610b.JPG,59d0e49d-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59d8edfd-23d2-11e8-a6a3-ec086b02610b.JPG,59d8edfd-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59bca4c3-23d2-11e8-a6a3-ec086b02610b.JPG,59bca4c3-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59d7536e-23d2-11e8-a6a3-ec086b02610b.JPG,59d7536e-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,0.6666666666666666,"{'deer': 2, 'bobcat': 1}",False
+data/caltech/images_cropped/59cf456e-23d2-11e8-a6a3-ec086b02610b.JPG,59cf456e-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59a17ced-23d2-11e8-a6a3-ec086b02610b.JPG,59a17ced-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a1caf1c-23d2-11e8-a6a3-ec086b02610b.JPG,5a1caf1c-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59bfdced-23d2-11e8-a6a3-ec086b02610b.JPG,59bfdced-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5987b2f1-23d2-11e8-a6a3-ec086b02610b.JPG,5987b2f1-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a04948a-23d2-11e8-a6a3-ec086b02610b.JPG,5a04948a-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,0.6666666666666666,"{'rodent': 1, 'deer': 2}",False
+data/caltech/images_cropped/5987b313-23d2-11e8-a6a3-ec086b02610b.JPG,5987b313-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59fae384-23d2-11e8-a6a3-ec086b02610b.JPG,59fae384-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/596d65e0-23d2-11e8-a6a3-ec086b02610b.JPG,596d65e0-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/597cd4be-23d2-11e8-a6a3-ec086b02610b.JPG,597cd4be-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59e2a479-23d2-11e8-a6a3-ec086b02610b.JPG,59e2a479-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a1b14b1-23d2-11e8-a6a3-ec086b02610b.JPG,5a1b14b1-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/597e6368-23d2-11e8-a6a3-ec086b02610b.JPG,597e6368-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,coyote,0.6666666666666666,"{'deer': 1, 'coyote': 2}",False
+data/caltech/images_cropped/59fc7e2f-23d2-11e8-a6a3-ec086b02610b.JPG,59fc7e2f-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59b1319d-23d2-11e8-a6a3-ec086b02610b.JPG,59b1319d-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a1b164e-23d2-11e8-a6a3-ec086b02610b.JPG,5a1b164e-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a2e1409-23d2-11e8-a6a3-ec086b02610b.JPG,5a2e1409-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59973f00-23d2-11e8-a6a3-ec086b02610b.JPG,59973f00-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a1b156b-23d2-11e8-a6a3-ec086b02610b.JPG,5a1b156b-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59973ff0-23d2-11e8-a6a3-ec086b02610b.JPG,59973ff0-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59e10433-23d2-11e8-a6a3-ec086b02610b.JPG,59e10433-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a1fe713-23d2-11e8-a6a3-ec086b02610b.JPG,5a1fe713-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,bobcat,0.6666666666666666,"{'deer': 1, 'bobcat': 2}",False
+data/caltech/images_cropped/59b7a63d-23d2-11e8-a6a3-ec086b02610b.JPG,59b7a63d-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,0.6666666666666666,"{'deer': 2, 'coyote': 1}",False
+data/caltech/images_cropped/59ffbb8a-23d2-11e8-a6a3-ec086b02610b.JPG,59ffbb8a-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a163eca-23d2-11e8-a6a3-ec086b02610b.JPG,5a163eca-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59894457-23d2-11e8-a6a3-ec086b02610b.JPG,59894457-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/597b475e-23d2-11e8-a6a3-ec086b02610b.JPG,597b475e-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5976a3bb-23d2-11e8-a6a3-ec086b02610b.JPG,5976a3bb-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59e77b85-23d2-11e8-a6a3-ec086b02610b.JPG,59e77b85-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a062edd-23d2-11e8-a6a3-ec086b02610b.JPG,5a062edd-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59ec5460-23d2-11e8-a6a3-ec086b02610b.JPG,59ec5460-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a24a87a-23d2-11e8-a6a3-ec086b02610b.JPG,5a24a87a-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/597b4988-23d2-11e8-a6a3-ec086b02610b.JPG,597b4988-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a27d878-23d2-11e8-a6a3-ec086b02610b.JPG,5a27d878-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59fe2349-23d2-11e8-a6a3-ec086b02610b.JPG,59fe2349-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59738739-23d2-11e8-a6a3-ec086b02610b.JPG,59738739-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5976a2ba-23d2-11e8-a6a3-ec086b02610b.JPG,5976a2ba-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a07cdbf-23d2-11e8-a6a3-ec086b02610b.JPG,5a07cdbf-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59942128-23d2-11e8-a6a3-ec086b02610b.JPG,59942128-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,0.6666666666666666,"{'lizard': 2, 'bobcat': 1}",True
+data/caltech/images_cropped/59a17cc4-23d2-11e8-a6a3-ec086b02610b.JPG,59a17cc4-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59973f13-23d2-11e8-a6a3-ec086b02610b.JPG,59973f13-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59a17d04-23d2-11e8-a6a3-ec086b02610b.JPG,59a17d04-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59d75246-23d2-11e8-a6a3-ec086b02610b.JPG,59d75246-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a1cb16d-23d2-11e8-a6a3-ec086b02610b.JPG,5a1cb16d-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/599a59e3-23d2-11e8-a6a3-ec086b02610b.JPG,599a59e3-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59c31a5f-23d2-11e8-a6a3-ec086b02610b.JPG,59c31a5f-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,coyote,0.6666666666666666,"{'coyote': 2, 'deer': 1}",False
+data/caltech/images_cropped/5a116e48-23d2-11e8-a6a3-ec086b02610b.JPG,5a116e48-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5954a810-23d2-11e8-a6a3-ec086b02610b.JPG,5954a810-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,bobcat,1.0,{'bobcat': 3},False
+data/caltech/images_cropped/59b9389a-23d2-11e8-a6a3-ec086b02610b.JPG,59b9389a-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59c31a35-23d2-11e8-a6a3-ec086b02610b.JPG,59c31a35-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59fae4c4-23d2-11e8-a6a3-ec086b02610b.JPG,59fae4c4-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,coyote,1.0,{'coyote': 3},False
+data/caltech/images_cropped/59ef8c2e-23d2-11e8-a6a3-ec086b02610b.JPG,59ef8c2e-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a263ac1-23d2-11e8-a6a3-ec086b02610b.JPG,5a263ac1-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/5a24a6c1-23d2-11e8-a6a3-ec086b02610b.JPG,5a24a6c1-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59c31b10-23d2-11e8-a6a3-ec086b02610b.JPG,59c31b10-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a015ef7-23d2-11e8-a6a3-ec086b02610b.JPG,5a015ef7-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/597feef5-23d2-11e8-a6a3-ec086b02610b.JPG,597feef5-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a1fe844-23d2-11e8-a6a3-ec086b02610b.JPG,5a1fe844-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,bobcat,0.6666666666666666,"{'bobcat': 2, 'deer': 1}",False
+data/caltech/images_cropped/59c177a7-23d2-11e8-a6a3-ec086b02610b.JPG,59c177a7-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/597cd535-23d2-11e8-a6a3-ec086b02610b.JPG,597cd535-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/596bd7b4-23d2-11e8-a6a3-ec086b02610b.JPG,596bd7b4-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59c17967-23d2-11e8-a6a3-ec086b02610b.JPG,59c17967-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59c4bfa6-23d2-11e8-a6a3-ec086b02610b.JPG,59c4bfa6-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,1.0,{'deer': 3},False
+data/caltech/images_cropped/59da8ac9-23d2-11e8-a6a3-ec086b02610b.JPG,59da8ac9-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5962950c-23d2-11e8-a6a3-ec086b02610b.JPG,5962950c-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a096b11-23d2-11e8-a6a3-ec086b02610b.JPG,5a096b11-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/598f7807-23d2-11e8-a6a3-ec086b02610b.JPG,598f7807-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a2af49c-23d2-11e8-a6a3-ec086b02610b.JPG,5a2af49c-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a0b002e-23d2-11e8-a6a3-ec086b02610b.JPG,5a0b002e-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/597fee43-23d2-11e8-a6a3-ec086b02610b.JPG,597fee43-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/59ef8e1e-23d2-11e8-a6a3-ec086b02610b.JPG,59ef8e1e-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a130814-23d2-11e8-a6a3-ec086b02610b.JPG,5a130814-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,0.3333333333333333,"{'deer': 1, 'raccoon': 1, 'coyote': 1}",False
+data/caltech/images_cropped/5a0b0245-23d2-11e8-a6a3-ec086b02610b.JPG,5a0b0245-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/5a015bb1-23d2-11e8-a6a3-ec086b02610b.JPG,5a015bb1-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,1.0,{'lizard': 3},True
+data/caltech/images_cropped/598306ab-23d2-11e8-a6a3-ec086b02610b.JPG,598306ab-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,lizard,0.6666666666666666,"{'deer': 1, 'lizard': 2}",True
