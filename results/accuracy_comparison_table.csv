@@ -1,0 +1,13 @@
+Dataset,Image Type,Approach,Accuracy,Avg Confidence,Total Samples,Correct
+Caltech,Cropped,Baseline,68.30000000000001,86.86666666666665,1000,683
+Caltech,Cropped,CLIP Fusion,70.5,91.0,1000,705
+Caltech,Full,Baseline,58.099999999999994,84.0,1000,581
+Caltech,Full,CLIP Fusion,59.699999999999996,87.53333333333333,1000,597
+Serengeti,Cropped,Baseline,67.0,88.77777777777779,1200,804
+Serengeti,Cropped,CLIP Fusion,66.83333333333333,91.0,1200,802
+Serengeti,Full,Baseline,66.41666666666667,86.5,1200,797
+Serengeti,Full,CLIP Fusion,66.75,89.61111111111111,1200,801
+Wcs,Cropped,Baseline,58.199999999999996,88.06666666666666,1000,582
+Wcs,Cropped,CLIP Fusion,58.4,92.0,1000,584
+Wcs,Full,Baseline,72.1,87.83333333333333,1000,721
+Wcs,Full,CLIP Fusion,71.7,92.4,1000,717
