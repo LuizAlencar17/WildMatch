@@ -43,7 +43,7 @@ def main(dataset="serengeti", image_type="full"):
 
     # Configuration
     print("\n[2] Pipeline Configuration...")
-    alpha = 0.4
+    alpha = 0.7
     clip_model = "ViT-L/14"
     n_captions = 3
 
