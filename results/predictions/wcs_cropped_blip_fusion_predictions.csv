@@ -1,0 +1,11 @@
+image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
+data/wcs/images_cropped/1638.jpg,1638.jpg,tapirus terrestris,loxodonta africana,1.0,{'loxodonta africana': 3},False
+data/wcs/images_cropped/0332.jpg,0332.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0355.jpg,0355.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1421.jpg,1421.jpg,argusianus argus,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images_cropped/0567.jpg,0567.jpg,macaca nemestrina,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images_cropped/1193.jpg,1193.jpg,argusianus argus,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'mitu tuberosum': 1}",False
+data/wcs/images_cropped/0071.jpg,0071.jpg,argusianus argus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0420.jpg,0420.jpg,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images_cropped/1647.jpg,1647.jpg,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
+data/wcs/images_cropped/1740.jpg,1740.jpg,bos taurus,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
