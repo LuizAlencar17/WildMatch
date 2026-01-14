@@ -1,0 +1,101 @@
+image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
+data/caltech/images/59531d7f-23d2-11e8-a6a3-ec086b02610b.JPG,59531d7f-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/59fae36e-23d2-11e8-a6a3-ec086b02610b.JPG,59fae36e-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/598acdfe-23d2-11e8-a6a3-ec086b02610b.JPG,598acdfe-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images/596108c0-23d2-11e8-a6a3-ec086b02610b.JPG,596108c0-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,rodent,1.0,{'rodent': 3},False
+data/caltech/images/58a8a1f0-23d2-11e8-a6a3-ec086b02610b.JPG,58a8a1f0-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,rodent,1.0,{'rodent': 3},False
+data/caltech/images/592c4ece-23d2-11e8-a6a3-ec086b02610b.JPG,592c4ece-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,1.0,{'rodent': 3},False
+data/caltech/images/58cca524-23d2-11e8-a6a3-ec086b02610b.JPG,58cca524-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images/597cd58a-23d2-11e8-a6a3-ec086b02610b.JPG,597cd58a-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images/59fae4fe-23d2-11e8-a6a3-ec086b02610b.JPG,59fae4fe-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59500560-23d2-11e8-a6a3-ec086b02610b.JPG,59500560-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images/59d5b7e7-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b7e7-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/59d41ae6-23d2-11e8-a6a3-ec086b02610b.JPG,59d41ae6-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images/59751654-23d2-11e8-a6a3-ec086b02610b.JPG,59751654-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/59e43f70-23d2-11e8-a6a3-ec086b02610b.JPG,59e43f70-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images/58c4d782-23d2-11e8-a6a3-ec086b02610b.JPG,58c4d782-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rodent,1.0,{'rodent': 3},False
+data/caltech/images/58df6a45-23d2-11e8-a6a3-ec086b02610b.JPG,58df6a45-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images/59fae415-23d2-11e8-a6a3-ec086b02610b.JPG,59fae415-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/5968c223-23d2-11e8-a6a3-ec086b02610b.JPG,5968c223-23d2-11e8-a6a3-ec086b02610b.JPG,bird,rodent,1.0,{'rodent': 3},False
+data/caltech/images/5914f163-23d2-11e8-a6a3-ec086b02610b.JPG,5914f163-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images/5a17dd9c-23d2-11e8-a6a3-ec086b02610b.JPG,5a17dd9c-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rodent,0.6666666666666666,"{'rodent': 2, 'deer': 1}",False
+data/caltech/images/5937361f-23d2-11e8-a6a3-ec086b02610b.JPG,5937361f-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59e1034b-23d2-11e8-a6a3-ec086b02610b.JPG,59e1034b-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,rodent,0.6666666666666666,"{'deer': 1, 'rodent': 2}",False
+data/caltech/images/59f5fdf6-23d2-11e8-a6a3-ec086b02610b.JPG,59f5fdf6-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images/59b4852e-23d2-11e8-a6a3-ec086b02610b.JPG,59b4852e-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59641d2c-23d2-11e8-a6a3-ec086b02610b.JPG,59641d2c-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images/599fc0ab-23d2-11e8-a6a3-ec086b02610b.JPG,599fc0ab-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images/5a096a15-23d2-11e8-a6a3-ec086b02610b.JPG,5a096a15-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,0.6666666666666666,"{'deer': 2, 'rodent': 1}",False
+data/caltech/images/5a062eec-23d2-11e8-a6a3-ec086b02610b.JPG,5a062eec-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images/59d8edfd-23d2-11e8-a6a3-ec086b02610b.JPG,59d8edfd-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59f94454-23d2-11e8-a6a3-ec086b02610b.JPG,59f94454-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,deer,1.0,{'deer': 3},False
+data/caltech/images/59ccd11e-23d2-11e8-a6a3-ec086b02610b.JPG,59ccd11e-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'deer': 2, 'rodent': 1}",False
+data/caltech/images/59452d9d-23d2-11e8-a6a3-ec086b02610b.JPG,59452d9d-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images/59b6163e-23d2-11e8-a6a3-ec086b02610b.JPG,59b6163e-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,0.6666666666666666,"{'deer': 2, 'rodent': 1}",True
+data/caltech/images/595defca-23d2-11e8-a6a3-ec086b02610b.JPG,595defca-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images/59be4073-23d2-11e8-a6a3-ec086b02610b.JPG,59be4073-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images/5922ecac-23d2-11e8-a6a3-ec086b02610b.JPG,5922ecac-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rodent,1.0,{'rodent': 3},False
+data/caltech/images/5a29660f-23d2-11e8-a6a3-ec086b02610b.JPG,5a29660f-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images/5a163f2f-23d2-11e8-a6a3-ec086b02610b.JPG,5a163f2f-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images/59817a99-23d2-11e8-a6a3-ec086b02610b.JPG,59817a99-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images/58857cd4-23d2-11e8-a6a3-ec086b02610b.JPG,58857cd4-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images/59ddc32a-23d2-11e8-a6a3-ec086b02610b.JPG,59ddc32a-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/5968bfdd-23d2-11e8-a6a3-ec086b02610b.JPG,5968bfdd-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/59c177a8-23d2-11e8-a6a3-ec086b02610b.JPG,59c177a8-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rodent,0.6666666666666666,"{'deer': 1, 'rodent': 2}",False
+data/caltech/images/5860ed29-23d2-11e8-a6a3-ec086b02610b.JPG,5860ed29-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59d0e485-23d2-11e8-a6a3-ec086b02610b.JPG,59d0e485-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,1.0,{'rodent': 3},False
+data/caltech/images/599be9b5-23d2-11e8-a6a3-ec086b02610b.JPG,599be9b5-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,1.0,{'rodent': 3},False
+data/caltech/images/5a015b97-23d2-11e8-a6a3-ec086b02610b.JPG,5a015b97-23d2-11e8-a6a3-ec086b02610b.JPG,bird,rodent,0.6666666666666666,"{'bird': 1, 'rodent': 2}",False
+data/caltech/images/59673810-23d2-11e8-a6a3-ec086b02610b.JPG,59673810-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/591cb144-23d2-11e8-a6a3-ec086b02610b.JPG,591cb144-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images/594ceb90-23d2-11e8-a6a3-ec086b02610b.JPG,594ceb90-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59ac6ae9-23d2-11e8-a6a3-ec086b02610b.JPG,59ac6ae9-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,0.6666666666666666,"{'rodent': 1, 'deer': 2}",False
+data/caltech/images/59fae405-23d2-11e8-a6a3-ec086b02610b.JPG,59fae405-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images/59d5b6b9-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b6b9-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59f947b2-23d2-11e8-a6a3-ec086b02610b.JPG,59f947b2-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images/586fdcaf-23d2-11e8-a6a3-ec086b02610b.JPG,586fdcaf-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images/59247c5a-23d2-11e8-a6a3-ec086b02610b.JPG,59247c5a-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images/5a0fd010-23d2-11e8-a6a3-ec086b02610b.JPG,5a0fd010-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,deer,1.0,{'deer': 3},False
+data/caltech/images/59817a62-23d2-11e8-a6a3-ec086b02610b.JPG,59817a62-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59edf292-23d2-11e8-a6a3-ec086b02610b.JPG,59edf292-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,0.6666666666666666,"{'deer': 2, 'rodent': 1}",False
+data/caltech/images/599a5c19-23d2-11e8-a6a3-ec086b02610b.JPG,599a5c19-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rodent,0.6666666666666666,"{'rodent': 2, 'deer': 1}",False
+data/caltech/images/592de418-23d2-11e8-a6a3-ec086b02610b.JPG,592de418-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images/59594fd9-23d2-11e8-a6a3-ec086b02610b.JPG,59594fd9-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images/58d7a12f-23d2-11e8-a6a3-ec086b02610b.JPG,58d7a12f-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,deer,1.0,{'deer': 3},False
+data/caltech/images/5965a92d-23d2-11e8-a6a3-ec086b02610b.JPG,5965a92d-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images/59dc2581-23d2-11e8-a6a3-ec086b02610b.JPG,59dc2581-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,rodent,0.6666666666666666,"{'rodent': 2, 'deer': 1}",False
+data/caltech/images/58c661d3-23d2-11e8-a6a3-ec086b02610b.JPG,58c661d3-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images/5a2178cc-23d2-11e8-a6a3-ec086b02610b.JPG,5a2178cc-23d2-11e8-a6a3-ec086b02610b.JPG,bird,bird,1.0,{'bird': 3},True
+data/caltech/images/5946b819-23d2-11e8-a6a3-ec086b02610b.JPG,5946b819-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,0.6666666666666666,"{'deer': 2, 'rodent': 1}",False
+data/caltech/images/58e59a0d-23d2-11e8-a6a3-ec086b02610b.JPG,58e59a0d-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,1.0,{'rodent': 3},False
+data/caltech/images/5967351a-23d2-11e8-a6a3-ec086b02610b.JPG,5967351a-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59d5b658-23d2-11e8-a6a3-ec086b02610b.JPG,59d5b658-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59b61621-23d2-11e8-a6a3-ec086b02610b.JPG,59b61621-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,deer,1.0,{'deer': 3},False
+data/caltech/images/595dee36-23d2-11e8-a6a3-ec086b02610b.JPG,595dee36-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,1.0,{'deer': 3},False
+data/caltech/images/5a0969ce-23d2-11e8-a6a3-ec086b02610b.JPG,5a0969ce-23d2-11e8-a6a3-ec086b02610b.JPG,squirrel,rodent,1.0,{'rodent': 3},False
+data/caltech/images/5a1fe713-23d2-11e8-a6a3-ec086b02610b.JPG,5a1fe713-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,1.0,{'deer': 3},False
+data/caltech/images/595635f6-23d2-11e8-a6a3-ec086b02610b.JPG,595635f6-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images/59aadc67-23d2-11e8-a6a3-ec086b02610b.JPG,59aadc67-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/59ac696d-23d2-11e8-a6a3-ec086b02610b.JPG,59ac696d-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images/59929131-23d2-11e8-a6a3-ec086b02610b.JPG,59929131-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,rodent,1.0,{'rodent': 3},False
+data/caltech/images/5a2e122b-23d2-11e8-a6a3-ec086b02610b.JPG,5a2e122b-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/5a1fe6e2-23d2-11e8-a6a3-ec086b02610b.JPG,5a1fe6e2-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,deer,1.0,{'deer': 3},False
+data/caltech/images/59d27b59-23d2-11e8-a6a3-ec086b02610b.JPG,59d27b59-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/59e77d03-23d2-11e8-a6a3-ec086b02610b.JPG,59e77d03-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,0.6666666666666666,"{'rodent': 1, 'deer': 2}",False
+data/caltech/images/5a263af5-23d2-11e8-a6a3-ec086b02610b.JPG,5a263af5-23d2-11e8-a6a3-ec086b02610b.JPG,skunk,deer,1.0,{'deer': 3},False
+data/caltech/images/59641cf0-23d2-11e8-a6a3-ec086b02610b.JPG,59641cf0-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,rodent,1.0,{'rodent': 3},False
+data/caltech/images/5995adb6-23d2-11e8-a6a3-ec086b02610b.JPG,5995adb6-23d2-11e8-a6a3-ec086b02610b.JPG,bird,rodent,1.0,{'rodent': 3},False
+data/caltech/images/5956383a-23d2-11e8-a6a3-ec086b02610b.JPG,5956383a-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,deer,1.0,{'deer': 3},False
+data/caltech/images/59c4c265-23d2-11e8-a6a3-ec086b02610b.JPG,59c4c265-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images/596eee65-23d2-11e8-a6a3-ec086b02610b.JPG,596eee65-23d2-11e8-a6a3-ec086b02610b.JPG,coyote,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59341bcb-23d2-11e8-a6a3-ec086b02610b.JPG,59341bcb-23d2-11e8-a6a3-ec086b02610b.JPG,bobcat,rodent,1.0,{'rodent': 3},False
+data/caltech/images/5a263ac1-23d2-11e8-a6a3-ec086b02610b.JPG,5a263ac1-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,rodent,1.0,{'rodent': 3},False
+data/caltech/images/598de7c8-23d2-11e8-a6a3-ec086b02610b.JPG,598de7c8-23d2-11e8-a6a3-ec086b02610b.JPG,rabbit,deer,1.0,{'deer': 3},False
+data/caltech/images/5987b313-23d2-11e8-a6a3-ec086b02610b.JPG,5987b313-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,rodent,1.0,{'rodent': 3},False
+data/caltech/images/597386fa-23d2-11e8-a6a3-ec086b02610b.JPG,597386fa-23d2-11e8-a6a3-ec086b02610b.JPG,bird,deer,0.6666666666666666,"{'deer': 2, 'rodent': 1}",False
+data/caltech/images/5a1978f7-23d2-11e8-a6a3-ec086b02610b.JPG,5a1978f7-23d2-11e8-a6a3-ec086b02610b.JPG,raccoon,deer,1.0,{'deer': 3},False
+data/caltech/images/598624e2-23d2-11e8-a6a3-ec086b02610b.JPG,598624e2-23d2-11e8-a6a3-ec086b02610b.JPG,rodent,rodent,1.0,{'rodent': 3},True
+data/caltech/images/59817c19-23d2-11e8-a6a3-ec086b02610b.JPG,59817c19-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True
+data/caltech/images/596a4d60-23d2-11e8-a6a3-ec086b02610b.JPG,596a4d60-23d2-11e8-a6a3-ec086b02610b.JPG,bird,rodent,1.0,{'rodent': 3},False
+data/caltech/images/59894457-23d2-11e8-a6a3-ec086b02610b.JPG,59894457-23d2-11e8-a6a3-ec086b02610b.JPG,lizard,deer,1.0,{'deer': 3},False
+data/caltech/images/5a23110d-23d2-11e8-a6a3-ec086b02610b.JPG,5a23110d-23d2-11e8-a6a3-ec086b02610b.JPG,deer,deer,1.0,{'deer': 3},True

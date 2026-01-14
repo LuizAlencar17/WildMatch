@@ -68,7 +68,7 @@ def main(dataset="serengeti", image_type="full"):
     print("\n[4] Loading Dataset...")
     csv_suffix = "_cropped.csv" if image_type == "cropped" else ".csv"
     dataset_csv = f"data/{dataset}/dataset{csv_suffix}"
-    df = pd.read_csv(dataset_csv)
+    df = pd.read_csv(dataset_csv).sample(100).reset_index(drop=True)
     print(f"✓ Dataset loaded: {len(df)} images")
 
     print(f"\n{'='*70}")

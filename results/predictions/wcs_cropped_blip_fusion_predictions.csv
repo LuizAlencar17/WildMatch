@@ -1,11 +1,101 @@
 image_path,image_id,true_species,predicted_species,confidence,vote_counts,correct
-data/wcs/images_cropped/1638.jpg,1638.jpg,tapirus terrestris,loxodonta africana,1.0,{'loxodonta africana': 3},False
-data/wcs/images_cropped/0332.jpg,0332.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
-data/wcs/images_cropped/0355.jpg,0355.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
-data/wcs/images_cropped/1421.jpg,1421.jpg,argusianus argus,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
-data/wcs/images_cropped/0567.jpg,0567.jpg,macaca nemestrina,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
-data/wcs/images_cropped/1193.jpg,1193.jpg,argusianus argus,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'mitu tuberosum': 1}",False
+data/wcs/images_cropped/0422.jpg,0422.jpg,equus quagga,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1516.jpg,1516.jpg,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images_cropped/1902.jpg,1902.jpg,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images_cropped/0382.jpg,0382.jpg,bos taurus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1100.jpg,1100.jpg,macaca nemestrina,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0676.jpg,0676.jpg,panthera onca,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0791.jpg,0791.jpg,bos taurus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0267.jpg,0267.jpg,tapirus terrestris,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0416.jpg,0416.jpg,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images_cropped/1994.jpg,1994.jpg,argusianus argus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1988.jpg,1988.jpg,equus quagga,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1937.jpg,1937.jpg,bos taurus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0324.jpg,0324.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0991.jpg,0991.jpg,mitu tuberosum,tapirus terrestris,0.6666666666666666,"{'mitu tuberosum': 1, 'tapirus terrestris': 2}",False
+data/wcs/images_cropped/1506.jpg,1506.jpg,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images_cropped/0317.jpg,0317.jpg,loxodonta africana,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1973.jpg,1973.jpg,panthera onca,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0064.jpg,0064.jpg,hystrix brachyura,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'tapirus terrestris': 1}",False
+data/wcs/images_cropped/0750.jpg,0750.jpg,equus quagga,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0346.jpg,0346.jpg,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images_cropped/1037.jpg,1037.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0091.jpg,0091.jpg,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images_cropped/0535.jpg,0535.jpg,equus quagga,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'tapirus terrestris': 1}",False
+data/wcs/images_cropped/0825.jpg,0825.jpg,macaca nemestrina,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1038.jpg,1038.jpg,macaca nemestrina,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1758.jpg,1758.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1220.jpg,1220.jpg,tapirus terrestris,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0154.jpg,0154.jpg,macaca nemestrina,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0944.jpg,0944.jpg,bos taurus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1924.jpg,1924.jpg,loxodonta africana,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images_cropped/1183.jpg,1183.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0274.jpg,0274.jpg,panthera onca,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0857.jpg,0857.jpg,equus quagga,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0617.jpg,0617.jpg,argusianus argus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1607.jpg,1607.jpg,equus quagga,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0776.jpg,0776.jpg,macaca nemestrina,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1873.jpg,1873.jpg,macaca nemestrina,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0496.jpg,0496.jpg,bos taurus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0631.jpg,0631.jpg,equus quagga,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0274.jpg,0274.jpg,tapirus terrestris,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'tapirus terrestris': 1}",False
+data/wcs/images_cropped/1795.jpg,1795.jpg,loxodonta africana,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'mitu tuberosum': 1}",False
+data/wcs/images_cropped/1977.jpg,1977.jpg,hystrix brachyura,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1571.jpg,1571.jpg,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images_cropped/0637.jpg,0637.jpg,argusianus argus,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'tapirus terrestris': 1}",False
+data/wcs/images_cropped/1647.jpg,1647.jpg,panthera onca,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'tapirus terrestris': 1}",False
+data/wcs/images_cropped/0289.jpg,0289.jpg,macaca nemestrina,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1289.jpg,1289.jpg,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images_cropped/1672.jpg,1672.jpg,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images_cropped/1391.jpg,1391.jpg,loxodonta africana,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1532.jpg,1532.jpg,equus quagga,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0081.jpg,0081.jpg,hystrix brachyura,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0830.jpg,0830.jpg,equus quagga,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images_cropped/1418.jpg,1418.jpg,loxodonta africana,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images_cropped/0867.jpg,0867.jpg,panthera onca,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images_cropped/0854.jpg,0854.jpg,loxodonta africana,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1510.jpg,1510.jpg,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images_cropped/1003.jpg,1003.jpg,macaca nemestrina,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1329.jpg,1329.jpg,bos taurus,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images_cropped/1112.jpg,1112.jpg,tapirus terrestris,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0916.jpg,0916.jpg,hystrix brachyura,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1034.jpg,1034.jpg,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images_cropped/0017.jpg,0017.jpg,equus quagga,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'tapirus terrestris': 1}",False
+data/wcs/images_cropped/1325.jpg,1325.jpg,macaca nemestrina,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1949.jpg,1949.jpg,argusianus argus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1051.jpg,1051.jpg,argusianus argus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1474.jpg,1474.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1810.jpg,1810.jpg,equus quagga,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1741.jpg,1741.jpg,bos taurus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1875.jpg,1875.jpg,loxodonta africana,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1114.jpg,1114.jpg,tapirus terrestris,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1508.jpg,1508.jpg,panthera onca,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0275.jpg,0275.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0518.jpg,0518.jpg,equus quagga,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1339.jpg,1339.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0975.jpg,0975.jpg,argusianus argus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1093.jpg,1093.jpg,hystrix brachyura,hystrix brachyura,1.0,{'hystrix brachyura': 3},True
+data/wcs/images_cropped/1282.jpg,1282.jpg,tapirus terrestris,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1218.jpg,1218.jpg,bos taurus,mitu tuberosum,0.6666666666666666,"{'tapirus terrestris': 1, 'mitu tuberosum': 2}",False
+data/wcs/images_cropped/1268.jpg,1268.jpg,argusianus argus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1064.jpg,1064.jpg,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
+data/wcs/images_cropped/1963.jpg,1963.jpg,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images_cropped/1085.jpg,1085.jpg,macaca nemestrina,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0904.jpg,0904.jpg,bos taurus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0793.jpg,0793.jpg,bos taurus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0756.jpg,0756.jpg,macaca nemestrina,hystrix brachyura,1.0,{'hystrix brachyura': 3},False
+data/wcs/images_cropped/0337.jpg,0337.jpg,panthera onca,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'tapirus terrestris': 1}",False
+data/wcs/images_cropped/0046.jpg,0046.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1642.jpg,1642.jpg,tapirus terrestris,mitu tuberosum,0.6666666666666666,"{'mitu tuberosum': 2, 'tapirus terrestris': 1}",False
 data/wcs/images_cropped/0071.jpg,0071.jpg,argusianus argus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
-data/wcs/images_cropped/0420.jpg,0420.jpg,tapirus terrestris,tapirus terrestris,1.0,{'tapirus terrestris': 3},True
-data/wcs/images_cropped/1647.jpg,1647.jpg,panthera onca,panthera onca,1.0,{'panthera onca': 3},True
-data/wcs/images_cropped/1740.jpg,1740.jpg,bos taurus,tapirus terrestris,1.0,{'tapirus terrestris': 3},False
+data/wcs/images_cropped/0411.jpg,0411.jpg,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images_cropped/1084.jpg,1084.jpg,argusianus argus,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'mitu tuberosum': 1}",False
+data/wcs/images_cropped/1453.jpg,1453.jpg,argusianus argus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/0713.jpg,0713.jpg,loxodonta africana,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1312.jpg,1312.jpg,mitu tuberosum,mitu tuberosum,1.0,{'mitu tuberosum': 3},True
+data/wcs/images_cropped/0614.jpg,0614.jpg,argusianus argus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1902.jpg,1902.jpg,bos taurus,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1303.jpg,1303.jpg,psophia leucoptera,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
+data/wcs/images_cropped/1641.jpg,1641.jpg,tapirus terrestris,tapirus terrestris,0.6666666666666666,"{'tapirus terrestris': 2, 'mitu tuberosum': 1}",True
+data/wcs/images_cropped/0824.jpg,0824.jpg,psophia leucoptera,tapirus terrestris,0.6666666666666666,"{'mitu tuberosum': 1, 'tapirus terrestris': 2}",False
+data/wcs/images_cropped/0865.jpg,0865.jpg,panthera onca,mitu tuberosum,1.0,{'mitu tuberosum': 3},False
