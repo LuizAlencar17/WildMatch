@@ -44,7 +44,7 @@ def main(dataset="serengeti", image_type="full"):
     # Configuration
     print("\n[2] Pipeline Configuration...")
     alpha = 0.7
-    blip_model = "Salesforce/blip-image-captioning-large"
+    blip_model = "Salesforce/blip-itm-base-coco"
     n_captions = 3
 
     print(f"\nConfiguration:")

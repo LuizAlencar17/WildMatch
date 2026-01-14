@@ -7,7 +7,7 @@ import torch
 import numpy as np
 from PIL import Image
 from typing import List, Dict, Union, Optional
-from transformers import BlipProcessor, BlipModel
+from transformers import BlipProcessor, BlipForImageTextRetrieval
 
 
 class BLIPInterface:
@@ -15,14 +15,15 @@ class BLIPInterface:
 
     def __init__(
         self,
-        model_name: str = "Salesforce/blip-image-captioning-large",
+        model_name: str = "Salesforce/blip-itm-base-coco",
         device: Optional[str] = None,
     ):
         """
         Initialize BLIP interface.
 
         Args:
-            model_name: BLIP model variant (e.g., "Salesforce/blip-image-captioning-base", "Salesforce/blip-image-captioning-large")
+            model_name: BLIP model variant for image-text retrieval
+                       (e.g., "Salesforce/blip-itm-base-coco", "Salesforce/blip-itm-large-coco")
             device: Device to run on ("cuda", "cpu", or None for auto-detect)
         """
         if device is None:
@@ -33,7 +34,9 @@ class BLIPInterface:
         print(f"Loading BLIP model: {model_name} on {self.device}")
         self.model_name = model_name
         self.processor = BlipProcessor.from_pretrained(model_name)
-        self.model = BlipModel.from_pretrained(model_name).to(self.device)
+        self.model = BlipForImageTextRetrieval.from_pretrained(model_name).to(
+            self.device
+        )
         self.model.eval()
 
     def encode_image(self, image_path: str, normalize: bool = True) -> np.ndarray:
@@ -51,7 +54,12 @@ class BLIPInterface:
         inputs = self.processor(images=image, return_tensors="pt").to(self.device)
 
         with torch.no_grad():
-            image_features = self.model.get_image_features(**inputs)
+            # Use vision model to get image embeddings
+            vision_outputs = self.model.vision_model(
+                pixel_values=inputs.pixel_values, return_dict=True
+            )
+            # Get the [CLS] token representation
+            image_features = vision_outputs[0][:, 0, :]
 
             if normalize:
                 image_features = image_features / image_features.norm(
@@ -81,7 +89,14 @@ class BLIPInterface:
         ).to(self.device)
 
         with torch.no_grad():
-            text_features = self.model.get_text_features(**inputs)
+            # Use text encoder to get text embeddings
+            text_outputs = self.model.text_encoder(
+                input_ids=inputs.input_ids,
+                attention_mask=inputs.attention_mask,
+                return_dict=True,
+            )
+            # Get the [CLS] token representation
+            text_features = text_outputs[0][:, 0, :]
 
             if normalize:
                 text_features = text_features / text_features.norm(dim=-1, keepdim=True)
