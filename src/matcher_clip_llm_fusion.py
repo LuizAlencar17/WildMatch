@@ -105,31 +105,49 @@ class CLIPLLMFusionMatcher:
         return visual_scores
 
     def compute_textual_scores(
-        self, image_description: str, text_kb: Dict[str, np.ndarray]
+        self, image_descriptions: List[str], text_kb: Dict[str, np.ndarray]
     ) -> Dict[str, float]:
         """
-        Compute textual similarity scores using embeddings.
+        Compute textual similarity scores using embeddings from multiple descriptions.
+        Consolidates all descriptions by averaging their scores and normalizing to [0, 1].
 
         Args:
-            image_description: LLM description of image
+            image_descriptions: List of LLM descriptions of image
             text_kb: Dictionary of species -> text embeddings
 
         Returns:
-            Dictionary of species -> textual score
+            Dictionary of species -> consolidated normalized textual score
         """
-        # Embed image description
-        desc_embedding = self.get_text_embedding(image_description)
+        if not image_descriptions:
+            raise ValueError("No image descriptions provided for textual scoring.")
 
-        # Compute cosine similarities
-        textual_scores = {}
-        for species, kb_embedding in text_kb.items():
-            # Cosine similarity
-            similarity = np.dot(desc_embedding, kb_embedding) / (
-                np.linalg.norm(desc_embedding) * np.linalg.norm(kb_embedding)
-            )
-            textual_scores[species] = float(similarity)
+        # Compute scores for each description
+        all_scores = []
+        for image_description in image_descriptions:
+            # Embed image description
+            desc_embedding = self.get_text_embedding(image_description)
 
-        return textual_scores
+            # Compute cosine similarities for this description
+            scores = {}
+            for species, kb_embedding in text_kb.items():
+                # Cosine similarity
+                similarity = np.dot(desc_embedding, kb_embedding) / (
+                    np.linalg.norm(desc_embedding) * np.linalg.norm(kb_embedding)
+                )
+                scores[species] = float(similarity)
+
+            all_scores.append(scores)
+
+        # Consolidate scores by averaging across all descriptions
+        consolidated_scores = {}
+        for species in text_kb.keys():
+            avg_score = np.mean([scores[species] for scores in all_scores])
+            consolidated_scores[species] = float(avg_score)
+
+        # Normalize consolidated scores to [0, 1]
+        normalized_scores = self.normalize_score_dict(consolidated_scores)
+
+        return normalized_scores
 
     def fuse_scores(
         self,
@@ -165,16 +183,16 @@ class CLIPLLMFusionMatcher:
     def predict_species(
         self,
         image_path: str,
-        image_description: str,
+        image_descriptions: List[str],
         knowledge_base: Dict[str, Dict],
         top_k: int = 5,
     ) -> Dict:
         """
-        Predict species using CLIP-LLM fusion.
+        Predict species using CLIP-LLM fusion with consolidated textual scores.
 
         Args:
             image_path: Path to image
-            image_description: LLM-generated description
+            image_descriptions: List of LLM-generated descriptions
             knowledge_base: Knowledge base with species info
             top_k: Number of top matches to return
 
@@ -198,9 +216,9 @@ class CLIPLLMFusionMatcher:
         # Compute visual scores
         visual_scores = self.compute_visual_scores(image_path, self.clip_kb_cache)
 
-        # Compute textual scores
+        # Compute consolidated textual scores from all descriptions
         textual_scores = self.compute_textual_scores(
-            image_description, self.text_kb_cache
+            image_descriptions, self.text_kb_cache
         )
 
         # Fuse scores
@@ -231,7 +249,7 @@ class CLIPLLMFusionMatcher:
             "top_matches": top_matches,
             "visual_scores": visual_scores,
             "textual_scores": textual_scores,
-            "image_description": image_description,
+            "image_descriptions": image_descriptions,
         }
 
     def predict_with_voting(
@@ -241,7 +259,8 @@ class CLIPLLMFusionMatcher:
         knowledge_base: Dict[str, Dict],
     ) -> Dict:
         """
-        Predict with self-consistency (multiple descriptions).
+        Predict with consolidated scoring from multiple descriptions.
+        Now uses the consolidated approach from predict_species.
 
         Args:
             image_path: Path to image
@@ -249,18 +268,9 @@ class CLIPLLMFusionMatcher:
             knowledge_base: Knowledge base
 
         Returns:
-            Voting result dictionary
+            Voting result dictionary (adapted for consolidated approach)
         """
-        predictions = []
-        all_results = []
-
-        # Predict for each description
-        for desc in image_descriptions:
-            result = self.predict_species(image_path, desc, knowledge_base)
-            predictions.append(result["prediction"])
-            all_results.append(result)
-
-        if not predictions:
+        if not image_descriptions:
             return {
                 "prediction": None,
                 "confidence": 0.0,
@@ -268,22 +278,20 @@ class CLIPLLMFusionMatcher:
                 "individual_results": [],
             }
 
-        # Majority voting
-        vote_counts = Counter(predictions)
-        best_species, best_count = vote_counts.most_common(1)[0]
-        confidence = best_count / len(predictions)
+        # Use consolidated prediction with all descriptions
+        result = self.predict_species(image_path, image_descriptions, knowledge_base)
 
-        # Average final score for winning species
-        avg_score = np.mean(
-            [r["final_score"] for r in all_results if r["prediction"] == best_species]
-        )
+        # Adapt result to match voting interface
+        prediction = result["prediction"]
 
         return {
-            "prediction": best_species,
-            "confidence": confidence,
-            "vote_counts": dict(vote_counts),
-            "avg_final_score": float(avg_score),
-            "individual_results": all_results,
+            "prediction": prediction,
+            "confidence": result["confidence"],
+            "vote_counts": {prediction: 1} if prediction else {},
+            "avg_final_score": result["final_score"],
+            "individual_results": [result],
+            "textual_scores": result["textual_scores"],
+            "visual_scores": result["visual_scores"],
         }
 
     def clear_cache(self):

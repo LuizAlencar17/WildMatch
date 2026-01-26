@@ -68,7 +68,9 @@ def main(dataset="serengeti", image_type="full"):
     print("\n[4] Loading Dataset...")
     csv_suffix = "_cropped.csv" if image_type == "cropped" else ".csv"
     dataset_csv = f"data/{dataset}/dataset{csv_suffix}"
-    df = pd.read_csv(dataset_csv)
+    df = (
+        pd.read_csv(dataset_csv).sample(n=5, random_state=42).reset_index(drop=True)
+    )  # Shuffle
     print(f"✓ Dataset loaded: {len(df)} images")
 
     print(f"\n{'='*70}")
@@ -101,7 +103,8 @@ def main(dataset="serengeti", image_type="full"):
                 "true_species": row["species_name"],
                 "predicted_species": result["prediction"],
                 "confidence": result["confidence"],
-                "vote_counts": str(result.get("vote_counts", {})),
+                "textual_scores": str(result.get("textual_scores", {})),
+                "visual_scores": str(result.get("visual_scores", {})),
                 "correct": is_correct,
             }
         )
@@ -112,7 +115,9 @@ def main(dataset="serengeti", image_type="full"):
     # Save predictions to CSV
     os.makedirs("results", exist_ok=True)
     predictions_df = pd.DataFrame(predictions_list)
-    output_path = f"results/predictions/{dataset}_{image_type}_clip_fusion_predictions.csv"
+    output_path = (
+        f"results/predictions/{dataset}_{image_type}_clip_fusion_predictions.csv"
+    )
     predictions_df.to_csv(output_path, index=False)
     print(f"✓ Predictions saved to: {output_path}")
 

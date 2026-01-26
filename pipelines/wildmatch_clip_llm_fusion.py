@@ -92,20 +92,12 @@ class WildMatchCLIPLLMFusion:
             print(f"  Computing textual embedding scores...")
             print(f"  Fusing scores...")
 
-        if n_captions == 1:
-            # Single prediction
-            result = self.matcher.predict_species(
-                image_path=image_path,
-                image_description=descriptions[0],
-                knowledge_base=knowledge_base,
-            )
-        else:
-            # Self-consistency with voting
-            result = self.matcher.predict_with_voting(
-                image_path=image_path,
-                image_descriptions=descriptions,
-                knowledge_base=knowledge_base,
-            )
+        # Self-consistency with voting
+        result = self.matcher.predict_with_voting(
+            image_path=image_path,
+            image_descriptions=descriptions,
+            knowledge_base=knowledge_base,
+        )
 
         if verbose:
             print(f"\n  ✓ Prediction: {result['prediction']}")
