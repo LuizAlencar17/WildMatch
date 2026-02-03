@@ -69,7 +69,7 @@ def main(dataset="serengeti", image_type="full"):
     csv_suffix = "_cropped.csv" if image_type == "cropped" else ".csv"
     dataset_csv = f"data/{dataset}/dataset{csv_suffix}"
     df = (
-        pd.read_csv(dataset_csv).sample(n=5, random_state=42).reset_index(drop=True)
+        pd.read_csv(dataset_csv) # .sample(n=5, random_state=42).reset_index(drop=True)
     )  # Shuffle
     print(f"✓ Dataset loaded: {len(df)} images")
 
