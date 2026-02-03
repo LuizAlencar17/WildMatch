@@ -6,7 +6,8 @@ Combines visual CLIP scores with textual LLM scores for species matching.
 import numpy as np
 from typing import Dict, List, Optional, Tuple
 from collections import Counter
-from openai import OpenAI
+import torch
+from transformers import AutoTokenizer, AutoModel
 
 from .clip_interface import CLIPInterface
 
@@ -16,27 +17,36 @@ class CLIPLLMFusionMatcher:
 
     def __init__(
         self,
-        openai_api_key: str,
+        openai_api_key: str = None,
         clip_model: str = "ViT-L/14",
         alpha: float = 0.4,
         normalize_scores: bool = True,
         clip_prefix: str = "camera trap image of an animal. ",
+        text_encoder_model: str = "answerdotai/ModernBERT-base",
     ):
         """
         Initialize CLIP-LLM Fusion Matcher.
 
         Args:
-            openai_api_key: OpenAI API key for embeddings
+            openai_api_key: (Deprecated) Not used anymore
             clip_model: CLIP model variant
             alpha: Weight for visual score (1-alpha for textual)
             normalize_scores: If True, normalize scores before fusion
             clip_prefix: Prefix for CLIP text encoding
+            text_encoder_model: ModernBERT model for text embeddings
         """
-        self.client = OpenAI(api_key=openai_api_key)
         self.clip = CLIPInterface(model_name=clip_model)
         self.alpha = alpha
         self.normalize_scores = normalize_scores
         self.clip_prefix = clip_prefix
+
+        # Initialize ModernBERT for text embeddings
+        self.text_encoder_model_name = text_encoder_model
+        self.tokenizer = AutoTokenizer.from_pretrained(text_encoder_model)
+        self.text_encoder = AutoModel.from_pretrained(text_encoder_model)
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.text_encoder.to(self.device)
+        self.text_encoder.eval()
 
         # Cache for embeddings
         self.clip_kb_cache = None
@@ -64,21 +74,33 @@ class CLIPLLMFusionMatcher:
 
         return {k: (v - min_val) / (max_val - min_val) for k, v in scores.items()}
 
-    def get_text_embedding(
-        self, text: str, model: str = "text-embedding-3-small"
-    ) -> np.ndarray:
+    def get_text_embedding(self, text: str, model: str = None) -> np.ndarray:
         """
-        Get OpenAI text embedding.
+        Get ModernBERT text embedding.
 
         Args:
             text: Input text
-            model: Embedding model
+            model: (Deprecated) Not used, model is set in __init__
 
         Returns:
-            Embedding vector
+            Embedding vector (mean-pooled)
         """
-        response = self.client.embeddings.create(input=text, model=model)
-        return np.array(response.data[0].embedding)
+        # Tokenize
+        inputs = self.tokenizer(
+            text, return_tensors="pt", padding=True, truncation=True, max_length=512
+        ).to(self.device)
+
+        # Get embeddings
+        with torch.no_grad():
+            outputs = self.text_encoder(**inputs)
+            # Mean pooling over token embeddings
+            embeddings = outputs.last_hidden_state.mean(dim=1)
+
+        # Convert to numpy and normalize
+        embedding = embeddings.cpu().numpy()[0]
+        embedding = embedding / np.linalg.norm(embedding)
+
+        return embedding
 
     def compute_visual_scores(
         self, image_path: str, clip_kb: Dict[str, np.ndarray]
