@@ -7,7 +7,7 @@ import numpy as np
 from typing import Dict, List, Optional, Tuple
 from collections import Counter
 import torch
-from transformers import AutoTokenizer, AutoModel
+from transformers import AutoTokenizer, AutoModel, AutoModelForMaskedLM
 
 from .clip_interface import CLIPInterface
 
@@ -43,7 +43,8 @@ class CLIPLLMFusionMatcher:
         # Initialize ModernBERT for text embeddings
         self.text_encoder_model_name = text_encoder_model
         self.tokenizer = AutoTokenizer.from_pretrained(text_encoder_model)
-        self.text_encoder = AutoModel.from_pretrained(text_encoder_model)
+
+        self.text_encoder = AutoModelForMaskedLM.from_pretrained(text_encoder_model)
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.text_encoder.to(self.device)
         self.text_encoder.eval()
