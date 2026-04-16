@@ -76,10 +76,10 @@
       "Dataset": "Caltech",
       "Image Type": "Full",
       "Approach": "CLIP Fusion",
-      "Accuracy": 60.0,
-      "Avg Confidence": 56.895337055415006,
-      "Total Samples": 5,
-      "Correct": 3
+      "Accuracy": 57.99999999999999,
+      "Avg Confidence": 95.39999999999999,
+      "Total Samples": 1000,
+      "Correct": 580
     },
     {
       "Dataset": "Caltech",
@@ -286,11 +286,11 @@
       "Dataset": "Caltech",
       "Image Type": "Full",
       "Baseline Accuracy (%)": 58.099999999999994,
-      "CLIP Fusion Accuracy (%)": 60.0,
-      "Accuracy Improvement (%)": 1.9000000000000017,
+      "CLIP Fusion Accuracy (%)": 57.99999999999999,
+      "Accuracy Improvement (%)": -0.10000000000000009,
       "Baseline Confidence (%)": 84.0,
-      "CLIP Confidence (%)": 56.895337055415006,
-      "Confidence Change (%)": -27.10466294458499
+      "CLIP Confidence (%)": 95.39999999999999,
+      "Confidence Change (%)": 11.399999999999999
     },
     {
       "Dataset": "Serengeti",
@@ -334,19 +334,19 @@
     }
   ],
   "summary_statistics": {
-    "average_improvement": 2.508333333333333,
+    "average_improvement": 2.1749999999999994,
     "best_improvement": {
       "value": 5.099999999999993,
       "dataset": "Caltech",
       "image_type": "Cropped"
     },
     "worst_performance": {
-      "value": 0.0,
-      "dataset": "Serengeti",
+      "value": -0.10000000000000009,
+      "dataset": "Caltech",
       "image_type": "Full"
     },
-    "clip_fusion_wins": 5,
-    "baseline_wins": 0,
+    "clip_fusion_wins": 4,
+    "baseline_wins": 1,
     "total_configurations": 6
   },
   "detailed_metrics": {
@@ -703,30 +703,60 @@
           }
         },
         "clip_fusion": {
-          "accuracy": 0.6,
-          "avg_confidence": 0.5689533705541501,
-          "total_samples": 5,
-          "correct_predictions": "3",
+          "accuracy": 0.58,
+          "avg_confidence": 0.954,
+          "total_samples": 1000,
+          "correct_predictions": "580",
           "species_metrics": {
-            "bird": {
-              "accuracy": 1.0,
-              "count": 1,
-              "avg_confidence": 0.6285125541524492
+            "raccoon": {
+              "accuracy": 0.55,
+              "count": 100,
+              "avg_confidence": 0.9500000000000002
             },
-            "rodent": {
-              "accuracy": 1.0,
-              "count": 2,
-              "avg_confidence": 0.5776320430548412
+            "coyote": {
+              "accuracy": 0.65,
+              "count": 100,
+              "avg_confidence": 0.9733333333333334
             },
-            "squirrel": {
-              "accuracy": 0.0,
-              "count": 1,
-              "avg_confidence": 0.560638682295691
+            "deer": {
+              "accuracy": 0.95,
+              "count": 100,
+              "avg_confidence": 0.9833333333333334
+            },
+            "rabbit": {
+              "accuracy": 0.46,
+              "count": 100,
+              "avg_confidence": 0.9466666666666668
             },
             "bobcat": {
-              "accuracy": 0.0,
-              "count": 1,
-              "avg_confidence": 0.5003515302129277
+              "accuracy": 0.67,
+              "count": 100,
+              "avg_confidence": 0.94
+            },
+            "bird": {
+              "accuracy": 0.58,
+              "count": 100,
+              "avg_confidence": 0.9300000000000002
+            },
+            "squirrel": {
+              "accuracy": 0.2,
+              "count": 100,
+              "avg_confidence": 0.9233333333333335
+            },
+            "rodent": {
+              "accuracy": 0.77,
+              "count": 100,
+              "avg_confidence": 0.9533333333333333
+            },
+            "skunk": {
+              "accuracy": 0.65,
+              "count": 100,
+              "avg_confidence": 0.9766666666666667
+            },
+            "lizard": {
+              "accuracy": 0.32,
+              "count": 100,
+              "avg_confidence": 0.9633333333333333
             }
           }
         },
