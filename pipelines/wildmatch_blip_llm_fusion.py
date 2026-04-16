@@ -1,6 +1,6 @@
 """
-WildMatch-CLIP-LLM-Fusion Pipeline.
-Zero-shot fusion of CLIP visual scores and LLM textual scores.
+WildMatch-BLIP-LLM-Fusion Pipeline.
+Zero-shot fusion of BLIP visual scores and LLM textual scores.
 """
 
 import sys
@@ -10,37 +10,37 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 
 from typing import Dict, Optional
 from src.vlm import VisualDescriptionGenerator
-from src.matcher_clip_llm_fusion import CLIPLLMFusionMatcher
+from src.matcher_blip_llm_fusion import BLIPLLMFusionMatcher
 
 
-class WildMatchCLIPLLMFusion:
-    """WildMatch pipeline with CLIP-LLM fusion matching."""
+class WildMatchBLIPLLMFusion:
+    """WildMatch pipeline with BLIP-LLM fusion matching."""
 
     def __init__(
         self,
         openai_api_key: str,
-        clip_model: str = "ViT-L/14",
+        blip_model: str = "Salesforce/blip-image-captioning-large",
         alpha: float = 0.4,
         normalize_scores: bool = True,
-        clip_prefix: str = "camera trap image of an animal. ",
+        blip_prefix: str = "camera trap image of an animal. ",
     ):
         """
-        Initialize WildMatch-CLIP-LLM-Fusion pipeline.
+        Initialize WildMatch-BLIP-LLM-Fusion pipeline.
 
         Args:
             openai_api_key: OpenAI API key
-            clip_model: CLIP model variant
+            blip_model: BLIP model variant
             alpha: Weight for visual score (visual_score * alpha + textual_score * (1-alpha))
             normalize_scores: If True, normalize scores before fusion
-            clip_prefix: Prefix for CLIP text encoding from KB
+            blip_prefix: Prefix for BLIP text encoding from KB
         """
         self.vlm = VisualDescriptionGenerator(openai_api_key)
-        self.matcher = CLIPLLMFusionMatcher(
+        self.matcher = BLIPLLMFusionMatcher(
             openai_api_key=openai_api_key,
-            clip_model=clip_model,
+            blip_model=blip_model,
             alpha=alpha,
             normalize_scores=normalize_scores,
-            clip_prefix=clip_prefix,
+            blip_prefix=blip_prefix,
         )
 
     def predict(
@@ -52,7 +52,7 @@ class WildMatchCLIPLLMFusion:
         verbose: bool = False,
     ) -> Dict:
         """
-        Run WildMatch-CLIP-LLM-Fusion prediction.
+        Run WildMatch-BLIP-LLM-Fusion prediction.
 
         Args:
             image_path: Path to image
@@ -65,9 +65,9 @@ class WildMatchCLIPLLMFusion:
             Prediction result dictionary
         """
         if verbose:
-            print(f"[WildMatch-CLIP-LLM-Fusion]")
+            print(f"[WildMatch-BLIP-LLM-Fusion]")
             print(f"  Alpha (visual weight): {self.matcher.alpha}")
-            print(f"  CLIP model: {self.matcher.clip.model}")
+            print(f"  BLIP model: {self.matcher.blip.model_name}")
             print(f"  Generating {n_captions} caption(s)...")
 
         # 1. Generate image descriptions with VLM
@@ -86,18 +86,26 @@ class WildMatchCLIPLLMFusion:
             for i, desc in enumerate(descriptions, 1):
                 print(f"    Caption {i}: {desc[:100]}...")
 
-        # 2. Match using CLIP-LLM fusion
+        # 2. Match using BLIP-LLM fusion
         if verbose:
-            print(f"  Computing CLIP visual scores...")
+            print(f"  Computing BLIP visual scores...")
             print(f"  Computing textual embedding scores...")
             print(f"  Fusing scores...")
 
-        # Self-consistency with voting
-        result = self.matcher.predict_with_voting(
-            image_path=image_path,
-            image_descriptions=descriptions,
-            knowledge_base=knowledge_base,
-        )
+        if n_captions == 1:
+            # Single prediction
+            result = self.matcher.predict_species(
+                image_path=image_path,
+                image_description=descriptions[0],
+                knowledge_base=knowledge_base,
+            )
+        else:
+            # Self-consistency with voting
+            result = self.matcher.predict_with_voting(
+                image_path=image_path,
+                image_descriptions=descriptions,
+                knowledge_base=knowledge_base,
+            )
 
         if verbose:
             print(f"\n  ✓ Prediction: {result['prediction']}")

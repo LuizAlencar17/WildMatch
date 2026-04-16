@@ -3,6 +3,15 @@
     {
       "Dataset": "Caltech",
       "Image Type": "Cropped",
+      "Approach": "BLIP Fusion",
+      "Accuracy": 25.0,
+      "Avg Confidence": 91.0,
+      "Total Samples": 100,
+      "Correct": 25
+    },
+    {
+      "Dataset": "Caltech",
+      "Image Type": "Cropped",
       "Approach": "Baseline",
       "Accuracy": 68.30000000000001,
       "Avg Confidence": 86.86666666666665,
@@ -17,6 +26,15 @@
       "Avg Confidence": 96.5,
       "Total Samples": 1000,
       "Correct": 735
+    },
+    {
+      "Dataset": "Caltech",
+      "Image Type": "Full",
+      "Approach": "BLIP Fusion",
+      "Accuracy": 19.0,
+      "Avg Confidence": 95.33333333333334,
+      "Total Samples": 100,
+      "Correct": 19
     },
     {
       "Dataset": "Caltech",
@@ -39,6 +57,15 @@
     {
       "Dataset": "Serengeti",
       "Image Type": "Cropped",
+      "Approach": "BLIP Fusion",
+      "Accuracy": 24.0,
+      "Avg Confidence": 91.66666666666666,
+      "Total Samples": 100,
+      "Correct": 24
+    },
+    {
+      "Dataset": "Serengeti",
+      "Image Type": "Cropped",
       "Approach": "Baseline",
       "Accuracy": 67.0,
       "Avg Confidence": 88.77777777777779,
@@ -53,6 +80,15 @@
       "Avg Confidence": 96.69444444444446,
       "Total Samples": 1200,
       "Correct": 825
+    },
+    {
+      "Dataset": "Serengeti",
+      "Image Type": "Full",
+      "Approach": "BLIP Fusion",
+      "Accuracy": 12.0,
+      "Avg Confidence": 96.66666666666667,
+      "Total Samples": 100,
+      "Correct": 12
     },
     {
       "Dataset": "Serengeti",
@@ -75,6 +111,15 @@
     {
       "Dataset": "Wcs",
       "Image Type": "Cropped",
+      "Approach": "BLIP Fusion",
+      "Accuracy": 17.0,
+      "Avg Confidence": 95.33333333333334,
+      "Total Samples": 100,
+      "Correct": 17
+    },
+    {
+      "Dataset": "Wcs",
+      "Image Type": "Cropped",
       "Approach": "Baseline",
       "Accuracy": 58.199999999999996,
       "Avg Confidence": 88.06666666666666,
@@ -89,6 +134,15 @@
       "Avg Confidence": 96.8,
       "Total Samples": 1000,
       "Correct": 607
+    },
+    {
+      "Dataset": "Wcs",
+      "Image Type": "Full",
+      "Approach": "BLIP Fusion",
+      "Accuracy": 28.000000000000004,
+      "Avg Confidence": 93.66666666666666,
+      "Total Samples": 100,
+      "Correct": 28
     },
     {
       "Dataset": "Wcs",
@@ -305,6 +359,64 @@
               "avg_confidence": 0.9766666666666667
             }
           }
+        },
+        "blip_fusion": {
+          "accuracy": 0.25,
+          "avg_confidence": 0.91,
+          "total_samples": 100,
+          "correct_predictions": "25",
+          "species_metrics": {
+            "bobcat": {
+              "accuracy": 0.6,
+              "count": 10,
+              "avg_confidence": 0.9666666666666666
+            },
+            "rabbit": {
+              "accuracy": 0.4166666666666667,
+              "count": 12,
+              "avg_confidence": 1.0
+            },
+            "lizard": {
+              "accuracy": 0.0,
+              "count": 11,
+              "avg_confidence": 0.9393939393939393
+            },
+            "coyote": {
+              "accuracy": 0.16666666666666666,
+              "count": 12,
+              "avg_confidence": 0.9166666666666665
+            },
+            "rodent": {
+              "accuracy": 0.0,
+              "count": 8,
+              "avg_confidence": 0.875
+            },
+            "raccoon": {
+              "accuracy": 0.0,
+              "count": 11,
+              "avg_confidence": 0.8181818181818182
+            },
+            "squirrel": {
+              "accuracy": 0.5454545454545454,
+              "count": 11,
+              "avg_confidence": 0.8484848484848484
+            },
+            "skunk": {
+              "accuracy": 0.0,
+              "count": 8,
+              "avg_confidence": 0.7916666666666666
+            },
+            "deer": {
+              "accuracy": 0.0,
+              "count": 10,
+              "avg_confidence": 0.9666666666666666
+            },
+            "bird": {
+              "accuracy": 0.8571428571428571,
+              "count": 7,
+              "avg_confidence": 0.9523809523809523
+            }
+          }
         }
       },
       "full": {
@@ -421,6 +533,64 @@
               "accuracy": 0.32,
               "count": 100,
               "avg_confidence": 0.9633333333333333
+            }
+          }
+        },
+        "blip_fusion": {
+          "accuracy": 0.19,
+          "avg_confidence": 0.9533333333333335,
+          "total_samples": 100,
+          "correct_predictions": "19",
+          "species_metrics": {
+            "deer": {
+              "accuracy": 1.0,
+              "count": 14,
+              "avg_confidence": 0.9761904761904762
+            },
+            "skunk": {
+              "accuracy": 0.0,
+              "count": 8,
+              "avg_confidence": 0.9583333333333333
+            },
+            "squirrel": {
+              "accuracy": 0.0,
+              "count": 13,
+              "avg_confidence": 1.0
+            },
+            "bird": {
+              "accuracy": 0.1,
+              "count": 10,
+              "avg_confidence": 0.9333333333333332
+            },
+            "raccoon": {
+              "accuracy": 0.0,
+              "count": 12,
+              "avg_confidence": 0.9444444444444443
+            },
+            "coyote": {
+              "accuracy": 0.0,
+              "count": 11,
+              "avg_confidence": 0.9090909090909091
+            },
+            "rodent": {
+              "accuracy": 0.4,
+              "count": 10,
+              "avg_confidence": 0.9333333333333332
+            },
+            "rabbit": {
+              "accuracy": 0.0,
+              "count": 10,
+              "avg_confidence": 0.9
+            },
+            "bobcat": {
+              "accuracy": 0.0,
+              "count": 6,
+              "avg_confidence": 1.0
+            },
+            "lizard": {
+              "accuracy": 0.0,
+              "count": 6,
+              "avg_confidence": 1.0
             }
           }
         }
@@ -563,6 +733,74 @@
               "avg_confidence": 0.97
             }
           }
+        },
+        "blip_fusion": {
+          "accuracy": 0.24,
+          "avg_confidence": 0.9166666666666665,
+          "total_samples": 100,
+          "correct_predictions": "24",
+          "species_metrics": {
+            "hyenaspotted": {
+              "accuracy": 0.23076923076923078,
+              "count": 13,
+              "avg_confidence": 0.9230769230769229
+            },
+            "buffalo": {
+              "accuracy": 0.5833333333333334,
+              "count": 12,
+              "avg_confidence": 0.9444444444444443
+            },
+            "warthog": {
+              "accuracy": 0.0,
+              "count": 6,
+              "avg_confidence": 0.8333333333333331
+            },
+            "zebra": {
+              "accuracy": 0.4,
+              "count": 10,
+              "avg_confidence": 0.8666666666666666
+            },
+            "baboon": {
+              "accuracy": 0.0,
+              "count": 9,
+              "avg_confidence": 0.9629629629629629
+            },
+            "guineafowl": {
+              "accuracy": 0.3333333333333333,
+              "count": 6,
+              "avg_confidence": 0.8333333333333334
+            },
+            "hippopotamus": {
+              "accuracy": 0.0,
+              "count": 10,
+              "avg_confidence": 0.8999999999999998
+            },
+            "giraffe": {
+              "accuracy": 0.6666666666666666,
+              "count": 9,
+              "avg_confidence": 0.9629629629629629
+            },
+            "cheetah": {
+              "accuracy": 0.14285714285714285,
+              "count": 7,
+              "avg_confidence": 1.0
+            },
+            "impala": {
+              "accuracy": 0.0,
+              "count": 11,
+              "avg_confidence": 0.8484848484848484
+            },
+            "elephant": {
+              "accuracy": 0.0,
+              "count": 5,
+              "avg_confidence": 1.0
+            },
+            "ostrich": {
+              "accuracy": 0.5,
+              "count": 2,
+              "avg_confidence": 1.0
+            }
+          }
         }
       },
       "full": {
@@ -701,6 +939,74 @@
               "avg_confidence": 0.95
             }
           }
+        },
+        "blip_fusion": {
+          "accuracy": 0.12,
+          "avg_confidence": 0.9666666666666667,
+          "total_samples": 100,
+          "correct_predictions": "12",
+          "species_metrics": {
+            "buffalo": {
+              "accuracy": 0.0,
+              "count": 9,
+              "avg_confidence": 1.0
+            },
+            "impala": {
+              "accuracy": 0.0,
+              "count": 15,
+              "avg_confidence": 0.9777777777777777
+            },
+            "elephant": {
+              "accuracy": 0.0,
+              "count": 10,
+              "avg_confidence": 1.0
+            },
+            "baboon": {
+              "accuracy": 0.0,
+              "count": 10,
+              "avg_confidence": 1.0
+            },
+            "ostrich": {
+              "accuracy": 0.0,
+              "count": 8,
+              "avg_confidence": 0.9166666666666666
+            },
+            "cheetah": {
+              "accuracy": 0.06666666666666667,
+              "count": 15,
+              "avg_confidence": 1.0
+            },
+            "zebra": {
+              "accuracy": 0.6666666666666666,
+              "count": 9,
+              "avg_confidence": 0.9259259259259258
+            },
+            "hyenaspotted": {
+              "accuracy": 0.0,
+              "count": 4,
+              "avg_confidence": 0.8333333333333333
+            },
+            "hippopotamus": {
+              "accuracy": 0.2222222222222222,
+              "count": 9,
+              "avg_confidence": 0.9259259259259258
+            },
+            "giraffe": {
+              "accuracy": 1.0,
+              "count": 3,
+              "avg_confidence": 1.0
+            },
+            "guineafowl": {
+              "accuracy": 0.0,
+              "count": 4,
+              "avg_confidence": 0.9166666666666666
+            },
+            "warthog": {
+              "accuracy": 0.0,
+              "count": 4,
+              "avg_confidence": 1.0
+            }
+          }
         }
       }
     },
@@ -821,6 +1127,64 @@
               "avg_confidence": 0.9366666666666665
             }
           }
+        },
+        "blip_fusion": {
+          "accuracy": 0.17,
+          "avg_confidence": 0.9533333333333335,
+          "total_samples": 100,
+          "correct_predictions": "17",
+          "species_metrics": {
+            "equus quagga": {
+              "accuracy": 0.0,
+              "count": 12,
+              "avg_confidence": 0.9444444444444443
+            },
+            "tapirus terrestris": {
+              "accuracy": 0.4166666666666667,
+              "count": 12,
+              "avg_confidence": 0.9166666666666665
+            },
+            "mitu tuberosum": {
+              "accuracy": 0.9,
+              "count": 10,
+              "avg_confidence": 0.9666666666666666
+            },
+            "bos taurus": {
+              "accuracy": 0.0,
+              "count": 11,
+              "avg_confidence": 0.9696969696969696
+            },
+            "macaca nemestrina": {
+              "accuracy": 0.0,
+              "count": 11,
+              "avg_confidence": 1.0
+            },
+            "panthera onca": {
+              "accuracy": 0.0,
+              "count": 8,
+              "avg_confidence": 0.9166666666666666
+            },
+            "argusianus argus": {
+              "accuracy": 0.0,
+              "count": 11,
+              "avg_confidence": 0.9393939393939393
+            },
+            "psophia leucoptera": {
+              "accuracy": 0.0,
+              "count": 10,
+              "avg_confidence": 0.9666666666666666
+            },
+            "hystrix brachyura": {
+              "accuracy": 0.42857142857142855,
+              "count": 7,
+              "avg_confidence": 0.9523809523809523
+            },
+            "loxodonta africana": {
+              "accuracy": 0.0,
+              "count": 8,
+              "avg_confidence": 0.9583333333333333
+            }
+          }
         }
       },
       "full": {
@@ -937,6 +1301,64 @@
               "accuracy": 0.9,
               "count": 100,
               "avg_confidence": 0.9533333333333333
+            }
+          }
+        },
+        "blip_fusion": {
+          "accuracy": 0.28,
+          "avg_confidence": 0.9366666666666665,
+          "total_samples": 100,
+          "correct_predictions": "28",
+          "species_metrics": {
+            "bos taurus": {
+              "accuracy": 0.14285714285714285,
+              "count": 14,
+              "avg_confidence": 0.9047619047619045
+            },
+            "loxodonta africana": {
+              "accuracy": 0.0,
+              "count": 12,
+              "avg_confidence": 1.0
+            },
+            "mitu tuberosum": {
+              "accuracy": 0.5714285714285714,
+              "count": 7,
+              "avg_confidence": 0.8571428571428571
+            },
+            "panthera onca": {
+              "accuracy": 1.0,
+              "count": 13,
+              "avg_confidence": 1.0
+            },
+            "psophia leucoptera": {
+              "accuracy": 0.09090909090909091,
+              "count": 11,
+              "avg_confidence": 0.8181818181818182
+            },
+            "hystrix brachyura": {
+              "accuracy": 0.0,
+              "count": 12,
+              "avg_confidence": 0.9444444444444443
+            },
+            "equus quagga": {
+              "accuracy": 0.5555555555555556,
+              "count": 9,
+              "avg_confidence": 0.9629629629629629
+            },
+            "argusianus argus": {
+              "accuracy": 0.0,
+              "count": 10,
+              "avg_confidence": 0.9
+            },
+            "tapirus terrestris": {
+              "accuracy": 0.0,
+              "count": 5,
+              "avg_confidence": 1.0
+            },
+            "macaca nemestrina": {
+              "accuracy": 0.42857142857142855,
+              "count": 7,
+              "avg_confidence": 1.0
             }
           }
         }

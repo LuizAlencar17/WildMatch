@@ -1,6 +1,6 @@
 """
-Main entry point for WildMatch-CLIP-LLM-Fusion pipeline.
-Interactive demo of the CLIP-LLM fusion approach.
+Main entry point for WildMatch-BLIP-LLM-Fusion pipeline.
+Interactive demo of the BLIP-LLM fusion approach.
 """
 
 import os
@@ -10,7 +10,7 @@ import pandas as pd
 from dotenv import load_dotenv
 
 from src.utils import load_json
-from pipelines.wildmatch_clip_llm_fusion import WildMatchCLIPLLMFusion
+from pipelines.wildmatch_blip_llm_fusion import WildMatchBLIPLLMFusion
 
 
 def main(dataset="serengeti", image_type="full"):
@@ -24,8 +24,8 @@ def main(dataset="serengeti", image_type="full"):
         raise ValueError("OPENAI_API_KEY not found in environment variables")
 
     print("=" * 70)
-    print("WildMatch-CLIP-LLM-Fusion Pipeline")
-    print("Zero-shot fusion of visual CLIP and textual LLM scores")
+    print("WildMatch-BLIP-LLM-Fusion Pipeline")
+    print("Zero-shot fusion of visual BLIP and textual LLM scores")
     print(f"Dataset: {dataset} | Image Type: {image_type}")
     print("=" * 70)
 
@@ -44,21 +44,21 @@ def main(dataset="serengeti", image_type="full"):
     # Configuration
     print("\n[2] Pipeline Configuration...")
     alpha = 0.7
-    clip_model = "ViT-L/14"
+    blip_model = "Salesforce/blip-itm-base-coco"
     n_captions = 3
 
     print(f"\nConfiguration:")
     print(f"  Alpha (visual weight): {alpha}")
-    print(f"  CLIP model: {clip_model}")
+    print(f"  BLIP model: {blip_model}")
     print(f"  N captions: {n_captions}")
 
     # Initialize pipeline
     print("\n[3] Initializing Pipeline...")
-    print("  Loading CLIP model (this may take a moment)...")
+    print("  Loading BLIP model (this may take a moment)...")
 
-    pipeline = WildMatchCLIPLLMFusion(
+    pipeline = WildMatchBLIPLLMFusion(
         openai_api_key=api_key,
-        clip_model=clip_model,
+        blip_model=blip_model,
         alpha=alpha,
         normalize_scores=True,
     )
@@ -68,7 +68,7 @@ def main(dataset="serengeti", image_type="full"):
     print("\n[4] Loading Dataset...")
     csv_suffix = "_cropped.csv" if image_type == "cropped" else ".csv"
     dataset_csv = f"data/{dataset}/dataset{csv_suffix}"
-    df = pd.read_csv(dataset_csv)  # Shuffle
+    df = pd.read_csv(dataset_csv).sample(100).reset_index(drop=True)
     print(f"✓ Dataset loaded: {len(df)} images")
 
     print(f"\n{'='*70}")
@@ -101,8 +101,7 @@ def main(dataset="serengeti", image_type="full"):
                 "true_species": row["species_name"],
                 "predicted_species": result["prediction"],
                 "confidence": result["confidence"],
-                "textual_scores": str(result.get("textual_scores", {})),
-                "visual_scores": str(result.get("visual_scores", {})),
+                "vote_counts": str(result.get("vote_counts", {})),
                 "correct": is_correct,
             }
         )
@@ -111,10 +110,10 @@ def main(dataset="serengeti", image_type="full"):
     print(f"\n✓ Batch accuracy: {accuracy:.2%}")
 
     # Save predictions to CSV
-    os.makedirs("results", exist_ok=True)
+    os.makedirs("results/predictions", exist_ok=True)
     predictions_df = pd.DataFrame(predictions_list)
     output_path = (
-        f"results/predictions/{dataset}_{image_type}_clip_fusion_predictions.csv"
+        f"results/predictions/{dataset}_{image_type}_blip_fusion_predictions.csv"
     )
     predictions_df.to_csv(output_path, index=False)
     print(f"✓ Predictions saved to: {output_path}")
@@ -125,7 +124,7 @@ def main(dataset="serengeti", image_type="full"):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="WildMatch-CLIP-LLM-Fusion Pipeline")
+    parser = argparse.ArgumentParser(description="WildMatch-BLIP-LLM-Fusion Pipeline")
     parser.add_argument(
         "--dataset",
         type=str,
