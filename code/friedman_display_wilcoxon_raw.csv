@@ -1,0 +1,7 @@
+,p_raw
+BLIP vs Baseline,0.03125
+BLIP vs CLIP,0.03125
+BLIP vs WildMatch-VLM-Fusion,0.03125
+Baseline vs CLIP,0.4375
+Baseline vs WildMatch-VLM-Fusion,0.125
+CLIP vs WildMatch-VLM-Fusion,0.03125

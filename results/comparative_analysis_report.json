@@ -1,7 +1,7 @@
 {
   "accuracy_comparison": [
     {
-      "Dataset": "Caltech",
+      "Dataset": "CALTECH",
       "Image Type": "Cropped",
       "Approach": "Baseline",
       "Accuracy": 68.30000000000001,
@@ -10,7 +10,7 @@
       "Correct": 683
     },
     {
-      "Dataset": "Caltech",
+      "Dataset": "CALTECH",
       "Image Type": "Cropped",
       "Approach": "Blip",
       "Accuracy": 12.9,
@@ -19,16 +19,7 @@
       "Correct": 129
     },
     {
-      "Dataset": "Caltech",
-      "Image Type": "Cropped",
-      "Approach": "CLIP Fusion",
-      "Accuracy": 73.4,
-      "Avg Confidence": 59.887118385180806,
-      "Total Samples": 1000,
-      "Correct": 734
-    },
-    {
-      "Dataset": "Caltech",
+      "Dataset": "CALTECH",
       "Image Type": "Cropped",
       "Approach": "Clip",
       "Accuracy": 72.7,
@@ -37,7 +28,16 @@
       "Correct": 727
     },
     {
-      "Dataset": "Caltech",
+      "Dataset": "CALTECH",
+      "Image Type": "Cropped",
+      "Approach": "WildMatch-VLM-Fusion",
+      "Accuracy": 73.4,
+      "Avg Confidence": 59.887118385180806,
+      "Total Samples": 1000,
+      "Correct": 734
+    },
+    {
+      "Dataset": "CALTECH",
       "Image Type": "Full",
       "Approach": "Baseline",
       "Accuracy": 58.099999999999994,
@@ -46,7 +46,7 @@
       "Correct": 581
     },
     {
-      "Dataset": "Caltech",
+      "Dataset": "CALTECH",
       "Image Type": "Full",
       "Approach": "Blip",
       "Accuracy": 11.3,
@@ -55,16 +55,7 @@
       "Correct": 113
     },
     {
-      "Dataset": "Caltech",
-      "Image Type": "Full",
-      "Approach": "CLIP Fusion",
-      "Accuracy": 57.99999999999999,
-      "Avg Confidence": 95.39999999999999,
-      "Total Samples": 1000,
-      "Correct": 580
-    },
-    {
-      "Dataset": "Caltech",
+      "Dataset": "CALTECH",
       "Image Type": "Full",
       "Approach": "Clip",
       "Accuracy": 54.7,
@@ -73,7 +64,16 @@
       "Correct": 547
     },
     {
-      "Dataset": "Serengeti",
+      "Dataset": "CALTECH",
+      "Image Type": "Full",
+      "Approach": "WildMatch-VLM-Fusion",
+      "Accuracy": 57.99999999999999,
+      "Avg Confidence": 95.39999999999999,
+      "Total Samples": 1000,
+      "Correct": 580
+    },
+    {
+      "Dataset": "SERENGETI",
       "Image Type": "Cropped",
       "Approach": "Baseline",
       "Accuracy": 67.0,
@@ -82,7 +82,7 @@
       "Correct": 804
     },
     {
-      "Dataset": "Serengeti",
+      "Dataset": "SERENGETI",
       "Image Type": "Cropped",
       "Approach": "Blip",
       "Accuracy": 5.416666666666667,
@@ -91,16 +91,7 @@
       "Correct": 65
     },
     {
-      "Dataset": "Serengeti",
-      "Image Type": "Cropped",
-      "Approach": "CLIP Fusion",
-      "Accuracy": 68.75,
-      "Avg Confidence": 59.18468225027922,
-      "Total Samples": 1200,
-      "Correct": 825
-    },
-    {
-      "Dataset": "Serengeti",
+      "Dataset": "SERENGETI",
       "Image Type": "Cropped",
       "Approach": "Clip",
       "Accuracy": 65.66666666666666,
@@ -109,7 +100,16 @@
       "Correct": 788
     },
     {
-      "Dataset": "Serengeti",
+      "Dataset": "SERENGETI",
+      "Image Type": "Cropped",
+      "Approach": "WildMatch-VLM-Fusion",
+      "Accuracy": 68.75,
+      "Avg Confidence": 59.18468225027922,
+      "Total Samples": 1200,
+      "Correct": 825
+    },
+    {
+      "Dataset": "SERENGETI",
       "Image Type": "Full",
       "Approach": "Baseline",
       "Accuracy": 66.41666666666667,
@@ -118,7 +118,7 @@
       "Correct": 797
     },
     {
-      "Dataset": "Serengeti",
+      "Dataset": "SERENGETI",
       "Image Type": "Full",
       "Approach": "Blip",
       "Accuracy": 3.75,
@@ -127,16 +127,7 @@
       "Correct": 45
     },
     {
-      "Dataset": "Serengeti",
-      "Image Type": "Full",
-      "Approach": "CLIP Fusion",
-      "Accuracy": 66.41666666666667,
-      "Avg Confidence": 58.26815855422739,
-      "Total Samples": 1200,
-      "Correct": 797
-    },
-    {
-      "Dataset": "Serengeti",
+      "Dataset": "SERENGETI",
       "Image Type": "Full",
       "Approach": "Clip",
       "Accuracy": 62.583333333333336,
@@ -145,7 +136,16 @@
       "Correct": 751
     },
     {
-      "Dataset": "Wcs",
+      "Dataset": "SERENGETI",
+      "Image Type": "Full",
+      "Approach": "WildMatch-VLM-Fusion",
+      "Accuracy": 66.41666666666667,
+      "Avg Confidence": 58.26815855422739,
+      "Total Samples": 1200,
+      "Correct": 797
+    },
+    {
+      "Dataset": "WCS",
       "Image Type": "Cropped",
       "Approach": "Baseline",
       "Accuracy": 58.199999999999996,
@@ -154,7 +154,7 @@
       "Correct": 582
     },
     {
-      "Dataset": "Wcs",
+      "Dataset": "WCS",
       "Image Type": "Cropped",
       "Approach": "Blip",
       "Accuracy": 6.4,
@@ -163,16 +163,7 @@
       "Correct": 64
     },
     {
-      "Dataset": "Wcs",
-      "Image Type": "Cropped",
-      "Approach": "CLIP Fusion",
-      "Accuracy": 60.199999999999996,
-      "Avg Confidence": 61.094720422031834,
-      "Total Samples": 1000,
-      "Correct": 602
-    },
-    {
-      "Dataset": "Wcs",
+      "Dataset": "WCS",
       "Image Type": "Cropped",
       "Approach": "Clip",
       "Accuracy": 56.99999999999999,
@@ -181,7 +172,16 @@
       "Correct": 570
     },
     {
-      "Dataset": "Wcs",
+      "Dataset": "WCS",
+      "Image Type": "Cropped",
+      "Approach": "WildMatch-VLM-Fusion",
+      "Accuracy": 60.199999999999996,
+      "Avg Confidence": 61.094720422031834,
+      "Total Samples": 1000,
+      "Correct": 602
+    },
+    {
+      "Dataset": "WCS",
       "Image Type": "Full",
       "Approach": "Baseline",
       "Accuracy": 72.1,
@@ -190,7 +190,7 @@
       "Correct": 721
     },
     {
-      "Dataset": "Wcs",
+      "Dataset": "WCS",
       "Image Type": "Full",
       "Approach": "Blip",
       "Accuracy": 2.9000000000000004,
@@ -199,80 +199,80 @@
       "Correct": 29
     },
     {
-      "Dataset": "Wcs",
-      "Image Type": "Full",
-      "Approach": "CLIP Fusion",
-      "Accuracy": 76.4,
-      "Avg Confidence": 95.66666666666667,
-      "Total Samples": 1000,
-      "Correct": 764
-    },
-    {
-      "Dataset": "Wcs",
+      "Dataset": "WCS",
       "Image Type": "Full",
       "Approach": "Clip",
       "Accuracy": 69.5,
       "Avg Confidence": 100.0,
       "Total Samples": 1000,
       "Correct": 695
+    },
+    {
+      "Dataset": "WCS",
+      "Image Type": "Full",
+      "Approach": "WildMatch-VLM-Fusion",
+      "Accuracy": 76.4,
+      "Avg Confidence": 95.66666666666667,
+      "Total Samples": 1000,
+      "Correct": 764
     }
   ],
   "improvement_analysis": [
     {
-      "Dataset": "Caltech",
+      "Dataset": "CALTECH",
       "Image Type": "Cropped",
       "Baseline Accuracy (%)": 68.30000000000001,
-      "CLIP Fusion Accuracy (%)": 73.4,
+      "WildMatch-VLM-Fusion Accuracy (%)": 73.4,
       "Accuracy Improvement (%)": 5.099999999999993,
       "Baseline Confidence (%)": 86.86666666666665,
       "CLIP Confidence (%)": 59.887118385180806,
       "Confidence Change (%)": -26.979548281485844
     },
     {
-      "Dataset": "Caltech",
+      "Dataset": "CALTECH",
       "Image Type": "Full",
       "Baseline Accuracy (%)": 58.099999999999994,
-      "CLIP Fusion Accuracy (%)": 57.99999999999999,
+      "WildMatch-VLM-Fusion Accuracy (%)": 57.99999999999999,
       "Accuracy Improvement (%)": -0.10000000000000009,
       "Baseline Confidence (%)": 84.0,
       "CLIP Confidence (%)": 95.39999999999999,
       "Confidence Change (%)": 11.399999999999999
     },
     {
-      "Dataset": "Serengeti",
+      "Dataset": "SERENGETI",
       "Image Type": "Cropped",
       "Baseline Accuracy (%)": 67.0,
-      "CLIP Fusion Accuracy (%)": 68.75,
+      "WildMatch-VLM-Fusion Accuracy (%)": 68.75,
       "Accuracy Improvement (%)": 1.749999999999996,
       "Baseline Confidence (%)": 88.77777777777779,
       "CLIP Confidence (%)": 59.18468225027922,
       "Confidence Change (%)": -29.59309552749857
     },
     {
-      "Dataset": "Serengeti",
+      "Dataset": "SERENGETI",
       "Image Type": "Full",
       "Baseline Accuracy (%)": 66.41666666666667,
-      "CLIP Fusion Accuracy (%)": 66.41666666666667,
+      "WildMatch-VLM-Fusion Accuracy (%)": 66.41666666666667,
       "Accuracy Improvement (%)": 0.0,
       "Baseline Confidence (%)": 86.5,
       "CLIP Confidence (%)": 58.26815855422739,
       "Confidence Change (%)": -28.23184144577261
     },
     {
-      "Dataset": "Wcs",
+      "Dataset": "WCS",
       "Image Type": "Cropped",
       "Baseline Accuracy (%)": 58.199999999999996,
-      "CLIP Fusion Accuracy (%)": 60.199999999999996,
+      "WildMatch-VLM-Fusion Accuracy (%)": 60.199999999999996,
       "Accuracy Improvement (%)": 2.0000000000000018,
       "Baseline Confidence (%)": 88.06666666666666,
       "CLIP Confidence (%)": 61.094720422031834,
       "Confidence Change (%)": -26.971946244634825
     },
     {
-      "Dataset": "Wcs",
+      "Dataset": "WCS",
       "Image Type": "Full",
       "Baseline Accuracy (%)": 72.1,
-      "CLIP Fusion Accuracy (%)": 76.4,
+      "WildMatch-VLM-Fusion Accuracy (%)": 76.4,
       "Accuracy Improvement (%)": 4.300000000000004,
       "Baseline Confidence (%)": 87.83333333333333,
       "CLIP Confidence (%)": 95.66666666666667,
@@ -283,12 +283,12 @@
     "average_improvement": 2.1749999999999994,
     "best_improvement": {
       "value": 5.099999999999993,
-      "dataset": "Caltech",
+      "dataset": "CALTECH",
       "image_type": "Cropped"
     },
     "worst_performance": {
       "value": -0.10000000000000009,
-      "dataset": "Caltech",
+      "dataset": "CALTECH",
       "image_type": "Full"
     },
     "clip_fusion_wins": 4,
@@ -1316,7 +1316,7 @@
         }
       }
     },
-    "wcs": {
+    "WCS": {
       "cropped": {
         "baseline": {
           "accuracy": 0.582,

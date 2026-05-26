@@ -1,0 +1,7 @@
+,p_holm,reject_null
+BLIP vs Baseline,0.1875,False
+BLIP vs CLIP,0.1875,False
+BLIP vs WildMatch-VLM-Fusion,0.1875,False
+Baseline vs CLIP,0.4375,False
+Baseline vs WildMatch-VLM-Fusion,0.25,False
+CLIP vs WildMatch-VLM-Fusion,0.1875,False

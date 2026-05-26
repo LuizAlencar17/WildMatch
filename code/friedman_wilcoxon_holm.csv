@@ -1,0 +1,7 @@
+,p_holm,reject_null
+baseline vs blip,0.1875,False
+baseline vs clip,0.4375,False
+baseline vs clip_fusion,0.25,False
+blip vs clip,0.1875,False
+blip vs clip_fusion,0.1875,False
+clip vs clip_fusion,0.1875,False

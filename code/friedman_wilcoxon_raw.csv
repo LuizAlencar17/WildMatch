@@ -1,0 +1,7 @@
+,p_raw
+baseline vs blip,0.03125
+baseline vs clip,0.4375
+baseline vs clip_fusion,0.125
+blip vs clip,0.03125
+blip vs clip_fusion,0.03125
+clip vs clip_fusion,0.03125
